@@ -23,12 +23,4 @@ ServerEvents.recipes((event) =>{
         .EUt(480)
         .cleanroom(CleanroomType.CLEANROOM)
 
-    event.recipes.gtceu
-        .linearaccel('radiatethatbih')
-        .itemInputs('kubejs:voiddust')   
-        .chancedOutput('gtceu:tiny_uranium_dust', 500, 0)
-        .chancedOutput('gtceu:tiny_uranium_dust', 250, 0)
-        .duration(400)
-        .EUt(480)
-        .cleanroom(CleanroomType.CLEANROOM)
 });

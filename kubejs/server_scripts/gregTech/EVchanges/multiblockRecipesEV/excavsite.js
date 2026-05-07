@@ -35,28 +35,4 @@ ServerEvents.recipes((event) => {
         .notConsumable('minecraft:brush')
         .duration(200)
         .circuit(2)
-
-    event.recipes.gtceu
-        .excavsite('rutiledustget')
-        .chancedOutput('gtceu:tiny_rutile_dust', 500, 0)
-        .chancedOutput('gtceu:tiny_rutile_dust', 250, 0)
-        .notConsumable('minecraft:brush')
-        .duration(100)
-        .circuit(3)
-
-    event.recipes.gtceu
-        .excavsite('tantalumdustget')
-        .chancedOutput('gtceu:tiny_tantalum_dust', 500, 0)
-        .chancedOutput('gtceu:tiny_tantalum_dust', 250, 0)
-        .notConsumable('minecraft:brush')
-        .duration(100)
-        .circuit(4)
-
-    event.recipes.gtceu
-        .excavsite('bariumdustget')
-        .chancedOutput('gtceu:tiny_barium_dust', 500, 0)
-        .chancedOutput('gtceu:tiny_barium_dust', 250, 0)
-        .notConsumable('minecraft:brush')
-        .duration(100)
-        .circuit(5)
 })

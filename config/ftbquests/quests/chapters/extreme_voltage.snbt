@@ -125,7 +125,6 @@
 			description: [""]
 			icon: "gtceu:titanium_ingot"
 			id: "78A295D4D1A21BCA"
-			min_width: 300
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
@@ -178,7 +177,6 @@
 			description: [""]
 			icon: "gtceu:distillation_tower"
 			id: "3BEDF19CD79D53D5"
-			min_width: 300
 			tasks: [{
 				id: "2A5387EF0991FC1D"
 				item: "gtceu:distillation_tower"
@@ -192,19 +190,11 @@
 			description: [""]
 			icon: "gtceu:vacuum_freezer"
 			id: "6D082AE4CF9A56DC"
-			tasks: [
-				{
-					id: "74FCADB757C762B9"
-					item: "gtceu:vacuum_freezer"
-					type: "item"
-				}
-				{
-					id: "5F18E278ABC418FE"
-					item: "gtceu:auto_maintenance_hatch"
-					optional_task: true
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "74FCADB757C762B9"
+				item: "gtceu:vacuum_freezer"
+				type: "item"
+			}]
 			x: -0.5d
 			y: -1.0d
 		}
@@ -263,7 +253,6 @@
 			dependencies: ["6A6BDA932E1104D1"]
 			description: [""]
 			id: "03B5D467E76C5B8A"
-			min_width: 300
 			tasks: [
 				{
 					id: "2B956FA18DAF1BD8"

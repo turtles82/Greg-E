@@ -31,5 +31,14 @@ ServerEvents.recipes((event) =>{
         )
         .duration(100)
         .EUt(480)
+        .circuit(3)
+
+    event.recipes.gtceu.centrifuge('uraniumget')
+        .itemInputs(
+            'kubejs:voiddust'
+        )
+        .chancedOutput('gtceu:uranium_dust', 10, 0)
+        .duration(100)
+        .EUt(480)
         .circuit(4)
 })
