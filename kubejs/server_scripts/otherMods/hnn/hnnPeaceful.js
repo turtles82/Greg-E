@@ -170,6 +170,19 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.EV])
         .duration(2000)
 
+    event.recipes.gtceu.circuit_assembler('getseeromodel')
+        .itemInputs(
+            '16x incision:eyebulb',
+            '4x incision:molar_carrion',
+            '2x incision:carrion_eye',
+            '#gtceu:circuits/uv'
+        )
+        .itemOutputs(
+            Item.of('hostilenetworks:data_model', '{data_model:{data:1,id:"hostilenetworks:incision/seer",iterations:1}}')
+        )
+        .EUt(GTValues.VA[GTValues.UV])
+        .duration(2000)
+
     event.recipes.gtceu.circuit_assembler('getforgottenmodel')
         .itemInputs(
             '16x undergarden:coarse_deepsoil',

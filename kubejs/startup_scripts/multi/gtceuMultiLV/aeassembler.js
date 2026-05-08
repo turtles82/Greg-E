@@ -30,7 +30,10 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
                 .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1))
                 .or(Predicates.abilities(PartAbility.PARALLEL_HATCH).setMaxGlobalLimited(1).setPreviewCount(1)))
         .where("E", Predicates.controller(Predicates.blocks(definition.get())))
-        .where("F", Predicates.blocks("chisel_chipped_integration:technical_engineering_pipes_0"))
+        .where("F", Predicates.blocks("chisel_chipped_integration:technical_engineering_pipes_0")
+                .or(Predicates.blocks("chisel_chipped_integration:technical_engineering_pipes_1"))
+                .or(Predicates.blocks("chisel_chipped_integration:technical_engineering_pipes_2"))
+                .or(Predicates.blocks("chisel_chipped_integration:technical_engineering_pipes_3")))
         .where("G", Predicates.blocks("chisel_chipped_integration:technical_fan"))
     .build())
     .workableCasingModel(

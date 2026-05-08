@@ -150,7 +150,10 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["6C30EEA91FB21A3B"]
+			dependencies: [
+				"6C30EEA91FB21A3B"
+				"442CCD73C44C440A"
+			]
 			description: [""]
 			id: "406C924820DE5473"
 			tasks: [{
@@ -158,7 +161,7 @@
 				item: "gtceu:wetware_printed_circuit_board"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 12.5d
 			y: -4.0d
 		}
 		{
@@ -170,7 +173,7 @@
 				item: "gtceu:wetware_circuit_board"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 15.0d
 			y: -4.0d
 		}
 		{
@@ -221,7 +224,7 @@
 				item: "gtceu:sterilized_growth_medium_bucket"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 15.0d
 			y: -6.0d
 		}
 		{
@@ -236,7 +239,7 @@
 				item: "gtceu:raw_growth_medium_bucket"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 15.0d
 			y: -10.0d
 		}
 		{
@@ -248,7 +251,7 @@
 				item: "gtceu:mutagen_bucket"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 13.5d
 			y: -10.0d
 		}
 		{
@@ -260,7 +263,7 @@
 				item: "gtceu:agar_dust"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 15.0d
 			y: -12.0d
 		}
 		{
@@ -272,7 +275,7 @@
 				item: "gtceu:gelatin_mixture_bucket"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 12.5d
 			y: -12.0d
 		}
 		{
@@ -474,7 +477,7 @@
 				item: "gtceu:enriched_bacterial_sludge_bucket"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 11.5d
 			y: -10.0d
 		}
 		{
@@ -621,7 +624,7 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
+			x: 13.5d
 			y: -6.0d
 		}
 		{
@@ -687,7 +690,7 @@
 				item: "gtceu:tritanium_coil_block"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: -12.0d
 		}
 		{
@@ -711,7 +714,7 @@
 				item: "gregecore:energy_bacteria"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: -7.5d
 		}
 		{
@@ -722,7 +725,7 @@
 				item: "gregecore:speed_bacteria"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: -6.5d
 		}
 		{
@@ -733,7 +736,7 @@
 				item: "gregecore:parallel_bacteria"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: -5.5d
 		}
 		{
@@ -744,8 +747,20 @@
 				item: "gregecore:ultimate_bacteria"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: -4.5d
+		}
+		{
+			id: "442CCD73C44C440A"
+			optional: true
+			shape: "square"
+			tasks: [{
+				id: "5F900CF3BA4F5C95"
+				item: "gtceu:fine_sednium_wire"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -6.0d
 		}
 	]
 	title: "UV"

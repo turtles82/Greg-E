@@ -157,6 +157,14 @@
   "block.gtceu.oreprocessor": "Specialized Ore Processor",
   "gtceu.oreprocessor": "Specialized Ore Processor",
 
+  "material.gtceu.sedna_sample": "Sedna Sample",
+  "material.gtceu.centrifuged_sedna_sample": "Centrifuged Sedna Sample",
+  "material.gtceu.sednium_ferride": "Sednium Ferride",
+  "material.gtceu.sednium": "Sednium",
+  "material.gtceu.stygian_aqua_regia": "Stygian Aqua Regia",
+  "block.gtceu.sednasampler": "Sedna Sampler",
+  "gtceu.sednasampler": "Sedna Sampler",
+
   "material.gtceu.reinforced_cobblestone": "Reinforced Cobblestone",
 
   "material.gtceu.liquid_synthetic_leather_base": "Synthetic Leather Base",
@@ -170,7 +178,6 @@
   "block.gtceu.cube_ore": "Ore Factory",
   "block.gtceu.cube_mixer": "Mixer Factory",
 
-  "biome.ad_astra.orbit": "Earth Orbit",
   "biome.ad_astra.venus_orbit": "Venus Orbit",
   "biome.ad_extendra.jupiter_orbit": "Jupiter Orbit",
   "biome.ad_extendra.saturn_orbit": "Saturn Orbit",
