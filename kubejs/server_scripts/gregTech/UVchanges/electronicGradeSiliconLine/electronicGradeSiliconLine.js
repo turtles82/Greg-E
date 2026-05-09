@@ -30,6 +30,7 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UV])
         .blastFurnaceTemp(7500)
         .duration(300)
+        .circuit(2)
 
     event.recipes.gtceu.macerator()
         .itemInputs(
