@@ -8,9 +8,9 @@ ServerEvents.recipes((event) =>{
         ],
         {
             A: '#gtceu:circuits/luv',
-            B: 'gtceu:robust_machine_casing',
-            C: 'gtceu:tungstensteel_pipe_casing',
-            D: 'gtceu:tungstensteel_firebox_casing',
+            B: 'gtceu:luv_electric_motor',
+            C: 'gtceu:luv_robot_arm',
+            D: 'gtceu:nonconducting_casing',
             E: 'gtceu:luv_machine_hull'
         }
     )

@@ -48,6 +48,7 @@ ServerEvents.recipes((event) => {
     event.remove({ id: 'mythicbotany:kvasir_mead'})
 
     event.recipes.botania.mana_infusion('kubejs:dewvial', 'botania:vial', 1000)
+    event.recipes.botania.mana_infusion('minecraft:grass_block', 'minecraft:dirt', 1000)
     event.recipes.botania.mana_infusion('minecraft:brown_mushroom', 'botania:brown_petal', 100)
     event.recipes.botania.mana_infusion('minecraft:red_mushroom', 'botania:red_petal', 100)
     event.recipes.botania.mana_infusion('2x kubejs:vanaheimingot', 'kubejs:vanaheimingot', 10000, 'botania:conjuration_catalyst')

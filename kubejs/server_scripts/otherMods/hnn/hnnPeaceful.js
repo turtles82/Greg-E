@@ -134,7 +134,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.circuit_assembler('getwithermodel')
         .itemInputs(
             '16x minecraft:wither_skeleton_skull',
-            '32x gtceu:titanium_block',
+            '8x gtceu:titanium_block',
             '2x minecraft:blaze_rod',
             '#gtceu:circuits/ev'
         )
