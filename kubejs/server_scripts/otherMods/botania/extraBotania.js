@@ -18,12 +18,6 @@ ServerEvents.recipes((event) => {
         .circuit(5)
 
     event.replaceInput(
-        {id: 'botanicalextramachinery:upgrade_cost_energy'},
-        'minecraft:netherite_ingot',
-        'gtceu:titanium_ingot'
-    )
-
-    event.replaceInput(
         {id: 'botanicalextramachinery:upgrade_pattern'},
         'minecraft:netherite_ingot',
         'gtceu:titanium_ingot'

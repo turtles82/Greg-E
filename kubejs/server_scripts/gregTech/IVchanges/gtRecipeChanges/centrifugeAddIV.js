@@ -4,9 +4,9 @@ ServerEvents.recipes((event) => {
         .itemInputs(
             'kubejs:eidust'
         )
-        .chancedOutput('gtceu:raw_cooperite', 10, 0)
-        .chancedOutput('gtceu:raw_scheelite', 10, 0)
-        .chancedOutput('gtceu:raw_pentlandite', 10, 0)
+        .chancedOutput('gtceu:raw_cooperite', 500, 0)
+        .chancedOutput('gtceu:raw_scheelite', 500, 0)
+        .chancedOutput('gtceu:raw_pentlandite', 500, 0)
         .duration(100)
         .EUt(GTValues.VA[GTValues.IV])
         .circuit(1)
@@ -15,9 +15,9 @@ ServerEvents.recipes((event) => {
         .itemInputs(
             'kubejs:eidust'
         )
-        .chancedOutput('gtceu:raw_topaz', 10, 0)
-        .chancedOutput('gtceu:raw_apatite', 10, 0)
-        .chancedOutput('gtceu:raw_pyrochlore', 10, 0)
+        .chancedOutput('gtceu:raw_topaz', 500, 0)
+        .chancedOutput('gtceu:raw_apatite', 500, 0)
+        .chancedOutput('gtceu:raw_pyrochlore', 500, 0)
         .duration(100)
         .EUt(GTValues.VA[GTValues.IV])
         .circuit(2)

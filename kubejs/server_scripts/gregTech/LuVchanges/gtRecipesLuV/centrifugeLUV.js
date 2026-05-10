@@ -4,7 +4,7 @@ ServerEvents.recipes((event) => {
         .itemInputs(
             'kubejs:gassydust'
         )
-        .chancedOutput('gtceu:bismuth_dust', 100, 0)
+        .chancedOutput('gtceu:bismuth_dust', 500, 0)
         .duration(100)
         .EUt(GTValues.VA[GTValues.LuV])
         .circuit(1)

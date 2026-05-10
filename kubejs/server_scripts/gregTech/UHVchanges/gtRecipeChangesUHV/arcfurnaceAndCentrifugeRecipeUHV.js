@@ -17,7 +17,7 @@ ServerEvents.recipes((event) => {
         .itemInputs(
             'kubejs:neutroniuminfused'
         )
-        .chancedOutput('draconicevolution:draconium_dust', 10, 0)
+        .chancedOutput('draconicevolution:draconium_dust', 100, 0)
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(200)
         .circuit(1)
@@ -26,7 +26,7 @@ ServerEvents.recipes((event) => {
         .itemInputs(
             'kubejs:neutroniuminfused'
         )
-        .chancedOutput('gtceu:raw_nebulon_omega', 10, 0)
+        .chancedOutput('gtceu:raw_nebulon_omega', 100, 0)
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(200)
         .circuit(2)

@@ -41,7 +41,7 @@ ServerEvents.recipes((event) => {
             '2x kubejs:earthlydust'
         )
         .chancedOutput(
-            'gtceu:raw_tungstate', 10, 0
+            'gtceu:raw_tungstate', 500, 0
         )
         .duration(200)
         .EUt(1680)
@@ -51,7 +51,7 @@ ServerEvents.recipes((event) => {
         .itemInputs(
             '2x kubejs:earthlydust'
         )
-        .chancedOutput('gtceu:rare_earth_dust', 10, 0)
+        .chancedOutput('gtceu:rare_earth_dust', 500, 0)
         .duration(100)
         .circuit(4)
         .EUt(1680)
@@ -60,7 +60,7 @@ ServerEvents.recipes((event) => {
         .itemInputs(
             '2x kubejs:earthlydust'
         )
-        .chancedOutput('gtceu:magnesium_dust', 10, 0)
+        .chancedOutput('gtceu:magnesium_dust', 500, 0)
         .duration(100)
         .circuit(5)
         .EUt(1680)
@@ -69,7 +69,7 @@ ServerEvents.recipes((event) => {
         .itemInputs(
             '2x kubejs:earthlydust'
         )
-        .chancedOutput('gtceu:rutile_dust', 10, 0)
+        .chancedOutput('gtceu:rutile_dust', 500, 0)
         .duration(100)
         .circuit(6)
         .EUt(1680)
@@ -78,7 +78,7 @@ ServerEvents.recipes((event) => {
         .itemInputs(
             '2x kubejs:earthlydust'
         )
-        .chancedOutput('gtceu:tantalum_dust', 10, 0)
+        .chancedOutput('gtceu:tantalum_dust', 500, 0)
         .duration(100)
         .circuit(7)
         .EUt(1680)
@@ -87,7 +87,7 @@ ServerEvents.recipes((event) => {
         .itemInputs(
             '2x kubejs:earthlydust'
         )
-        .chancedOutput('gtceu:barium_dust', 10, 0)
+        .chancedOutput('gtceu:barium_dust', 500, 0)
         .duration(100)
         .circuit(8)
         .EUt(1680)

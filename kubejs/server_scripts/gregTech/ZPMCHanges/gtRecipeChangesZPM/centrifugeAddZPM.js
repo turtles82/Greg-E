@@ -4,7 +4,7 @@ ServerEvents.recipes((event) => {
         .itemInputs(
             'kubejs:activatedrune',
         )
-        .chancedOutput('gtceu:raw_beryllium', 10, 0)
+        .chancedOutput('gtceu:raw_beryllium', 500, 0)
         .duration(100)
         .EUt(GTValues.VA[GTValues.ZPM])
         .circuit(1)
@@ -13,7 +13,7 @@ ServerEvents.recipes((event) => {
         .itemInputs(
             'kubejs:activatedrune',
         )
-        .chancedOutput('gtceu:raw_stibnite', 10, 0)
+        .chancedOutput('gtceu:raw_stibnite', 500, 0)
         .duration(100)
         .EUt(GTValues.VA[GTValues.ZPM])
         .circuit(2)
@@ -22,7 +22,7 @@ ServerEvents.recipes((event) => {
         .itemInputs(
             'kubejs:activatedrune',
         )
-        .chancedOutput('gtceu:raw_naquadah', 10, 0)
+        .chancedOutput('gtceu:raw_naquadah', 500, 0)
         .duration(100)
         .EUt(GTValues.VA[GTValues.ZPM])
         .circuit(3)

@@ -97,7 +97,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.electric_blast_furnace('meltedirtgeeeet')
         .itemInputs(
-            '4x minecraft:dirt',
+            'minecraft:dirt',
         )
         .outputFluids(
             'kubejs:meltedirt 1000'
