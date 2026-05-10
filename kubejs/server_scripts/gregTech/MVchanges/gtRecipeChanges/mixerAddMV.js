@@ -7,10 +7,10 @@ ServerEvents.recipes((event) => {
             '20x projecte:high_covalence_dust'
         )
         .inputFluids(
-            'minecraft:water 1000'
+            'minecraft:water 3000'
         )
         .outputFluids(
-            'kubejs:alchessence 1000'
+            'kubejs:alchessence 3000'
         )
         .duration(200)
         .EUt(80)

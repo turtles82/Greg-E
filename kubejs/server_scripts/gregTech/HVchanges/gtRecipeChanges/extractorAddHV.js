@@ -2,12 +2,12 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.extractor('deepslatedrillingfluid')
         .itemInputs(
-            '4x kubejs:deepslateearth'
+            '2x kubejs:deepslateearth'
         )
         .outputFluids(
-            'kubejs:deepdrill 3000'
+            'kubejs:deepdrill 1000'
         )
-        .duration(300)
+        .duration(100)
         .EUt(GTValues.VA[GTValues.MV])
 
 })

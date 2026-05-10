@@ -22,7 +22,7 @@ ServerEvents.recipes((event) => {
         'ad_astra:rocket_nose_cone'
     )
     .inputFluids(
-        'gtceu:rocket_fuel 150'
+        'gtceu:rocket_fuel 50'
     )
     .itemOutputs(
         'kubejs:dustwithbroom'

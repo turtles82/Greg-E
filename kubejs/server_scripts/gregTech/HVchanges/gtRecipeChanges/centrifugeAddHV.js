@@ -37,7 +37,7 @@ ServerEvents.recipes((event) =>{
         .itemInputs(
             'kubejs:voiddust'
         )
-        .chancedOutput('gtceu:uranium_dust', 500, 0)
+        .chancedOutput('gtceu:uranium_dust', 200, 0)
         .duration(100)
         .EUt(480)
         .circuit(4)
