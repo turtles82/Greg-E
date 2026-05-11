@@ -168,11 +168,46 @@ ServerEvents.recipes((event) => {
         '#gtceu:circuits/hv'
     )
 
-    event.replaceInput(
-        'ad_astra:nasa_workbench',
-        'minecraft:crafting_table',
-        '#gtceu:circuits/hv'
-    )
+    const uraniumFixes = [
+        { recipe: 'ad_extendra:uranium_engine', from: '#forge:plates/uranium', to: 'ad_extendra:uranium_plate' },
+        { recipe: 'ad_extendra:uranium_tank',   from: '#forge:plates/uranium', to: 'ad_extendra:uranium_plate' },
+        { recipe: 'gtceu:shaped/plate_double_uranium', from: '#forge:plates/uranium', to: 'gtceu:uranium_plate' },
+        { recipe: 'gtceu:bender/bend_uranium_to_plate', from: '#forge:ingots/uranium', to: 'gtceu:uranium_ingot' },
+        { recipe: 'gtceu:bender/bend_uranium_plate_to_double_plate', from: '#forge:plates/uranium', to: 'gtceu:uranium_plate' },
+        { recipe: 'gtceu:bender/bend_uranium_ingot_to_double_plate', from: '#forge:ingots/uranium', to: 'gtceu:uranium_ingot' },
+    ]
+
+    uraniumFixes.forEach(fix =>  event.replaceInput(fix.recipe, fix.from, fix.to))
+
+    const plutoniumFixes = [
+        { id: 'ad_extendra:plutonium_engine', from: '#forge:plates/plutonium', to: 'ad_extendra:plutonium_plate' },
+        { id: 'ad_extendra:plutonium_tank',   from: '#forge:plates/plutonium', to: 'ad_extendra:plutonium_plate' },
+        { id: 'gtceu:shaped/plate_double_plutonium', from: '#forge:plates/plutonium', to: 'gtceu:plutonium_plate' },
+        { id: 'gtceu:bender/bend_plutonium_to_plate', from: '#forge:ingots/plutonium', to: 'gtceu:plutonium_ingot' },
+        { id: 'gtceu:bender/bend_plutonium_plate_to_double_plate', from: '#forge:plates/plutonium', to: 'gtceu:plutonium_plate' },
+        { id: 'gtceu:bender/bend_plutonium_ingot_to_double_plate', from: '#forge:ingots/plutonium', to: 'gtceu:plutonium_ingot' }
+    ]
+
+    plutoniumFixes.forEach(fix => event.replaceInput(fix.id, fix.from, fix.to))
+
+    const doubleOres = [
+        {out: '2x ad_astra:raw_desh', in: 'ad_astra:raw_desh'},
+        {out: '2x ad_astra:raw_ostrum', in: 'ad_astra:raw_ostrum'},
+        {out: '2x ad_astra:raw_calorite', in: 'ad_astra:raw_calorite'},
+        {out: '2x ad_extendra:raw_juperium', in: 'ad_extendra:raw_juperium'},
+        {out: '2x ad_extendra:raw_saturlyte', in: 'ad_extendra:raw_saturlyte'},
+        {out: '2x ad_extendra:raw_uranium', in: 'ad_extendra:raw_uranium'},
+        {out: '2x ad_extendra:raw_neptunium', in: 'ad_extendra:raw_neptunium'},
+        {out: '2x ad_extendra:raw_radium', in: 'ad_extendra:raw_radium'},
+        {out: '2x ad_extendra:raw_plutonium', in: 'ad_extendra:raw_plutonium'},
+        {out: '2x ad_extendra:raw_electrolyte', in: 'ad_extendra:raw_electrolyte'}
+    ]
+
+    doubleOres.forEach(recipe => {
+
+        event.recipes.botania.mana_infusion(recipe.out, recipe.in, 50000, 'botania:conjuration_catalyst')
+
+    })
 
     event.remove({ id: "ad_astra:oxygen_loading/oxygen_from_oxygen_loading_water"})
 
