@@ -5,8 +5,8 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .formula("Au")
         .color(0xea7515)
         .blastTemp(3700)
-        .iconSet(GTMaterialIconSet.ROUGH)
-        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+        .iconSet(GTMaterialIconSet.RUBY)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.NO_ORE_PROCESSING_TAB)
 
     event.create('aurelium_nitrate_solution')
         .fluid()

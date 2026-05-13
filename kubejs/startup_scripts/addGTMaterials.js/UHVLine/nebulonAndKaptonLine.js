@@ -1,11 +1,5 @@
 GTCEuStartupEvents.registry('gtceu:material', event => {
 
-    event.create('sintercoke')
-        .ingot()
-        .formula("Ca₂Fe₂O₄")
-        .color(0x818589)
-        .iconSet(GTMaterialIconSet.ROUGH)
-
     event.create('nebulon_omega')
         .liquid()
         .ore()

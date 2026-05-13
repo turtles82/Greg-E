@@ -31,4 +31,13 @@ ServerEvents.recipes((event) => {
         .duration(200)
         .circuit(2)
 
+    event.recipes.gtceu.centrifuge()
+        .itemInputs(
+            'kubejs:neutroniuminfused'
+        )
+        .chancedOutput('gtceu:raw_nyxium', 100, 0)
+        .EUt(GTValues.VA[GTValues.UHV])
+        .duration(200)
+        .circuit(3)
+
 })

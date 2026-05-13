@@ -210,6 +210,13 @@
   "block.gtceu.solar_ray_particle_filter": "Solar Ray Particle Filter",
   "gtceu.solar_ray_filter": "Solar Ray Filtering",
 
+  "material.gtceu.nyxium": "Nyxium",
+  "material.gtceu.dormant_nyxium": "Dormant Nyxium",
+  "material.gtceu.stellaric": "Stellaric",
+  "material.gtceu.ionized_nyxium": "Ionized Nyxium",
+  "material.gtceu.purified_nyxium": "Purified Nyxium",
+  "material.gtceu.stabilized_nyxium": "Stabilized Nyxium",
+
   "material.gtceu.aurelium": "Aurelium",
   "material.gtceu.aurelium_nitrate_solution": "Aurelium Nitrate Solution",
   "material.gtceu.refined_aurelium": "Refined Aurelium",

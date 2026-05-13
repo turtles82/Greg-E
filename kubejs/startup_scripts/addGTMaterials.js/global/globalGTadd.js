@@ -15,12 +15,18 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(GTMaterialIconSet.ROUGH)
         .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.GENERATE_PLATE)
 
+    event.create('sintercoke')
+        .ingot()
+        .formula("Ca₂Fe₂O₄")
+        .color(0x818589)
+        .iconSet(GTMaterialIconSet.ROUGH)
+
     addFluid(GTMaterials.SodiumHydroxide, $FluidStorageKeys.LIQUID)
 
 });
 
-    let addFluid = (mat, key) => {
-        let prop = new $FluidProperty();
-        prop.getStorage().enqueueRegistration(key, new $FluidBuilder());
-        mat.setProperty(PropertyKey.FLUID, prop);
-    }
+let addFluid = (mat, key) => {
+    let prop = new $FluidProperty();
+    prop.getStorage().enqueueRegistration(key, new $FluidBuilder());
+    mat.setProperty(PropertyKey.FLUID, prop);
+}

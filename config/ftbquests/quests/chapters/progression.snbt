@@ -526,7 +526,7 @@
 				item: "gtceu:collagen_dust"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 19.0d
 			y: -1.0d
 		}
 		{
@@ -556,7 +556,7 @@
 				item: "kubejs:animated/uhvalloy"
 				type: "item"
 			}]
-			x: 23.0d
+			x: 23.5d
 			y: 4.0d
 		}
 		{
@@ -566,7 +566,7 @@
 				item: "kubejs:neutroniuminfused"
 				type: "item"
 			}]
-			x: 23.0d
+			x: 23.5d
 			y: -2.5d
 		}
 		{
@@ -673,7 +673,7 @@
 					type: "item"
 				}
 			]
-			x: 23.0d
+			x: 23.5d
 			y: 5.5d
 		}
 		{
@@ -942,7 +942,7 @@
 				item: "gtceu:meat_dust"
 				type: "item"
 			}]
-			x: 20.5d
+			x: 20.0d
 			y: -1.0d
 		}
 		{
@@ -1007,6 +1007,36 @@
 			}]
 			x: 17.0d
 			y: 0.0d
+		}
+		{
+			id: "2AAC96FAA3085C6A"
+			tasks: [{
+				id: "2E2E9561542250D1"
+				item: "gtceu:raw_aurelium"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -1.0d
+		}
+		{
+			id: "0A75CFF1BA9A8669"
+			tasks: [{
+				id: "5BF8E93EA0B639DC"
+				item: "gtceu:vadricium_dust"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			id: "12EDB1BE6EB4D0C9"
+			tasks: [{
+				id: "075CF0AD04A7F7A3"
+				item: "gtceu:raw_nyxium"
+				type: "item"
+			}]
+			x: 24.5d
+			y: -1.0d
 		}
 	]
 	title: "Progression"

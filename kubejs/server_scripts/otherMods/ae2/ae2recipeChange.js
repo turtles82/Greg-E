@@ -86,8 +86,6 @@ ServerEvents.recipes((event) => {
         '#gtceu:circuits/iv'
     )
 
-
-
     //Advanced aes reaction chamber recipie for matter balls
     event.custom({
         type: 'advanced_ae:reaction',
