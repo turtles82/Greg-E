@@ -463,7 +463,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["402FE874C854840C"]
@@ -565,7 +565,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [

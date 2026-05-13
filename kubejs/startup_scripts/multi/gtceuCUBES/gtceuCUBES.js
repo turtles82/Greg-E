@@ -71,6 +71,15 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
         "distillation_tower"
     );
 
+    registerCubeAssemblers(
+        event,
+        'cube_oreprocesser',
+        [GTRecipeTypes.CENTRIFUGE_RECIPES, GTRecipeTypes.ELECTROLYZER_RECIPES],
+        'ad_astra:ostrum_block',
+        "ad_astra:block/ostrum_block",
+        "distillation_tower"
+    )
+
     registerCube(
         event, 
         "cube_extractor",

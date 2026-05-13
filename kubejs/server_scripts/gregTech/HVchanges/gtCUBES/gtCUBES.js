@@ -6,7 +6,8 @@ ServerEvents.recipes(event => {
         { id: 'cube_assembler', block: 'botania:terrasteel_block' },
         { id: 'cube_extractor', block: 'twilightforest:knightmetal_block' },
         { id: 'cube_ore', block: 'ad_astra:desh_block' },
-        { id: 'cube_mixer', block: 'botania:manasteel_block' }
+        { id: 'cube_mixer', block: 'botania:manasteel_block' },
+        { id: 'cube_oreprocesser', block: 'ad_astra:ostrum_block' }
     ]
 
     cubeRecipes.forEach(cube => {

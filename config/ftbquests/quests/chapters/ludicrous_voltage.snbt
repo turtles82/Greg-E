@@ -48,7 +48,7 @@
 				item: "gtceu:iv_circuit_assembler"
 				type: "item"
 			}]
-			x: 1.8214285714285694d
+			x: 2.0d
 			y: 1.5d
 		}
 		{
@@ -109,7 +109,7 @@
 				item: "gtceu:hsla_steel_dust"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -4.5d
 			y: 4.0d
 		}
 		{
@@ -122,7 +122,7 @@
 				item: "gtceu:titanium_carbide_dust"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -5.5d
 			y: 3.0d
 		}
 		{
@@ -135,7 +135,7 @@
 				item: "gtceu:tantalum_carbide_dust"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -4.5d
 			y: 3.0d
 		}
 		{
@@ -155,7 +155,7 @@
 				item: "gtceu:alloy_blast_smelter"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -3.5d
 			y: 3.5d
 		}
 		{
@@ -741,7 +741,7 @@
 				item: "gtceu:iv_parallel_hatch"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 3.5d
 		}
 		{
@@ -753,7 +753,7 @@
 				item: "gtceu:molybdenum_disilicide_dust"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -5.5d
 			y: 4.0d
 		}
 		{

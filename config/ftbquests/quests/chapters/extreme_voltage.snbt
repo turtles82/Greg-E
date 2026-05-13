@@ -520,8 +520,8 @@
 				id: "5607F9124909BEF8"
 				type: "dimension"
 			}]
-			x: 2.5d
-			y: 4.0d
+			x: 0.0d
+			y: 2.5d
 		}
 		{
 			id: "6A6BDA932E1104D1"
@@ -545,6 +545,26 @@
 			}]
 			x: -4.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["5241693278027FFD"]
+			description: [
+				"These hatches will start to unlock from EV."
+				""
+				"How are they different from normal hatches? These send 4 Amps to a machine, meaning it will act as if you use 2 normal energy hatches. But! Using only 1 hatch will NOT overclock the machine, meaning you can only use recipes on tier with the energy hatch. If you use 2 hatches, it will overclock normally."
+				""
+				"These come in 4, 8 and 16 Amp variants."
+				""
+				"The fastest combo of hatches is using 2 16 Amp hatches, but if you don't have the energy generation, this will eat through your power."
+			]
+			id: "58DBAEA21C1B90E5"
+			tasks: [{
+				id: "4FF0D14258DF910B"
+				item: "gtceu:ev_energy_input_hatch_4a"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
 		}
 	]
 	title: "EV"

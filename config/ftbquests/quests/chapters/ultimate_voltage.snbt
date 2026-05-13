@@ -22,7 +22,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: -0.5d
+			y: -0.4642857142857153d
 		}
 		{
 			dependencies: [

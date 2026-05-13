@@ -36,8 +36,7 @@
 			dependencies: [
 				"57F1B60DEA622275"
 				"2B9BA85662BF637C"
-				"0E603F1FE596DB2A"
-				"3E7B60E26BB10291"
+				"72C43CB781D45EE2"
 			]
 			description: [""]
 			icon: "gtceu:advanced_integrated_circuit"
@@ -688,8 +687,29 @@
 				item: "gtceu:artificial_leather_plate"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 7.0d
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"0E603F1FE596DB2A"
+				"3E7B60E26BB10291"
+			]
+			id: "72C43CB781D45EE2"
+			tasks: [
+				{
+					id: "547F19D8CBF2A0FD"
+					item: "gtceu:phenolic_printed_circuit_board"
+					type: "item"
+				}
+				{
+					id: "5EDA55EA81525F4A"
+					item: "gtceu:resin_printed_circuit_board"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 5.0d
 		}
 	]
 	title: "MV"

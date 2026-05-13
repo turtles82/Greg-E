@@ -115,5 +115,11 @@ ServerEvents.recipes((event) => {
         .circuit(24)
         .EUt(GTValues.VA[GTValues.LV])
 
+    event.replaceInput(
+        'pccard:item/card_programmed_circuit',
+        'gtceu:programmed_circuit',
+        '#gtceu:circuits/lv'
+    )
+
 
 })
