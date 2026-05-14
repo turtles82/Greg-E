@@ -85,6 +85,7 @@ StartupEvents.registry('item', event => {
     event.create('vileheart').displayName('Vile Heart')
     event.create('demonicgascan').displayName('Demonic Gas Coating')
     event.create('magicalseed').displayName('Magical Seed')
+    event.create('magicallaserlens').displayName('Magical Laser Lens')
 
     event.create('naquadahfilter').displayName('Naquadah Filter')
     event.create('nebulonfilter').displayName('Nebulon-Alpha Filter')

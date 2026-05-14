@@ -711,6 +711,18 @@
 			x: 6.0d
 			y: 5.0d
 		}
+		{
+			dependencies: ["11F7D3DDF5683EB3"]
+			description: ["This multiblock can help in your wafer production."]
+			id: "1A734B328D5C7EFC"
+			tasks: [{
+				id: "190A1731403598DB"
+				item: "gtceu:precisionlaserengraver"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
 	]
 	title: "MV"
 }

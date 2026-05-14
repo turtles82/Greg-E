@@ -61,6 +61,16 @@ ItemEvents.tooltip((event) => {
 
     event.addAdvanced(
         [
+            'gtceu:precisionlaserengraver'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray('This machine is slow, but due to the precision of its laser, it can double the outputs of normal laser engraver.'));
+            text.add(2, Text.gray('Works best if left to work in the background.'));
+        }
+    );
+
+    event.addAdvanced(
+        [
             'gtceu:bacteriabreeder'
         ],
         (item, advanced, text) => {
@@ -75,6 +85,7 @@ ItemEvents.tooltip((event) => {
         {id: 'gtceu:cube_ore', tooltip: 'Machine modes: Macerator, Ore Washer'},
         {id: 'gtceu:cube_mixer', tooltip: 'Machine modes: Mixer'},
         {id: 'gtceu:cube_assembler', tooltip: 'Machine modes: Assembler, Circuit Assembler'},
+        {id: 'gtceu:cube_oreprocesser', tooltip: 'Machine modes: Centrifuge, Electrolyzer'},
     ]
 
     factories.forEach(tip => {

@@ -78,6 +78,19 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.LV])
         .duration(2000)
 
+    event.recipes.gtceu.circuit_assembler('getgiantmodel')
+        .itemInputs(
+            '16x twilightforest:fluffy_cloud',
+            '4x twilightforest:giant_cobblestone',
+            '2x twilightforest:giant_log',
+            '#gtceu:circuits/mv'
+        )
+        .itemOutputs(
+            Item.of('hostilenetworks:data_model', '{data_model:{data:1,id:"hostilenetworks:twilightforest/giant",iterations:1}}')
+        )
+        .EUt(GTValues.VA[GTValues.LV])
+        .duration(2000)
+
     event.recipes.gtceu.circuit_assembler('getqueenmodel')
         .itemInputs(
             '16x minecraft:packed_ice',

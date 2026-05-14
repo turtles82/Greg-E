@@ -465,6 +465,11 @@
 					item: "gtceu:cube_assembler"
 					type: "item"
 				}
+				{
+					id: "750E51F4F4E20DC0"
+					item: "gtceu:cube_oreprocesser"
+					type: "item"
+				}
 			]
 			title: "Cube factories!"
 			x: -9.5d

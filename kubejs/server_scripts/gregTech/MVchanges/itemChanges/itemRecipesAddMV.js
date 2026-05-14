@@ -59,5 +59,21 @@ ServerEvents.recipes((event) => {
         'gtceu:flawless_emerald_gem',
         'minecraft:emerald'
     )
+
+    event.shaped(
+        Item.of('relics:researching_table', 1),
+        [
+            'CCC',
+            'DBD',
+            'AAA'
+        ],
+        {
+            A: 'twilightforest:twilight_oak_planks',
+            B: '#gtceu:circuits/mv',
+            C: 'minecraft:red_wool',
+            D: 'minecraft:gold_nugget'
+        }
+    )
+
 });
 

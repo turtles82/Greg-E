@@ -98,6 +98,9 @@
   "block.gtceu.advancedaeassembler": "Advanced AE Assembler",
   "gtceu.advancedaeassembler": "Advanced AE Assembler",
 
+  "block.gtceu.precisionlaserengraver": "Precision Laser Engraver",
+  "gtceu.precisionlaserengraver": "Precision Laser Engraver",
+
   "gtceu.pulverizing": "Pulverizer",
   "gtceu.pressing": "Multiservo Press",
   "gtceu.induction_smelting": "Induction Smelter",
