@@ -1,3 +1,7 @@
 {
-    "biome.ad_astra.orbit": "Earth Orbit"
+    "biome.ad_astra.orbit": "Earth Orbit",
+    "item.ad_astra.netherite_space_helmet": "Plated Space Helmet",
+    "item.ad_astra.netherite_space_suit": "Plated Space Suit",
+    "item.ad_astra.netherite_space_pants": "Plated Space Pants",
+    "item.ad_astra.netherite_space_boots": "Plated Space Boots"
 }
