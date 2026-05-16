@@ -758,13 +758,20 @@
 		}
 		{
 			dependencies: ["204EDA5F8B1C7580"]
-			description: [""]
+			description: ["Place data storage in the assembly line, on the upper part. Then put data stick with researched item in."]
 			id: "3639A936B5930517"
-			tasks: [{
-				id: "3C4F59CF30699DB0"
-				item: "gtceu:iv_scanner"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3C4F59CF30699DB0"
+					item: "gtceu:iv_scanner"
+					type: "item"
+				}
+				{
+					id: "77DC2005F06E2B18"
+					item: "gtceu:data_access_hatch"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: -6.0d
 		}

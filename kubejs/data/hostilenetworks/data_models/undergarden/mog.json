@@ -1,9 +1,9 @@
 {
-    "entity": "undergarden:gloomper",
+    "entity": "undergarden:mog",
     "variants": [],
-    "name": "Gloomper",
-    "name_color": "#702963",
-    "gui_scale": 1.5,
+    "name": "Mog",
+    "name_color": "#6cab54",
+    "gui_scale": 0.8,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
     "gui_z_offset": 0.0,
@@ -16,14 +16,10 @@
         "item": "hostilenetworks:overworld_prediction",
         "count": 1
     },
-    "trivia": "Gloomper",
+    "trivia": "Don't get mogged!",
     "fabricator_drops": [
         {
-            "item": "undergarden:froststeel_ingot",
-            "count": 1
-        },
-        {
-            "item": "undergarden:gloomgourd",
+            "item": "undergarden:mogmoss",
             "count": 1
         }
     ],   

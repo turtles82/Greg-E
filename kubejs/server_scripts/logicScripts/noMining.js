@@ -8,6 +8,10 @@ BlockEvents.leftClicked(event => {
         return; 
     }
 
+    if (id.startsWith('undergarden:')) {
+        return; 
+    }
+
     if (block.hasTag('forge:ores')) {
         block.set('minecraft:air')
         event.player.tell({

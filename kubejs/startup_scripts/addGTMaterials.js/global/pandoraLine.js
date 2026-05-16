@@ -15,7 +15,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0xdce225)
         .formula('Hy')
         .iconSet(GTMaterialIconSet.DULL)
-        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.NO_ORE_PROCESSING_TAB)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.GENERATE_FOIL)
 
     event.create('maliwanium')
         .dust()
@@ -32,7 +32,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0xa627d8)
         .formula('E')
         .iconSet(GTMaterialIconSet.SHINY)
-        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.GENERATE_FOIL)
 
     event.create('banditium')
         .dust()

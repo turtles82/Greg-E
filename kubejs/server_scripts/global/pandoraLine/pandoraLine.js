@@ -396,7 +396,7 @@ ServerEvents.recipes((event) => {
             'gtceu:maliwanium_ingot'
         )
         .itemOutputs(
-            '4x gtceu:maliwanium_foil'
+            '8x gtceu:maliwanium_foil'
         )
         .EUt(GTValues.VA[GTValues.ZPM])
         .duration(200)
@@ -437,6 +437,79 @@ ServerEvents.recipes((event) => {
         }
     )
 
+    event.recipes.gtceu.bender()
+        .itemInputs(
+            'gtceu:eridium_ingot'
+        )
+        .itemOutputs(
+            '8x gtceu:eridium_foil'
+        )
+        .EUt(GTValues.VA[GTValues.ZPM])
+        .duration(200)
+        .circuit(10)
+
+
+    event.recipes.gtceu.large_chemical_reactor('uhpicwafer2')
+        .itemInputs(
+            'gtceu:hpic_wafer',
+            '4x gtceu:eridium_foil'
+        )
+        .inputFluids(
+            'gtceu:naquadah 450'
+        )
+        .itemOutputs(
+            '4x gtceu:uhpic_wafer'
+        )
+        .EUt(GTValues.VA[GTValues.LuV])
+        .duration(1000)
+        .cleanroom(CleanroomType.CLEANROOM)
+        .circuit(24)
+
+    event.recipes.gtceu.bender()
+        .itemInputs(
+            'gtceu:hyperium_ingot'
+        )
+        .itemOutputs(
+            '8x gtceu:hyperium_foil'
+        )
+        .EUt(GTValues.VA[GTValues.LuV])
+        .duration(200)
+        .circuit(10)
+
+
+    event.recipes.gtceu.large_chemical_reactor('qubit2')
+        .itemInputs(
+            'gtceu:nano_cpu_wafer',
+            '4x gtceu:hyperium_foil'
+        )
+        .inputFluids(
+            'gtceu:gallium_arsenide 200'
+        )
+        .itemOutputs(
+            '4x gtceu:qbit_cpu_wafer'
+        )
+        .EUt(GTValues.VA[GTValues.EV])
+        .duration(800)
+        .cleanroom(CleanroomType.CLEANROOM)
+        .circuit(24)
+
+    event.recipes.gtceu.large_chemical_reactor('hpic2')
+        .itemInputs(
+            'gtceu:mpic_wafer',
+            '4x gtceu:maliwanium_foil'
+        )
+        .inputFluids(
+            'gtceu:vanadium_gallium 200'
+        )
+        .itemOutputs(
+            '4x gtceu:hpic_wafer'
+        )
+        .EUt(GTValues.VA[GTValues.IV])
+        .duration(1000)
+        .cleanroom(CleanroomType.CLEANROOM)
+        .circuit(24)
+
+
     event.replaceInput(
         'gtceu:shaped/large_assembler',
         'gtceu:platinum_single_cable',
@@ -460,6 +533,7 @@ ServerEvents.recipes((event) => {
         'gtceu:silver_foil',
         'gtceu:maliwanium_foil'
     )
+
 
 
 })

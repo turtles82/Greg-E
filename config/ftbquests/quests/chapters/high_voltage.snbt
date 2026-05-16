@@ -45,7 +45,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -60,7 +60,7 @@
 				item: "gtceu:micro_processor_assembly"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 6.5d
 			y: 2.0d
 		}
 		{
@@ -79,7 +79,7 @@
 				item: "gtceu:micro_processor_computer"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 10.0d
 			y: 2.0d
 		}
 		{
@@ -138,7 +138,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: -0.75d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -166,7 +166,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -7.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["503E5B82A6C89278"]
@@ -178,7 +178,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -5.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1957A39483E15508"]
@@ -190,7 +190,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -7.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6A2D7380E340B77D"]
@@ -202,7 +202,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -9.0d
+			y: -5.5d
 		}
 		{
 			description: [""]
@@ -214,7 +214,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -11.5d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -229,7 +229,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -9.0d
+			y: -5.5d
 		}
 		{
 			description: [""]
@@ -240,8 +240,8 @@
 				item: "gtceu:hydrogen_bucket"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -11.5d
+			x: 10.0d
+			y: -5.5d
 		}
 		{
 			description: [""]
@@ -266,7 +266,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			id: "17B8180A71E5350F"
@@ -342,8 +342,8 @@
 				item: "gregecore:nobelium_bolt"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 3.5d
+			x: 10.0d
+			y: 5.0d
 		}
 		{
 			description: [
@@ -368,8 +368,8 @@
 				item: "kubejs:he"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 3.5d
+			x: 10.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["70C952B8FF3418F6"]
@@ -379,8 +379,8 @@
 				item: "kubejs:hvalloy"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 3.5d
+			x: -7.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["70C952B8FF3418F6"]
@@ -401,8 +401,8 @@
 				item: "gregecore:desh_coil"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 0.5d
+			x: -10.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["62BBF61C9849CA26"]
@@ -421,8 +421,8 @@
 				title: "AE2 in cleanroom"
 				type: "checkmark"
 			}]
-			x: 1.0d
-			y: 6.0d
+			x: 2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["487F9415CA8F687A"]
@@ -472,8 +472,8 @@
 				}
 			]
 			title: "Cube factories!"
-			x: -9.5d
-			y: -1.0d
+			x: -11.5d
+			y: 2.0d
 		}
 		{
 			id: "1DFFC6CCB85F7867"
@@ -496,8 +496,8 @@
 				item: "gtceu:mv_component_mass_assembler"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 0.0d
+			x: -9.5d
+			y: 4.0d
 		}
 	]
 	title: "HV"

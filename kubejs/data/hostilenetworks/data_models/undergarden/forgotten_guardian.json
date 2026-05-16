@@ -21,6 +21,10 @@
         {
             "item": "undergarden:forgotten_ingot",
             "count": 1
+        },
+        {
+            "item": "gtceu:gloomstone_dust",
+            "count": 1
         }
     ],   
     "tier_data": [1, 32765, 32766, 32767],                      

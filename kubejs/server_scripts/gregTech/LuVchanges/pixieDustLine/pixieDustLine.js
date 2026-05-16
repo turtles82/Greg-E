@@ -107,6 +107,7 @@ ServerEvents.recipes((event) => {
         .duration(1000)
         .circuit(24)
         .EUt(GTValues.VA[GTValues.LV])
+        .cleanroom(CleanroomType.CLEANROOM)
 
     
 

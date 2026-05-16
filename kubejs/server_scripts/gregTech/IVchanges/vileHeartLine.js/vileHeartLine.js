@@ -30,7 +30,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             'gtceu:vileheart_plate_plate'
         )
-        .EUt(GTValues.VA[GTValues.EV])
+        .EUt(GTValues.VA[GTValues.IV])
         .duration(400)
 
     event.recipes.gtceu.bender('bentityyyyaayyygooooo')
@@ -40,7 +40,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             'gtceu:pure_vileheart_plate_plate'
         )
-        .EUt(GTValues.VA[GTValues.EV])
+        .EUt(GTValues.VA[GTValues.IV])
         .duration(400)
 
     event.recipes.gtceu.forming_press('formpressityayayayay')
@@ -50,7 +50,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             'gtceu:proto_vileheart_plate_plate'
         )
-        .EUt(GTValues.VA[GTValues.EV])
+        .EUt(GTValues.VA[GTValues.IV])
         .duration(400)
 
     event.recipes.gtceu.compressor('pressspressitypress')
@@ -60,7 +60,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             'gtceu:primal_vileheart_plate_plate'
         )
-        .EUt(GTValues.VA[GTValues.EV])
+        .EUt(GTValues.VA[GTValues.IV])
         .duration(400)
 
     event.recipes.gtceu.specialpress('lastpressing')
@@ -70,7 +70,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             'gtceu:pristine_vileheart_plate_plate'
         )
-        .EUt(GTValues.VA[GTValues.EV])
+        .EUt(GTValues.VA[GTValues.IV])
         .duration(400)
 
     event.recipes.gtceu.wiremill('lastoneydusgdchbdcdhcdc')
@@ -80,7 +80,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             '8x gtceu:fine_pristine_vileheart_plate_wire'
         )
-        .EUt(GTValues.VA[GTValues.EV])
+        .EUt(GTValues.VA[GTValues.IV])
         .duration(200)
         .circuit(3)
 
