@@ -25,6 +25,12 @@ ServerEvents.recipes((event) => {
     )
 
     event.replaceInput(
+        { id: 'ae2:network/blocks/pattern_providers_interface' },
+        'minecraft:iron_ingot',
+        'gtceu:enhanced_fluix_ingot'
+    )
+
+    event.replaceInput(
         { id: 'ae2:network/blocks/controller' },
         'ae2:fluix_crystal',
         '#gtceu:circuits/lv'
@@ -102,6 +108,24 @@ ServerEvents.recipes((event) => {
         'aeinfinitybooster:dimension_card',
         'minecraft:nether_star',
         '#gtceu:circuits/ev'
+    )
+
+    event.replaceInput(
+        'expatternprovider:assembler_matrix_frame',
+        'minecraft:iron_ingot',
+        'gtceu:end_certus_quartz2_ingot'
+    )
+
+    event.replaceInput(
+        'advanced_ae:quantumcore',
+        'advanced_ae:shattered_singularity',
+        'gtceu:venus_certus_quartz2_ingot'
+    )
+
+    event.replaceInput(
+        'expatternprovider:wireless_connector',
+        '#ae2:smart_cable',
+        'gtceu:magical_certus_quartz2_ingot'
     )
 
     //Advanced aes reaction chamber recipie for matter balls

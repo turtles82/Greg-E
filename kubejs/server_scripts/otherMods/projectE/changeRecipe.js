@@ -22,7 +22,7 @@ ServerEvents.recipes((event) =>{
       ],
       {
         B: '#gtceu:circuits/lv',
-        A: 'minecraft:iron_ingot',
+        A: 'gtceu:refined_fluix_ingot',
         C: 'gtceu:lv_machine_hull'
     })
 
@@ -103,7 +103,7 @@ ServerEvents.recipes((event) =>{
             'AAA'
         ],
         {
-            A: 'minecraft:iron_ingot',
+            A: 'gtceu:refined_fluix_ingot',
             B: '#gtceu:circuits/lv',
             C: 'gtceu:lv_machine_hull'
         }
