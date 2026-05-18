@@ -31,6 +31,12 @@ ServerEvents.recipes((event) => {
     )
 
     event.replaceInput(
+        { id: 'ae2:network/blocks/interfaces_interface' },
+        'minecraft:iron_ingot',
+        'gtceu:enhanced_fluix_ingot'
+    )
+
+    event.replaceInput(
         { id: 'ae2:network/blocks/controller' },
         'ae2:fluix_crystal',
         '#gtceu:circuits/lv'

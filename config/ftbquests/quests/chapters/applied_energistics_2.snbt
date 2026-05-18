@@ -493,6 +493,18 @@
 			x: 11.0d
 			y: 3.0d
 		}
+		{
+			dependencies: ["51DE3157DE3E57B8"]
+			description: ["This block is more useful than you think - it can instantly put items in your network, output them and also if you put storage bus on this block, you have a recursive storage system! Very useful for Assembly Line automation."]
+			id: "7F2E2CA9BEC549E1"
+			tasks: [{
+				id: "7B55FCE79933FF84"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
 	]
 	title: "AE2 - Basics"
 }
