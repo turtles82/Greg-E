@@ -319,7 +319,6 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["70C952B8FF3418F6"]
 			description: ["Hope you like rockets :)"]
 			id: "7C9AE01973242410"
 			tasks: [{
@@ -336,7 +335,6 @@
 			description: ["3rd tier of Magical Coils."]
 			id: "370B0622AED33FC4"
 			tasks: [{
-				count: 16L
 				id: "3EF8AD880FE1F825"
 				item: "gregecore:desh_coil"
 				type: "item"
@@ -346,6 +344,7 @@
 		}
 		{
 			dependencies: ["313BDDDAF1E08965"]
+			icon: "ad_astra:moon_globe"
 			id: "6ACF89A89C077413"
 			tasks: [{
 				dimension: "ad_astra:moon"
@@ -357,6 +356,7 @@
 		}
 		{
 			dependencies: ["4EA0E385FF7E5FEB"]
+			icon: "ad_astra:mars_globe"
 			id: "56A7D6F094316F38"
 			tasks: [{
 				dimension: "ad_astra:mars"
@@ -369,6 +369,7 @@
 		{
 			dependencies: ["7CA42B3CA84A21B5"]
 			description: ["Mercury is optional for now, in LuV you need to visit though."]
+			icon: "ad_astra:mercury_globe"
 			id: "3AD8032D75DDB50D"
 			tasks: [{
 				dimension: "ad_astra:mercury"
@@ -380,6 +381,7 @@
 		}
 		{
 			dependencies: ["7CA42B3CA84A21B5"]
+			icon: "ad_astra:venus_globe"
 			id: "6294183FB96FF06F"
 			tasks: [{
 				dimension: "ad_astra:venus"
@@ -391,6 +393,7 @@
 		}
 		{
 			dependencies: ["7B2A7B2298DAE8EC"]
+			icon: "ad_astra:glacio_globe"
 			id: "02C7716B1B67C893"
 			tasks: [{
 				dimension: "ad_astra:glacio"
@@ -414,6 +417,7 @@
 		{
 			dependencies: ["3492204F73657F99"]
 			description: ["Use Tier 4 rocket to get here."]
+			icon: "ad_extendra:jupiter_globe"
 			id: "26901950F02E83F3"
 			tasks: [{
 				dimension: "ad_extendra:jupiter"
@@ -440,6 +444,7 @@
 		}
 		{
 			dependencies: ["26901950F02E83F3"]
+			icon: "ad_extendra:saturn_globe"
 			id: "7FBC4C2FAE832E2E"
 			tasks: [{
 				dimension: "ad_extendra:saturn"
@@ -466,6 +471,7 @@
 		}
 		{
 			dependencies: ["7FBC4C2FAE832E2E"]
+			icon: "ad_extendra:uranus_globe"
 			id: "1490D21DC080B320"
 			tasks: [{
 				dimension: "ad_extendra:uranus"
@@ -492,6 +498,7 @@
 		}
 		{
 			dependencies: ["1490D21DC080B320"]
+			icon: "ad_extendra:neptune_globe"
 			id: "29CA86742E9369C2"
 			tasks: [{
 				dimension: "ad_extendra:neptune"
@@ -530,6 +537,7 @@
 		}
 		{
 			dependencies: ["29CA86742E9369C2"]
+			icon: "ad_extendra:orcus_globe"
 			id: "57E5706D527A185A"
 			tasks: [{
 				dimension: "ad_extendra:orcus"
@@ -586,6 +594,7 @@
 		}
 		{
 			dependencies: ["57E5706D527A185A"]
+			icon: "ad_extendra:pluto_globe"
 			id: "4AAB5CB2015F572E"
 			tasks: [{
 				dimension: "ad_extendra:pluto"
@@ -597,6 +606,7 @@
 		}
 		{
 			dependencies: ["4AAB5CB2015F572E"]
+			icon: "ad_extendra:sedna_globe"
 			id: "2FCED2BDD4F10C46"
 			tasks: [{
 				dimension: "ad_extendra:sedna"

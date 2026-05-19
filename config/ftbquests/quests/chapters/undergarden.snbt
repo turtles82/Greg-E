@@ -93,6 +93,16 @@
 			x: 4.5d
 			y: 1.0d
 		}
+		{
+			id: "460702CC2EF7FBA5"
+			tasks: [{
+				id: "0E8F663E66BF7595"
+				item: "gregecore:forgotten_coil"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
 	]
 	title: "Undergarden"
 }

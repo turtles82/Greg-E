@@ -909,6 +909,7 @@
 				"2) Get Moon Cobblestone, which you can smelt to stone"
 				"3) Make a End Portal Frame block out of Moon Stone and Eye of Ender"
 			]
+			icon: "minecraft:end_stone"
 			id: "0892FCCB363758FA"
 			tasks: [{
 				dimension: "minecraft:the_end"
@@ -926,6 +927,7 @@
 				"4) Use the EV robotic arm as a lighter"
 				"5) You're in the nether!"
 			]
+			icon: "minecraft:netherrack"
 			id: "5AE65F9C46498519"
 			tasks: [{
 				dimension: "minecraft:the_nether"

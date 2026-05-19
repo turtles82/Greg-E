@@ -389,7 +389,7 @@
 				item: "gregecore:desh_coil"
 				type: "item"
 			}]
-			x: -10.5d
+			x: -11.5d
 			y: 2.0d
 		}
 		{
@@ -460,7 +460,7 @@
 				}
 			]
 			title: "Cube factories!"
-			x: -11.5d
+			x: -13.5d
 			y: 2.0d
 		}
 		{

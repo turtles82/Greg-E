@@ -632,6 +632,17 @@
 			x: 8.5d
 			y: 3.0d
 		}
+		{
+			dependencies: ["57B5100C11F76EE9"]
+			id: "403481056BAE7C57"
+			tasks: [{
+				id: "5EFCEBC5B04852B8"
+				item: "gtceu:luv_parallel_hatch"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
 	]
 	title: "ZPM"
 }
