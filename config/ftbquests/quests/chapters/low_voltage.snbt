@@ -140,7 +140,6 @@
 			description: ["This is probably the multiblock you know even if you didn't play GregTech before."]
 			icon: "gtceu:electric_blast_furnace"
 			id: "6E2F24117ACF3694"
-			min_width: 350
 			tasks: [{
 				id: "418A11C297FB7BD9"
 				item: "gtceu:electric_blast_furnace"

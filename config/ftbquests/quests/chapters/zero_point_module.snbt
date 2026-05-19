@@ -42,22 +42,10 @@
 			y: 6.508928571428584d
 		}
 		{
-			dependencies: ["57B5100C11F76EE9"]
-			description: [""]
-			id: "23B9FE196A09B587"
-			tasks: [{
-				id: "70B2E5E51F183692"
-				item: "gtceu:luv_circuit_assembler"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 6.5d
-		}
-		{
 			dependencies: [
-				"23B9FE196A09B587"
 				"41AE8AEA3EB144F3"
 				"5A3FF46A2B275049"
+				"57B5100C11F76EE9"
 			]
 			description: [""]
 			id: "279BC6FAF7827738"
@@ -118,7 +106,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["3BD5C517AD024A45"]
+			dependencies: [
+				"3BD5C517AD024A45"
+				"7244FA69157727AF"
+			]
 			description: [""]
 			id: "37A1137A59A2086B"
 			tasks: [{
@@ -217,7 +208,7 @@
 				item: "gtceu:naquadah_dust"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -12.5d
 			y: -3.0d
 		}
 		{
@@ -229,8 +220,8 @@
 				item: "gtceu:fluoroantimonic_acid_bucket"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -3.0d
+			x: -9.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -244,7 +235,7 @@
 				item: "gtceu:impure_enriched_naquadah_solution_bucket"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -8.0d
 			y: -1.5d
 		}
 		{
@@ -256,8 +247,8 @@
 				item: "gtceu:antimony_trifluoride_dust"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -4.5d
+			x: -11.0d
+			y: -1.5d
 		}
 		{
 			description: [""]
@@ -268,8 +259,8 @@
 				item: "gtceu:antimony_trioxide_dust"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -6.5d
+			x: -12.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0E73B4A4A1CC6B0F"]
@@ -280,14 +271,11 @@
 				item: "gtceu:trinium_sulfide_dust"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 0.0d
+			x: -6.5d
+			y: -1.5d
 		}
 		{
-			dependencies: [
-				"2D65DC315CCC60C8"
-				"238CC42F61006CE9"
-			]
+			dependencies: ["2D65DC315CCC60C8"]
 			description: [""]
 			id: "7244FA69157727AF"
 			shape: "circle"
@@ -297,8 +285,8 @@
 				item: "gtceu:trinium_ingot"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 0.0d
+			x: -5.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7E697FE6A6C8B4EE"]
@@ -373,10 +361,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"238CC42F61006CE9"
-				"29706E3681616E41"
-			]
+			dependencies: ["29706E3681616E41"]
 			description: [""]
 			id: "7E697FE6A6C8B4EE"
 			tasks: [{
@@ -404,13 +389,12 @@
 			description: [""]
 			id: "238CC42F61006CE9"
 			tasks: [{
-				count: 16L
 				id: "78F54B8FDB45EA7D"
 				item: "gtceu:naquadah_coil_block"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -4.5d
+			x: -8.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7D972F334DCE5626"]
@@ -421,8 +405,8 @@
 				item: "gtceu:naquadah_ingot"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -4.5d
+			x: -9.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -536,8 +520,8 @@
 				item: "gtceu:naquadah_boule"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -6.5d
+			x: -9.5d
+			y: -4.5d
 		}
 		{
 			description: [""]

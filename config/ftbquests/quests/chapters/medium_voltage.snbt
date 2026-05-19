@@ -202,7 +202,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["72E5439299E957A8"]
+			dependencies: ["358706CA93DC2A9C"]
 			description: [""]
 			id: "2AB457E29360E3B8"
 			tasks: [{
@@ -211,7 +211,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -0.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -450,8 +450,8 @@
 				item: "gtceu:kanthal_coil_block"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -3.0d
+			x: 2.5d
+			y: -5.0d
 		}
 		{
 			description: [""]

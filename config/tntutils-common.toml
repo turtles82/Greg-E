@@ -25,10 +25,10 @@
 	dropChanceMultiplier = 0.0
 	#Prevents explosions from destroying blocks. Will not affect blocks tagged with #tntutils:explosion_whitelist.
 	#Individual blocks can be exempted from explosion damage by tagging them with #tntutils:explosion_blacklist.
-	disableBlockDamage = false
+	disableBlockDamage = true
 	#"Environmentally Friendly Creepers": Prevents Creeper explosions from destroying blocks. Will not affect
 	#blocks tagged with #tntutils:explosion_whitelist.
-	disableCreeperBlockDamage = false
+	disableCreeperBlockDamage = true
 	#Prevents explosions from destroying blocks with block entities. Will not affect blocks tagged with
 	##tntutils:explosion_whitelist.
 	spareBlockEntities = false

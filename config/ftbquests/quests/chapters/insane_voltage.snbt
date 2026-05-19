@@ -26,7 +26,6 @@
 		}
 		{
 			dependencies: [
-				"4993431DBE076E1B"
 				"239E32216382AA5D"
 				"1809493D8765E67A"
 				"2CC2E23077A0509F"
@@ -46,7 +45,6 @@
 		}
 		{
 			dependencies: [
-				"4993431DBE076E1B"
 				"2BE754C8D2C0C76E"
 				"239E32216382AA5D"
 				"574019B5B7CA43E0"
@@ -63,7 +61,6 @@
 		}
 		{
 			dependencies: [
-				"4993431DBE076E1B"
 				"19CD3E69746F2849"
 				"1A73520CB284217F"
 			]
@@ -80,7 +77,7 @@
 		{
 			dependencies: [
 				"592113082337004B"
-				"4993431DBE076E1B"
+				"64F77D41B2D057B8"
 			]
 			description: [""]
 			id: "2ACB94B77EF072EB"
@@ -124,7 +121,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -142,21 +139,6 @@
 			}]
 			x: -2.5d
 			y: -5.0d
-		}
-		{
-			dependencies: [
-				"64F77D41B2D057B8"
-				"587B4048E0BCEB27"
-			]
-			description: [""]
-			id: "4993431DBE076E1B"
-			tasks: [{
-				id: "52D651790115A82E"
-				item: "gtceu:ev_circuit_assembler"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -189,7 +171,6 @@
 			dependencies: [
 				"1D9194E89D14BA85"
 				"599BABC83E76A711"
-				"1AB86FD8776634D0"
 			]
 			description: [""]
 			id: "239E32216382AA5D"
@@ -222,7 +203,6 @@
 				"546F6933699B9BF3"
 				"4720F9EDF894330C"
 				"1D9194E89D14BA85"
-				"1AB86FD8776634D0"
 			]
 			description: [""]
 			id: "574019B5B7CA43E0"
@@ -243,8 +223,8 @@
 				item: "gtceu:palladium_dust"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -5.5d
+			x: 11.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["64F77D41B2D057B8"]
@@ -281,8 +261,8 @@
 				item: "gtceu:hsss_dust"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -5.5d
+			x: 9.0d
+			y: -4.5d
 		}
 		{
 			description: [""]
@@ -293,8 +273,8 @@
 				item: "gtceu:hssg_dust"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -8.5d
+			x: 9.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["0A552494FA03C701"]
@@ -342,8 +322,8 @@
 				item: "gtceu:hsse_dust"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -5.5d
+			x: 10.0d
+			y: -4.5d
 		}
 		{
 			description: [""]
@@ -696,32 +676,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["19BA973FECFA3B06"]
-			description: [""]
-			id: "587B4048E0BCEB27"
-			tasks: [{
-				id: "411CD5BC3965C8DF"
-				item: "gtceu:quantum_eye"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 6.0d
-		}
-		{
-			description: [""]
-			hide_dependency_lines: true
-			id: "19BA973FECFA3B06"
-			min_width: 300
-			shape: "square"
-			tasks: [{
-				id: "08FD542F3DED5422"
-				item: "gtceu:radon_bucket"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 7.5d
-		}
-		{
 			description: [""]
 			id: "465F4502C4D5DCFE"
 			shape: "square"
@@ -730,24 +684,20 @@
 				item: "gtceu:vanadium_gallium_dust"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -4.0d
+			x: 8.0d
+			y: -7.0d
 		}
 		{
-			dependencies: [
-				"465F4502C4D5DCFE"
-				"0A848E0B9F485B2C"
-			]
+			dependencies: ["465F4502C4D5DCFE"]
 			description: [""]
-			hide_dependent_lines: true
 			id: "6F0AD70D3748D8D2"
 			tasks: [{
 				id: "41E7743A2A8A0476"
 				item: "gtceu:vanadium_gallium_ingot"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -2.5d
+			x: 8.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -798,8 +748,8 @@
 				item: "gtceu:purified_cooperite_ore"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -8.5d
+			x: -7.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["2FDACD6F153D5B64"]
@@ -810,8 +760,8 @@
 				item: "gtceu:aqua_regia_bucket"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -7.0d
+			x: -6.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2FDACD6F153D5B64"]
@@ -822,8 +772,8 @@
 				item: "gtceu:platinum_group_sludge_dust"
 				type: "item"
 			}]
-			x: -10.0d
-			y: -7.0d
+			x: -8.0d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -837,7 +787,7 @@
 				item: "gtceu:inert_metal_mixture_dust"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -7.0d
 			y: -5.5d
 		}
 		{
@@ -856,7 +806,7 @@
 					type: "item"
 				}
 			]
-			x: -9.0d
+			x: -7.0d
 			y: -4.5d
 		}
 		{
@@ -868,7 +818,7 @@
 				item: "gtceu:ruthenium_dust"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -7.0d
 			y: -3.5d
 		}
 		{
@@ -879,7 +829,7 @@
 				item: "gtceu:rtm_alloy_dust"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -7.0d
 			y: -2.5d
 		}
 		{
@@ -891,8 +841,8 @@
 				item: "gtceu:hssg_coil_block"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -5.5d
+			x: 9.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["4632DA3CE9D95064"]

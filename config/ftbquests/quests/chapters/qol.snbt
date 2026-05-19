@@ -388,6 +388,11 @@
 					item: "enchantinginfuser:advanced_enchanting_infuser"
 					type: "item"
 				}
+				{
+					id: "1FEE5994C1C16F10"
+					item: "draconicevolution:disenchanter"
+					type: "item"
+				}
 			]
 			x: -4.0d
 			y: -0.5d

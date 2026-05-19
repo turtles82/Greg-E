@@ -21,8 +21,8 @@
 				item: "gtceu:crystal_processor_mainframe"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -0.4642857142857153d
+			x: -8.25d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -54,7 +54,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -69,12 +69,12 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
 				"6335DC1E7517E940"
-				"4FFD94248EDBE5FA"
+				"5D1B9EACB654BDF8"
 			]
 			description: [""]
 			id: "5F7F05E4C3310724"
@@ -84,7 +84,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["04A371896B1E0CEC"]
@@ -96,7 +96,7 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: -5.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["0EA56C514D26BA69"]
@@ -107,8 +107,8 @@
 				item: "gtceu:uranium_rhodium_dinaquadide_single_wire"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -9.5d
+			x: -10.0d
+			y: -10.5d
 		}
 		{
 			description: [""]
@@ -119,8 +119,8 @@
 				item: "gtceu:uranium_rhodium_dinaquadide_dust"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -9.5d
+			x: -11.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["5D1B9EACB654BDF8"]
@@ -131,8 +131,8 @@
 				item: "gtceu:trinium_coil_block"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -3.5d
+			x: -10.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -146,7 +146,7 @@
 				item: "gtceu:uranium_rhodium_dinaquadide_ingot"
 				type: "item"
 			}]
-			x: -10.5d
+			x: -10.0d
 			y: -7.5d
 		}
 		{
@@ -163,7 +163,7 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["5041EDE3E75E1EDF"]
@@ -175,7 +175,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -192,7 +192,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["3AA49DDE45705233"]
@@ -216,7 +216,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: -8.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["71941882F9E2ADAC"]
@@ -243,7 +243,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: -10.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["57F6323716A0ED24"]
@@ -255,7 +255,7 @@
 				type: "item"
 			}]
 			x: 13.5d
-			y: -10.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["3F810160E8B58BD2"]
@@ -379,20 +379,8 @@
 				item: "gtceu:zpm_fusion_reactor"
 				type: "item"
 			}]
-			x: -12.5d
+			x: -13.0d
 			y: -15.0d
-		}
-		{
-			dependencies: ["5D1B9EACB654BDF8"]
-			description: [""]
-			id: "4FFD94248EDBE5FA"
-			tasks: [{
-				id: "3A14FDEFAC495032"
-				item: "gtceu:zpm_circuit_assembler"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -0.5d
 		}
 		{
 			dependencies: ["5D1B9EACB654BDF8"]
@@ -404,7 +392,7 @@
 				item: "gtceu:zpm_parallel_hatch"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -6.5d
 			y: 2.0d
 		}
 		{
@@ -444,7 +432,7 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: -7.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["5E62E6F314843E1D"]
@@ -481,7 +469,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: -10.0d
+			y: -10.5d
 		}
 		{
 			dependencies: [
@@ -496,7 +484,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: -10.0d
+			y: -10.5d
 		}
 		{
 			dependencies: [
@@ -534,7 +522,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -10.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["16522A3A1E66C914"]
@@ -545,7 +533,7 @@
 				item: "gtceu:naquadria_ingot"
 				type: "item"
 			}]
-			x: -12.5d
+			x: -13.0d
 			y: -7.5d
 		}
 		{
@@ -572,7 +560,7 @@
 				}
 			]
 			x: -2.5d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["54FEF677CA5E1C54"]
@@ -584,7 +572,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -599,7 +587,7 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: -3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0A3F4D7A15E61B43"]
@@ -638,8 +626,8 @@
 				item: "gtceu:mega_vacuum_freezer"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -0.5d
+			x: -10.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4B2A2C37A37476B6"]
@@ -649,8 +637,8 @@
 				item: "gregecore:enhancedblastchiller"
 				type: "item"
 			}]
-			x: -12.5d
-			y: -0.5d
+			x: -11.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5D1B9EACB654BDF8"]
@@ -682,8 +670,8 @@
 				item: "gregecore:bacterial_matter_cable_single_wire"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 2.0d
+			x: -8.214285714285708d
+			y: 2.000000000000007d
 		}
 		{
 			dependencies: ["02CC3E13B8905603"]
@@ -706,8 +694,8 @@
 				item: "gtceu:wetware_processor_mainframe"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -0.5d
+			x: 17.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2BB4BC3E614ED0C9"]
@@ -775,7 +763,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -4.0d
+			y: -3.5d
 		}
 	]
 	title: "UV"

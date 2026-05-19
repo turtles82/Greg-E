@@ -35,7 +35,7 @@
 		{
 			dependencies: [
 				"5FAA73C52082DC48"
-				"0AC6B223857CAE94"
+				"70C952B8FF3418F6"
 			]
 			description: ["Because the EV circuits are from new age, we don't have so start with LV circuits. Be careful though, you will still need them for EMC alloys."]
 			id: "19DB4970B3D11C1B"
@@ -51,7 +51,6 @@
 			dependencies: [
 				"19DB4970B3D11C1B"
 				"5FAA73C52082DC48"
-				"0AC6B223857CAE94"
 			]
 			description: [""]
 			id: "732D201794C228DD"
@@ -80,18 +79,6 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["70C952B8FF3418F6"]
-			description: [""]
-			id: "0AC6B223857CAE94"
-			tasks: [{
-				id: "7004B0FA13A8D4D1"
-				item: "gtceu:mv_circuit_assembler"
-				type: "item"
-			}]
-			x: -2.0d
 			y: 2.0d
 		}
 		{

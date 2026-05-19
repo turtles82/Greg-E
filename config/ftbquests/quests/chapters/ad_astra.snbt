@@ -37,7 +37,7 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["58452F7D73C30E72"]
+			dependencies: ["6ACF89A89C077413"]
 			description: [""]
 			id: "438E233A9014DA73"
 			tasks: [{
@@ -49,21 +49,7 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["313BDDDAF1E08965"]
-			description: ["Land on the moon!"]
-			icon: "ad_astra:moon_globe"
-			id: "58452F7D73C30E72"
-			tasks: [{
-				advancement: "ad_astra:moon"
-				criterion: ""
-				id: "5472FCE5D46313F4"
-				type: "advancement"
-			}]
-			x: -7.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["4E8E49EB9C83188E"]
+			dependencies: ["56A7D6F094316F38"]
 			description: [""]
 			id: "2A279B011D09A9EE"
 			tasks: [{
@@ -72,63 +58,6 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["4EA0E385FF7E5FEB"]
-			description: ["Visit Mars."]
-			icon: "ad_astra:mars_globe"
-			id: "4E8E49EB9C83188E"
-			tasks: [{
-				advancement: "ad_astra:mars"
-				criterion: ""
-				id: "51EA8D3FA1966B84"
-				type: "advancement"
-			}]
-			x: -3.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["7CA42B3CA84A21B5"]
-			description: ["Visit Venus."]
-			icon: "ad_astra:venus_globe"
-			id: "0EE652B280CB5F55"
-			tasks: [{
-				advancement: "ad_astra:venus"
-				criterion: ""
-				id: "3A4B0885275DF89B"
-				type: "advancement"
-			}]
-			x: 1.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["7CA42B3CA84A21B5"]
-			description: ["Visit Mercury."]
-			icon: "ad_astra:mercury_globe"
-			id: "32738F324B799879"
-			tasks: [{
-				advancement: "ad_astra:mercury"
-				criterion: ""
-				id: "7302AF42EB62C1D2"
-				type: "advancement"
-			}]
-			x: 0.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["7B2A7B2298DAE8EC"]
-			description: ["Visit Glacio."]
-			icon: "ad_astra:glacio_globe"
-			id: "0B407DE1771F3304"
-			size: 1.0d
-			tasks: [{
-				advancement: "ad_astra:interstellar"
-				criterion: ""
-				id: "60ADF70F2398E2F8"
-				type: "advancement"
-			}]
-			x: 4.5d
 			y: 6.5d
 		}
 		{
@@ -254,7 +183,7 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["0EE652B280CB5F55"]
+			dependencies: ["6294183FB96FF06F"]
 			description: [""]
 			id: "7B2A7B2298DAE8EC"
 			tasks: [
@@ -398,6 +327,7 @@
 				title: "Space!"
 				type: "checkmark"
 			}]
+			title: "Ad Astra - HV"
 			x: -13.0d
 			y: 6.5d
 		}
@@ -413,6 +343,268 @@
 			}]
 			x: -6.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["313BDDDAF1E08965"]
+			id: "6ACF89A89C077413"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				id: "064D9EB018EECCDF"
+				type: "dimension"
+			}]
+			x: -7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4EA0E385FF7E5FEB"]
+			id: "56A7D6F094316F38"
+			tasks: [{
+				dimension: "ad_astra:mars"
+				id: "19708AE730C4A100"
+				type: "dimension"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7CA42B3CA84A21B5"]
+			description: ["Mercury is optional for now, in LuV you need to visit though."]
+			id: "3AD8032D75DDB50D"
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				id: "787E58A51CE116D1"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7CA42B3CA84A21B5"]
+			id: "6294183FB96FF06F"
+			tasks: [{
+				dimension: "ad_astra:venus"
+				id: "3DDC4EC0C69DDC4B"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7B2A7B2298DAE8EC"]
+			id: "02C7716B1B67C893"
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				id: "7E41AA42EB1D524D"
+				type: "dimension"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			description: ["This Ad Astra addon unlocks in LuV."]
+			id: "3492204F73657F99"
+			tasks: [{
+				id: "5C43C7B001706628"
+				title: "Ad Extendra - LuV"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3492204F73657F99"]
+			description: ["Use Tier 4 rocket to get here."]
+			id: "26901950F02E83F3"
+			tasks: [{
+				dimension: "ad_extendra:jupiter"
+				id: "7623B28B446DD869"
+				type: "dimension"
+			}]
+			x: -11.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["26901950F02E83F3"]
+			id: "57AE51DD05D8305F"
+			tasks: [{
+				id: "6B6208AC843A6D4B"
+				item: {
+					Count: 1
+					id: "ad_extendra:tier_5_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["26901950F02E83F3"]
+			id: "7FBC4C2FAE832E2E"
+			tasks: [{
+				dimension: "ad_extendra:saturn"
+				id: "6F1A9DAABDBDF0B9"
+				type: "dimension"
+			}]
+			x: -9.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7FBC4C2FAE832E2E"]
+			id: "7C7C8FF92C9CDF33"
+			tasks: [{
+				id: "3FAC268C91529E3E"
+				item: {
+					Count: 1
+					id: "ad_extendra:tier_6_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["7FBC4C2FAE832E2E"]
+			id: "1490D21DC080B320"
+			tasks: [{
+				dimension: "ad_extendra:uranus"
+				id: "6DAD27B1A233C11F"
+				type: "dimension"
+			}]
+			x: -7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1490D21DC080B320"]
+			id: "23B5A97746607231"
+			tasks: [{
+				id: "009196B75685B16F"
+				item: {
+					Count: 1
+					id: "ad_extendra:tier_7_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1490D21DC080B320"]
+			id: "29CA86742E9369C2"
+			tasks: [{
+				dimension: "ad_extendra:neptune"
+				id: "1868D0F45A5F59A3"
+				type: "dimension"
+			}]
+			x: -5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["29CA86742E9369C2"]
+			id: "75A2CAA38530E8D0"
+			tasks: [{
+				id: "309FA33A3FEB3E09"
+				item: {
+					Count: 1
+					id: "ad_extendra:tier_8_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["438E233A9014DA73"]
+			description: ["The Ad Astra's raw ores are actually duplicable via Botania, even though its pretty expensive."]
+			id: "028A83967A3AD437"
+			tasks: [{
+				id: "46F9877FA4623003"
+				title: "Tired of looking for the ores?"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["29CA86742E9369C2"]
+			id: "57E5706D527A185A"
+			tasks: [{
+				dimension: "ad_extendra:orcus"
+				id: "72ACD5FE19D7E89A"
+				type: "dimension"
+			}]
+			x: -3.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["57E5706D527A185A"]
+			id: "38F8B7900041030E"
+			tasks: [{
+				id: "66E5FD21CC9F59AB"
+				item: {
+					Count: 1
+					id: "ad_extendra:tier_9_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4AAB5CB2015F572E"]
+			id: "5785BAE5647795FB"
+			tasks: [{
+				id: "1D8FD8AB7189C7DC"
+				item: {
+					Count: 1
+					id: "ad_extendra:tier_10_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2FCED2BDD4F10C46"]
+			id: "7DD729D7BE5E18B9"
+			tasks: [{
+				id: "65627F08EEF71849"
+				item: {
+					Count: 1
+					id: "ad_extendra:tier_11_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["57E5706D527A185A"]
+			id: "4AAB5CB2015F572E"
+			tasks: [{
+				dimension: "ad_extendra:pluto"
+				id: "074D2DC23D37C8F3"
+				type: "dimension"
+			}]
+			x: -1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4AAB5CB2015F572E"]
+			id: "2FCED2BDD4F10C46"
+			tasks: [{
+				dimension: "ad_extendra:sedna"
+				id: "52A012843E0E8E02"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: 11.0d
 		}
 	]
 	title: "Ad Astra"

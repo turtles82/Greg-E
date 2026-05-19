@@ -28,22 +28,6 @@
 		{
 			dependencies: [
 				"054D2D3C20C2D32F"
-				"702CE73E39E4D4BD"
-			]
-			description: [""]
-			id: "0CBF5A49066468DD"
-			optional: true
-			tasks: [{
-				id: "3C9575096E4E44E0"
-				item: "gtceu:uv_circuit_assembler"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 7.0d
-		}
-		{
-			dependencies: [
-				"054D2D3C20C2D32F"
 				"337B492F974628A4"
 				"702CE73E39E4D4BD"
 			]
@@ -85,7 +69,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["695E846B663EC185"]
+			dependencies: [
+				"695E846B663EC185"
+				"054D2D3C20C2D32F"
+			]
 			description: [""]
 			id: "702CE73E39E4D4BD"
 			tasks: [{
@@ -375,6 +362,17 @@
 			}]
 			x: -11.0d
 			y: -10.5d
+		}
+		{
+			dependencies: ["7021E6B5D8D23163"]
+			id: "7F82F8C9A77AD478"
+			tasks: [{
+				id: "2A0B99DF592F4513"
+				item: "gregecore:awakened_draconium_coil"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 10.0d
 		}
 	]
 	title: "UHV"

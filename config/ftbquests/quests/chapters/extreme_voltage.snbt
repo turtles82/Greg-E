@@ -33,12 +33,12 @@
 		}
 		{
 			dependencies: [
-				"6805CC8AD6010F33"
 				"0D9D1462C676C050"
 				"3D9B7855B5616DCE"
 				"11AAA1DCB452DFFC"
 				"6445DEC19DD55A34"
 				"0262E0D49A12F817"
+				"5241693278027FFD"
 			]
 			description: [""]
 			id: "2E47C92E3E8D826A"
@@ -215,18 +215,6 @@
 			}]
 			x: 2.5d
 			y: -2.5d
-		}
-		{
-			dependencies: ["5241693278027FFD"]
-			description: [""]
-			id: "6805CC8AD6010F33"
-			tasks: [{
-				id: "271929662CF5AC0D"
-				item: "gtceu:hv_circuit_assembler"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 1.0d
 		}
 		{
 			dependencies: ["6A6BDA932E1104D1"]

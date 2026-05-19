@@ -27,6 +27,7 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UV])
         .duration(600)
+        .disableDistilleryRecipes(true)
 
     event.recipes.gtceu.distillation_tower()
         .inputFluids(
@@ -41,6 +42,7 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UV])
         .duration(400)
+        .disableDistilleryRecipes(true)
 
     event.recipes.gtceu.large_chemical_reactor()
         .inputFluids(

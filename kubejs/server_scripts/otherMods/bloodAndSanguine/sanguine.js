@@ -16,6 +16,64 @@ ServerEvents.recipes((event) => {
     uses: -1,
   });
 
+  const tiers = {
+      tier1: {
+        blood: [0, 10, 22, 45, 70],
+        energy: 10000,
+        entities: [
+          'minecraft:chicken',
+          'minecraft:blaze'
+        ],
+      },
+      tier2: {
+        blood: [0, 25, 65, 95, 130],
+        energy: 15000,
+        entities: [
+          'twilightforest:carminite_golem',
+          'twilightforest:minoshroom'
+        ],
+      },
+      tier3: {
+        blood: [0, 40, 95, 145, 300],
+        energy: 75000,
+        entities: [
+          'botania:doppleganger',
+          'twilightforest:snow_queen'
+        ],
+      },
+      tier4: {
+        blood: [0, 100, 150, 300, 450],
+        energy: 1500000,
+        entities: [
+          'incision:seer',
+          'minecraft:wither'
+        ],
+      },
+      tier5: {
+        blood: [0, 100, 150, 500, 750],
+        energy: 2500000,
+        entities: [
+          'draconicevolution:draconic_guardian'
+        ],
+      },
+    };
+
+    event.remove({type: 'sanguine_networks:blood'})
+    for (const [tierName, tierData] of Object.entries(tiers)) {
+      tierData.entities.forEach((entity) => {
+        event
+          .custom({
+            type: 'sanguine_networks:blood',
+            blood: tierData.blood,
+            energy: tierData.energy,
+            entity: entity,
+          })
+          .id(
+            `kubejs:sanguine_networks/blood/${entity.replace(':', '_')}_${tierName}`
+          );
+      });
+    }
+
   event.remove({ id:'sanguine_networks:virtual_sacrificer'})
     event.recipes.gtceu.assembler('virtualsacrificeererer')
         .itemInputs(

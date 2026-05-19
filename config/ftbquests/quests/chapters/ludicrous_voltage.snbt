@@ -39,23 +39,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["5A658F239928850E"]
-			description: [""]
-			id: "41F04EF882EF31E1"
-			size: 1.0d
-			tasks: [{
-				id: "23CB55FBD259329B"
-				item: "gtceu:iv_circuit_assembler"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 1.5d
-		}
-		{
 			dependencies: [
-				"41F04EF882EF31E1"
 				"7382C366A1ABAAE3"
 				"2E7E1278D9796141"
+				"5A658F239928850E"
 			]
 			description: [""]
 			id: "6BE928FE24539D4B"
@@ -69,9 +56,9 @@
 		}
 		{
 			dependencies: [
-				"41F04EF882EF31E1"
 				"7382C366A1ABAAE3"
 				"2E7E1278D9796141"
+				"6BE928FE24539D4B"
 			]
 			description: [""]
 			id: "53B44E24BB111D24"
@@ -85,9 +72,9 @@
 		}
 		{
 			dependencies: [
-				"41F04EF882EF31E1"
 				"7382C366A1ABAAE3"
 				"2E7E1278D9796141"
+				"53B44E24BB111D24"
 			]
 			description: [""]
 			id: "1090A47B70EBF704"
@@ -842,7 +829,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			id: "669C9C5E03938E24"

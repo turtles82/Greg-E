@@ -75,5 +75,17 @@ ServerEvents.recipes((event) => {
         }
     )
 
+    event.replaceInput(
+        'draconicevolution:disenchanter',
+        'draconicevolution:draconium_core',
+        '#gtceu:circuits/mv'
+    )
+
+    event.replaceInput(
+        'draconicevolution:disenchanter',
+        'minecraft:enchanted_book',
+        'gtceu:aluminium_ingot'
+    )
+
 });
 

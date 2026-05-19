@@ -376,7 +376,7 @@
 				}
 			]
 			x: 9.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2B31E6C1707D8195"]
@@ -392,8 +392,8 @@
 				item: "ae2:wireless_crafting_terminal"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 4.5d
+			x: 7.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["16299B9AE87257DC"]
@@ -413,8 +413,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: 6.0d
+			x: 5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -491,7 +491,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["51DE3157DE3E57B8"]
