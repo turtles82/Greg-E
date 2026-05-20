@@ -56,7 +56,11 @@
 		}
 		{
 			dependencies: ["2ABA3AB7CE13B96B"]
-			description: ["You need to find Rotbeast, then use a data model on him."]
+			description: [
+				"You need to find Rotbeast, then use a data model on him."
+				""
+				"Alternatively, craft its data model from resources around Undergarden."
+			]
 			id: "21CBF55884B3643E"
 			tasks: [{
 				id: "0EE3F5B45B634CF8"
@@ -83,7 +87,11 @@
 				"21CBF55884B3643E"
 				"3D99D74D3A80F824"
 			]
-			description: ["Find this mob in catacombs. Use explorers compass to find him faster."]
+			description: [
+				"Find this mob in catacombs. Use explorers compass to find him faster."
+				""
+				"Alternatively, craft its data model from resources around Undergarden."
+			]
 			id: "349224B63A262856"
 			tasks: [{
 				id: "426E9D3D9B818424"
@@ -94,6 +102,8 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["349224B63A262856"]
+			description: ["Coils for Giant Accelerated EBF. Pretty strong."]
 			id: "460702CC2EF7FBA5"
 			tasks: [{
 				id: "0E8F663E66BF7595"

@@ -29,7 +29,7 @@ ServerEvents.recipes((event) => {
         blood: [0, 25, 65, 95, 130],
         energy: 15000,
         entities: [
-          'twilightforest:carminite_golem',
+          'twilightforest:alpha_yeti',
           'twilightforest:minoshroom'
         ],
       },

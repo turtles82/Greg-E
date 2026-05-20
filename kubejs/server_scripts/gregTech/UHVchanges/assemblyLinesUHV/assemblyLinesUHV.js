@@ -69,5 +69,26 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UHV])
         .stationResearch(b => b.researchStack(Item.of('gtceu:mega_blast_furnace')).EUt(GTValues.VA[GTValues.UHV]).CWUt(512))
 
+    event.recipes.gtceu.assembly_line()
+        .itemInputs(
+            '16x #gtceu:circuits/uhv',
+            '8x gtceu:gravi_star',
+            '64x gtceu:long_neutronium_rod',
+            '64x gtceu:long_neutronium_rod',
+            '64x gtceu:long_neutronium_rod',
+            '16x gtceu:uhv_electric_motor',
+            '16x gtceu:uhv_robot_arm',
+            '32x gtceu:atomic_casing',
+            '16x gtceu:tungsten_steel_frame',
+            '16x gtceu:stress_proof_casing'
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 10000'
+        )
+        .itemOutputs('gregecore:spaceelevator')
+        .duration(1000)
+        .EUt(GTValues.VA[GTValues.UHV])
+        .stationResearch(b => b.researchStack(Item.of('gtceu:long_neutronium_rod')).EUt(GTValues.VA[GTValues.UHV]).CWUt(512))
+
 
 })

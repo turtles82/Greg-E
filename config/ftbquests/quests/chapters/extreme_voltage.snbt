@@ -501,6 +501,7 @@
 				"4) Use the EV robotic arm as a lighter"
 				"5) You're in the nether!"
 			]
+			icon: "minecraft:netherrack"
 			id: "72113C2A16D3AB1B"
 			tasks: [{
 				dimension: "minecraft:the_nether"

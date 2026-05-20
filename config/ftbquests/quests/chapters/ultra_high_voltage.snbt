@@ -374,6 +374,17 @@
 			x: -5.5d
 			y: 10.0d
 		}
+		{
+			dependencies: ["27AF6C28D64017A6"]
+			id: "6C7F90A21AC0CE0C"
+			tasks: [{
+				id: "564D0913620FE0FF"
+				item: "gregecore:spaceelevator"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -12.5d
+		}
 	]
 	title: "UHV"
 }
