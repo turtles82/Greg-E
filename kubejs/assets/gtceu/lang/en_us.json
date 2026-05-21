@@ -266,6 +266,18 @@
   "block.gtceu.insaniumtreatmentfacilty": "Insanium Treatment Facility",
   "gtceu.insaniumtreatmentfacilty": "Insanium Treatment Facility",
 
+  "material.gtceu.decursium": "Decursium",
+  "material.gtceu.decursium_oxide": "Decursium Oxide",
+  "material.gtceu.recursium": "Recursium-1",
+  "material.gtceu.recursium_2": "Recursium-2",
+  "material.gtceu.recursium_3": "Recursium-3",
+
+  "material.gtceu.dirty_vibranium": "Dirty Vibranium",
+  "material.gtceu.vibranium_slurry": "Vibranium Slurry",
+  "material.gtceu.muddy_vibranium": "Muddy Vibranium",
+  "material.gtceu.hydrovalhallium_acid": "Hydrovalhallium Acid",
+  "material.gtceu.vibranium": "Vibranium",
+
   "material.gtceu.aurelium": "Aurelium",
   "material.gtceu.aurelium_nitrate_solution": "Aurelium Nitrate Solution",
   "material.gtceu.refined_aurelium": "Refined Aurelium",

@@ -79,7 +79,7 @@ ServerEvents.recipes((event) => {
             '16x gtceu:uhv_electric_motor',
             '16x gtceu:uhv_robot_arm',
             '32x gtceu:atomic_casing',
-            '16x gtceu:tungsten_steel_frame',
+            '16x gtceu:hastelloy_c_276_frame',
             '16x gtceu:stress_proof_casing'
         )
         .inputFluids(

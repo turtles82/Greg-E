@@ -190,6 +190,15 @@ ItemEvents.tooltip((event) => {
 
     event.addAdvanced(
         [
+            'gregecore:awakened_draconium_coil'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.green('Coil heat capacity: ').append(Text.yellow('12000K')));
+        }
+    );
+
+    event.addAdvanced(
+        [
             'kubejs:vileheart'
         ],
         (item, advanced, text) => {

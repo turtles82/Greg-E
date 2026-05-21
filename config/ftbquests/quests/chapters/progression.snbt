@@ -1199,6 +1199,16 @@
 			x: 6.0d
 			y: 2.0d
 		}
+		{
+			id: "2864F181A68C21C8"
+			tasks: [{
+				id: "00909A93E1B94CDA"
+				item: "gtceu:raw_decursium"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 0.0d
+		}
 	]
 	title: "Progression"
 }

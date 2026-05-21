@@ -1,0 +1,40 @@
+GTCEuStartupEvents.registry('gtceu:material', event => {
+
+    event.create('dirty_vibranium')
+        .ore()
+        .formula("(ViC2O4V3) + (Al2AuFe4)")
+        .color(0x17503a)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.NO_ORE_PROCESSING_TAB)
+
+    event.create('vibranium_slurry')
+        .liquid()
+        .formula("(ViC2) + (Al2Fe2)")
+        .color(0x1e6a4c)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.NO_ORE_PROCESSING_TAB)
+
+    event.create('muddy_vibranium')
+        .dust()
+        .liquid()
+        .formula("ViC2")
+        .color(0x24805c)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.NO_ORE_PROCESSING_TAB)
+
+    event.create('hydrovalhallium_acid')
+        .liquid()
+        .formula("H2Vh4O8")
+        .color(0xa6a758)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.NO_ORE_PROCESSING_TAB)
+
+    event.create('vibranium')
+        .ingot()
+        .blastTemp(3700)
+        .formula("Vi")
+        .color(0x37c58e)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.NO_ORE_PROCESSING_TAB)
+
+})

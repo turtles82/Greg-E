@@ -12,7 +12,7 @@ ServerEvents.recipes((event) => {
             '64x avaritia:crystal_matrix',
             '4x gtceu:neutronium_block',
             '16x gtceu:tritanium_block',
-            '64x gtceu:steel_block'
+            '16x gtceu:decursium_block'
         )
         .itemOutputs(
             'avaritia:infinity_catalyst'
