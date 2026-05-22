@@ -90,5 +90,58 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UHV])
         .stationResearch(b => b.researchStack(Item.of('gtceu:long_neutronium_rod')).EUt(GTValues.VA[GTValues.UHV]).CWUt(512))
 
+    event.recipes.gtceu.assembly_line()
+        .itemInputs(
+            '16x #gtceu:circuits/uhv',
+            '4x gtceu:uhv_robot_arm',
+            '4x gtceu:uhv_electric_piston',
+            '32x gtceu:atomic_casing',
+            '16x gtceu:laminated_glass',
+            '16x gtceu:vibration_safe_casing',
+            '16x gtceu:computer_casing',
+            '8x gtceu:vibranium_gear',
+            '12x gtceu:vibranium_rod',
+            '16x gtceu:double_vibranium_plate'
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 10000'
+        )
+        .itemOutputs('gregecore:deep_space_explorer')
+        .duration(1000)
+        .EUt(GTValues.VA[GTValues.UHV])
+        .stationResearch(b => b.researchStack(Item.of('gtceu:vibranium_plate')).EUt(GTValues.VA[GTValues.UHV]).CWUt(512))
+
+    event.recipes.gtceu.assembly_line()
+        .itemInputs(
+            '4x #gtceu:circuits/uhv',
+            'gtceu:atomic_casing',
+            '4x gtceu:small_vibranium_gear',
+            '8x gtceu:vibranium_plate'
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 10000'
+        )
+        .itemOutputs('gregecore:drone_access_machine')
+        .duration(1000)
+        .EUt(GTValues.VA[GTValues.UHV])
+        .stationResearch(b => b.researchStack(Item.of('gtceu:small_vibranium_gear')).EUt(GTValues.VA[GTValues.UHV]).CWUt(512))
+
+    event.recipes.gtceu.assembly_line()
+        .itemInputs(
+            '16x #gtceu:circuits/uhv',
+            '16x gtceu:vibranium_foil',
+            '4x gtceu:vibranium_gear',
+            '8x gtceu:vibranium_plate',
+            '4x gtceu:neutronium_frame',
+            'gtceu:red_dye_spray_can'
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 10000'
+        )
+        .itemOutputs('gregecore:spaceship1')
+        .duration(1000)
+        .EUt(GTValues.VA[GTValues.UHV])
+        .stationResearch(b => b.researchStack(Item.of('ad_astra:rocket_nose_cone')).EUt(GTValues.VA[GTValues.UHV]).CWUt(512))
+
 
 })

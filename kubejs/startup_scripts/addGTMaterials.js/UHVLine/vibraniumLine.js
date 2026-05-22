@@ -35,6 +35,6 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .formula("Vi")
         .color(0x37c58e)
         .iconSet(GTMaterialIconSet.METALLIC)
-        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.NO_ORE_PROCESSING_TAB)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.NO_ORE_PROCESSING_TAB, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_SMALL_GEAR, GTMaterialFlags.GENERATE_FOIL)
 
 })

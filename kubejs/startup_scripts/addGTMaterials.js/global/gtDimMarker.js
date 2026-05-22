@@ -5,6 +5,11 @@ GTCEuStartupEvents.registry("gtceu:dimension_marker", event => {
         .tier(0)
         .overrideName("Mars")
 
+    event.create("ad_astra:venus")
+        .iconSupplier(() => Item.of("ad_astra:venus_globe").getItem())
+        .tier(0)
+        .overrideName("Venus")
+
     event.create("ad_extendra:sedna")
         .iconSupplier(() => Item.of("ad_extendra:sedna_globe").getItem())
         .tier(0)

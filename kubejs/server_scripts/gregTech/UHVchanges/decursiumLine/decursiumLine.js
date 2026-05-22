@@ -63,7 +63,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             'gtceu:hot_decursium_ingot' 
         )
-        .blastFurnaceTemp(11500)
+        .blastFurnaceTemp(10000)
         .duration(800)
         .EUt(GTValues.VA[GTValues.UHV])
 

@@ -173,4 +173,26 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UHV])
         .circuit(1)
 
+    event.recipes.gtceu.send_up_the_mats()
+        .itemInputs(
+            '16x kubejs:neutroniuminfused'
+        )
+        .itemOutputs(
+            '8x gtceu:raw_dirty_vibranium'
+        )
+        .duration(600)
+        .addData('height_level', 450)
+        .EUt(GTValues.VA[GTValues.UHV])
+        .circuit(2)
+
+    event.recipes.gtceu.send_up_the_mats()
+        .outputFluids(
+            'gtceu:astrophage_fuel 10000'
+        )
+        .duration(1000)
+        .addData('height_level', 250)
+        .EUt(GTValues.VA[GTValues.UHV])
+        .circuit(1)
+        .dimension('ad_astra:venus')
+
 })
