@@ -4,9 +4,9 @@ ServerEvents.recipes((event) => {
     let alloys = [
         {output: 'enderio:copper_alloy_ingot', inputs: ['minecraft:copper_ingot', 'ae2:silicon'], duration: 300, energy: GTValues.VA[GTValues.LV]},
         {output: 'enderio:energetic_alloy_ingot', inputs: ['minecraft:gold_ingot', 'minecraft:glowstone_dust'], duration: 300, energy: GTValues.VA[GTValues.LV]},
-        {output: 'enderio:vibrant_alloy_ingot', inputs: ['enderio:energetic_alloy_ingot', 'minecraft:ender_pearl'], duration: 300, energy: GTValues.VA[GTValues.MV]},
+        {output: 'enderio:vibrant_alloy_ingot', inputs: ['enderio:energetic_alloy_ingot', 'minecraft:ender_pearl'], duration: 300, energy: GTValues.VA[GTValues.LV]},
         {output: 'enderio:redstone_alloy_ingot', inputs: ['minecraft:redstone', 'ae2:silicon'], duration: 400, energy: GTValues.VA[GTValues.LV]},
-        {output: 'enderio:conductive_alloy_ingot', inputs: ['enderio:copper_alloy_ingot', 'minecraft:redstone'], duration: 400, energy: GTValues.VA[GTValues.MV]},
+        {output: 'enderio:conductive_alloy_ingot', inputs: ['enderio:copper_alloy_ingot', 'minecraft:redstone'], duration: 400, energy: GTValues.VA[GTValues.LV]},
         {output: 'enderio:pulsating_alloy_ingot', inputs: ['minecraft:iron_ingot', 'minecraft:ender_pearl'], duration: 400, energy: GTValues.VA[GTValues.LV]},
         {output: 'enderio:dark_steel_ingot', inputs: ['minecraft:obsidian', 'minecraft:iron_ingot'], duration: 500, energy: GTValues.VA[GTValues.HV]},
         {output: 'enderio:soularium_ingot', inputs: ['minecraft:copper_ingot', '#minecraft:soul_fire_base_blocks'], duration: 500, energy: GTValues.VA[GTValues.LV]},
