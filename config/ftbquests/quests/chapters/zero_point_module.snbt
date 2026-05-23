@@ -643,6 +643,17 @@
 			x: 2.5d
 			y: 8.0d
 		}
+		{
+			dependencies: ["3D73BD20825BFF29"]
+			id: "31C731B6ECF7ED15"
+			tasks: [{
+				id: "0569EED44CAA4DF6"
+				item: "gtceu:giantabs"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
 	]
 	title: "ZPM"
 }
