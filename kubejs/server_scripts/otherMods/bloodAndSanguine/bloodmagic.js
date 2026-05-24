@@ -54,7 +54,7 @@ ServerEvents.recipes((event) => {
       consumptionRate: 250,
       drainRate: 250,
       input: {
-        item: 'bloodmagic:demonslate',
+        item: 'minecraft:iron_ingot',
       },
       output: {
         item: 'kubejs:runeingot',

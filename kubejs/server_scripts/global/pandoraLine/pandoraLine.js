@@ -123,7 +123,7 @@ ServerEvents.recipes((event) => {
             'gtceu:nitrogen 150'
         )
         .itemOutputs(
-            'gtceu:jakobium_dust'
+            '3x gtceu:jakobium_dust'
         )
         .EUt(GTValues.VA[GTValues.ZPM])
         .blastFurnaceTemp(5000)
@@ -171,9 +171,9 @@ ServerEvents.recipes((event) => {
             'gtceu:hyperium_dust'
         )
         .itemOutputs(
-            'gtceu:skagium_dust'
+            '3x gtceu:skagium_dust'
         )
-        .EUt(GTValues.VA[GTValues.UV])
+        .EUt(GTValues.VA[GTValues.ZPM])
         .duration(300)
         .circuit(12)
 
@@ -298,7 +298,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             'gtceu:maliwanium_dust'
         )
-        .EUt(GTValues.VA[GTValues.UV])
+        .EUt(GTValues.VA[GTValues.ZPM])
         .duration(200)
         .disableDistilleryRecipes(true)
 
@@ -337,7 +337,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             'gtceu:hot_maliwanium_ingot'
         )
-        .EUt(GTValues.VA[GTValues.UV])
+        .EUt(GTValues.VA[GTValues.ZPM])
         .blastFurnaceTemp(5000)
         .duration(800)
 
@@ -358,7 +358,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             'gtceu:maliwanium_ingot'
         )
-        .EUt(GTValues.VA[GTValues.UV])
+        .EUt(GTValues.VA[GTValues.ZPM])
         .duration(200)
 
     event.recipes.gtceu.compressor()
@@ -378,7 +378,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             'gtceu:maliwanium_block'
         )
-        .EUt(GTValues.VA[GTValues.UV])
+        .EUt(GTValues.VA[GTValues.ZPM])
         .duration(200)
 
     event.recipes.gtceu.compressor()
