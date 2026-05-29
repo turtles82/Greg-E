@@ -119,26 +119,11 @@
 				item: "gtceu:uranium_rhodium_dinaquadide_dust"
 				type: "item"
 			}]
-			x: -11.5d
-			y: -7.5d
-		}
-		{
-			dependencies: ["5D1B9EACB654BDF8"]
-			description: [""]
-			id: "16522A3A1E66C914"
-			tasks: [{
-				id: "6F0C524BD6D013D1"
-				item: "gtceu:trinium_coil_block"
-				type: "item"
-			}]
 			x: -10.0d
-			y: -2.0d
+			y: -5.5d
 		}
 		{
-			dependencies: [
-				"39D7F47A8C44D5AF"
-				"16522A3A1E66C914"
-			]
+			dependencies: ["39D7F47A8C44D5AF"]
 			description: [""]
 			id: "0EA56C514D26BA69"
 			tasks: [{
@@ -525,16 +510,16 @@
 			y: -10.5d
 		}
 		{
-			dependencies: ["16522A3A1E66C914"]
 			description: [""]
 			id: "2CB735807E38903F"
+			shape: "square"
 			tasks: [{
 				id: "4872647CCF87A557"
 				item: "gtceu:naquadria_ingot"
 				type: "item"
 			}]
 			x: -13.0d
-			y: -7.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["59F96E1680617EF0"]
@@ -764,6 +749,17 @@
 			}]
 			x: 6.0d
 			y: -3.5d
+		}
+		{
+			dependencies: ["24BAE271D9DE988C"]
+			id: "20485F48F0460971"
+			tasks: [{
+				id: "2710BDE8486D1FC0"
+				item: "gregecore:advanced_parallel_booster_machine"
+				type: "item"
+			}]
+			x: -8.214285714285715d
+			y: 3.5d
 		}
 	]
 	title: "UV"
