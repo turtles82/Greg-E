@@ -219,6 +219,12 @@ ServerEvents.recipes((event) => {
         'enderio:fused_quartz'
     )
 
+    event.replaceInput(
+        'enderio:conduit_probe',
+        'enderio:energy_conduit',
+        'gtceu:steel_ingot'
+    )
+
     event.shaped(
         Item.of('gtceu:hv_soul_binder', 1),
         [

@@ -106,7 +106,7 @@ ServerEvents.recipes((event) => {
     event.recipes.gtceu.assembler()
         .itemInputs(
             '#gtceu:circuits/lv',
-            'minecraft:book'
+            'minecraft:paper'
         )
         .itemOutputs(
             'gtceu:terminal'

@@ -62,4 +62,15 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.ZPM])
         .circuit(6)
 
+    event.recipes.gtceu.centrifuge()
+        .itemInputs(
+            'kubejs:activatedrune',
+        )
+        .itemOutputs(
+            '2x gtceu:raw_plutonium'
+        )
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.ZPM])
+        .circuit(7)
+
 });

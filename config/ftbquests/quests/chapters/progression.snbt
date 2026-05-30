@@ -890,7 +890,7 @@
 				item: "gtceu:boron_dust"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 15.5d
 			y: 0.0d
 		}
 		{
@@ -1007,7 +1007,7 @@
 				item: "gtceu:voidium_bucket"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 16.5d
 			y: 0.0d
 		}
 		{
@@ -1218,6 +1218,16 @@
 			}]
 			x: 2.5d
 			y: 1.0d
+		}
+		{
+			id: "1CFD32B9BF24DE5D"
+			tasks: [{
+				id: "776B71FC97812EB6"
+				item: "gtceu:raw_plutonium"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.0d
 		}
 	]
 	title: "Progression"
