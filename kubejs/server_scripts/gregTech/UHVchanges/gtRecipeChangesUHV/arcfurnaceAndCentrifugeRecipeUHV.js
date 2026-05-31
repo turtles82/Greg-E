@@ -1,6 +1,6 @@
 ServerEvents.recipes((event) => {
 
-    event.recipes.gtceu.arc_furnace('getthelastdust')
+    event.recipes.gtceu.mixer('getthelastdust')
         .itemInputs(
             '2x kubejs:dustwithbroom'
         )
@@ -12,6 +12,7 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(100)
+        .circuit(1)
 
     event.recipes.gtceu.centrifuge('getthedraconium')
         .itemInputs(

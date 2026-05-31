@@ -281,6 +281,16 @@
   "block.gtceu.insaniumtreatmentfacilty": "Insanium Treatment Facility",
   "gtceu.insaniumtreatmentfacilty": "Insanium Treatment Facility",
 
+  "material.gtceu.californiumish": "Californium",
+  "material.gtceu.alfa_particles": "Alfa Particles",
+  "material.gtceu.oganessonish": "Oganesson",
+
+  "material.gtceu.berkeliumish": "Berkelium",
+  "material.gtceu.calcium48": "Calcium-48",
+  "material.gtceu.tennessineish": "Tennessine",
+  "block.gtceu.decay_chamber": "Decay Chamber",
+  "gtceu.decay_materials": "Decaying Materials",
+
   "block.gtceu.giantabs": "Giant Alloy Blast Smelter",
   "gtceu.giantabs": "Giant Alloy Blast Smelter",
 

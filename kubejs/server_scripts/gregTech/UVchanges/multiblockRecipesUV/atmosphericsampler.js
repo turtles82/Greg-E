@@ -29,5 +29,6 @@ ServerEvents.recipes((event) => {
     )
     .EUt(GTValues.VA[GTValues.UV])
     .duration(200)    
+    .circuit(1)
 
 });
