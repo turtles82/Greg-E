@@ -353,6 +353,9 @@
   "gtceu.astrophage_charging": "Astrophage Charging",
   "block.gtceu.astrophage_charger": "Astrophage Charger",
 
+  "gtceu.adrobstat": "Advanced Robotics Workstation",
+  "block.gtceu.adrobstat": "Advanced Robotics Workstation",
+
   "material.gtceu.aurelium": "Aurelium",
   "material.gtceu.aurelium_nitrate_solution": "Aurelium Nitrate Solution",
   "material.gtceu.refined_aurelium": "Refined Aurelium",

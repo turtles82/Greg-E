@@ -95,6 +95,11 @@ StartupEvents.registry('item', event => {
     event.create('draeneiwood').displayName('Draenei Wood Plank')
     event.create('scepterofsand').displayName('Scepter Of The Shifting Sands')
 
+    event.create('luvpermit').displayName('LuV Crafting Blueprints')
+    event.create('zpmpermit').displayName('ZPM Crafting Blueprints')
+    event.create('uvpermit').displayName('UV Crafting Blueprints')
+    event.create('uhvpermit').displayName('UHV Crafting Blueprints')
+
     event.create('naquadahfilter').displayName('Naquadah Filter')
     event.create('nebulonfilter').displayName('Nebulon-Alpha Filter')
     event.create('prismaliumfilter').displayName('Prismalium Filter')
