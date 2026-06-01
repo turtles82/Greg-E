@@ -29,4 +29,27 @@ ServerEvents.recipes((event) => {
         )
         .duration(100)
         .EUt(30)
+
+    event.recipes.gtceu.extractor()
+        .itemInputs(
+            Item.of('hostilenetworks:prediction', '{data_model:{id:"hostilenetworks:cow"}}').weakNBT()
+        )
+        .outputFluids(
+            'minecraft:milk 1000'
+        )
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    event.recipes.gtceu.canner()
+        .itemInputs(
+            'minecraft:bucket'
+        )
+        .inputFluids(
+            'minecraft:milk 1000'
+        )
+        .itemOutputs(
+            'minecraft:milk_bucket'
+        )
+        .duration(50)
+        .EUt(GTValues.VA[GTValues.LV])
 })
