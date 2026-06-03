@@ -5,7 +5,10 @@ ServerEvents.recipes((event) => {
             '16x #gtceu:circuits/uhv',
             '8x gtceu:fusion_coil',
             '2x gtceu:gravi_star',
-            '32x gregecore:dense_draconium_cable_plate',
+            '6x gregecore:dense_draconium_cable_plate',
+            '6x gregecore:dense_draconium_cable_plate',
+            '6x gregecore:dense_draconium_cable_plate',
+            '6x gregecore:dense_draconium_cable_plate',
             '16x gtceu:uv_sensor',
             '16x gtceu:uv_field_generator',
             '16x gregecore:draconiumfusion'
