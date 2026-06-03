@@ -36,6 +36,10 @@ ServerEvents.recipes((event) =>{
         { 
             name: 'awakened_draconium', 
             replacement: 'draconicevolution:awakened_draconium_ingot'
+        },
+        { 
+            name: 'diamond_lattice', 
+            replacement: 'avaritia:diamond_lattice'
         }
     ];
 

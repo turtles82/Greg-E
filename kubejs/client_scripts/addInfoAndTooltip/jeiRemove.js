@@ -1530,7 +1530,12 @@ let emiBannedItems = [
     "item:gtceu:blaze_cubeish_nugget",
     "item:gtceu:blaze_cubeish_plate",
     "item:gtceu:blaze_cubeish_dust",
-    "item:gtceu:blaze_cubeish_foil"
+    "item:gtceu:blaze_cubeish_foil",
+    "item:gtceu:tiny_hephaestium_dust",
+    "item:gtceu:small_hephaestium_dust",
+    "item:gtceu:hephaestium_nugget",
+    "item:gtceu:hephaestium_block",
+    "item:gtceu:max_machine_hull"
 ];
 
 let getCorrectItem = (emiBannedItems) => {

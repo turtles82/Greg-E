@@ -238,6 +238,18 @@
 			x: 0.5d
 			y: -8.0d
 		}
+		{
+			dependencies: ["433308CADCABF703"]
+			description: ["Last tier of energy hatches!"]
+			id: "7B182B011D77AFE9"
+			tasks: [{
+				id: "209BBB41919BC59C"
+				item: "gtceu:uev_energy_input_hatch"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
 	]
 	title: "AVARITIA"
 }

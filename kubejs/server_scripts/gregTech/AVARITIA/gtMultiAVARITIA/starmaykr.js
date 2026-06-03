@@ -177,7 +177,7 @@ ServerEvents.recipes((event) => {
             '16x avaritia:diamond_lattice'
         )
         .itemOutputs(
-            '16x gtceu:diamond_lattice_ingot'
+            '16x gtceu:diamond_lattice_cable_ingot'
         )
         .duration(600)
         .EUt(GTValues.VA[GTValues.UEV])

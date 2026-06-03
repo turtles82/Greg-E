@@ -62,12 +62,13 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(GTMaterialIconSet.ROUGH)
         .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.GENERATE_FINE_WIRE)
 
-    event.create('diamond_lattice')
+    event.create('diamond_lattice_cable')
+        .ingot()
         .cableProperties(GTValues.VA[GTValues.UEV], 256, 0, true)
         .ingot()
         .color(0x61cbdb)
         .iconSet(GTMaterialIconSet.METALLIC)
-        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+        .flags(GTMaterialFlags.GENERATE_SPRING)
 
     event.create('dragons_breath')
         .fluid()
