@@ -316,10 +316,6 @@ ServerEvents.recipes((event) => {
         .duration(600)
         .addData('essentia', "0,0,1,1,1,0")
 
-
-
     //aqua, terra, aer, ignis, perditio, ordo
-
-    
 
 })

@@ -18,7 +18,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.assembler()
         .itemInputs(
-            'gtceu:luv_machine_hull',
+            'gtceu:ulv_machine_hull',
             'gtceu:lv_super_tank'
         )
         .inputFluids(
@@ -33,7 +33,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.assembler()
         .itemInputs(
-            'gtceu:luv_machine_hull',
+            'gtceu:ulv_machine_hull',
             'gtceu:lv_super_tank'
         )
         .inputFluids(
@@ -48,7 +48,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.assembler()
         .itemInputs(
-            'gtceu:luv_machine_hull',
+            'gtceu:ulv_machine_hull',
             'gtceu:lv_super_tank'
         )
         .inputFluids(
@@ -63,7 +63,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.assembler()
         .itemInputs(
-            'gtceu:luv_machine_hull',
+            'gtceu:ulv_machine_hull',
             'gtceu:lv_super_tank'
         )
         .inputFluids(
@@ -78,7 +78,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.assembler()
         .itemInputs(
-            'gtceu:luv_machine_hull',
+            'gtceu:ulv_machine_hull',
             'gtceu:lv_super_tank'
         )
         .inputFluids(
@@ -93,7 +93,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.assembler()
         .itemInputs(
-            'gtceu:luv_machine_hull',
+            'gtceu:ulv_machine_hull',
             'gtceu:lv_super_tank'
         )
         .inputFluids(
@@ -108,7 +108,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.assembler()
         .itemInputs(
-            'gtceu:luv_machine_hull',
+            'gtceu:ulv_machine_hull',
             'avaritia:compressed_chest'
         )
         .inputFluids(
