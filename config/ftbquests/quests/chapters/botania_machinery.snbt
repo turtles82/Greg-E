@@ -13,6 +13,11 @@
 			dependencies: ["55F32DBE055801EB"]
 			description: ["Machines with GUI in my Botania mod??????"]
 			id: "6EADC5DC032BB334"
+			rewards: [{
+				id: "46AD0F095285B6FF"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4268ED8F28353693"
 				item: "botanicalextramachinery:malachite_ingot"
@@ -33,6 +38,11 @@
 				"Try to aim for Greenhouse from the same mod. Its really good."
 			]
 			id: "3137CE868D2329EA"
+			rewards: [{
+				id: "31840A760D834E9B"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5E231F31489E73AC"
 				item: "botanicalextramachinery:base_industrial_agglomeration_factory"
@@ -44,6 +54,11 @@
 		{
 			description: ["The easiest flower to get mana from is the Wither Aconite, while yes, it eats nether stars like no tomorrow, they are easy to source fron HNN."]
 			id: "55F32DBE055801EB"
+			rewards: [{
+				id: "5E74FB28F104750D"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "54C9E718BA35E41A"
 				title: "Mana production"
@@ -59,6 +74,11 @@
 				"This will take a bit of time before you can craft the best material, but it will be worth it with Giant Accelerated EBF - best EBF until UHV."
 			]
 			id: "20BBB8EBDEB1EB5C"
+			rewards: [{
+				id: "19D650394DF3B6F0"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1C84BB48CC1A5C4A"
 				title: "Scale up those machines"
@@ -70,6 +90,11 @@
 		{
 			dependencies: ["20BBB8EBDEB1EB5C"]
 			id: "0D7840A9B981EC17"
+			rewards: [{
+				id: "0651F8781568BEC3"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3BAF02252297A6B0"
 				item: "botanicalextramachinery:crimson_dragonstone_block"
@@ -86,6 +111,11 @@
 				"Also you can connect this machine directly to your AE2 system equipped with mana cells."
 			]
 			id: "47B0DD05FC8BDCB1"
+			rewards: [{
+				id: "3DE90EBA84CD6E6F"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "21802AF783DE2D08"
 				item: "botanicalextramachinery:greenhouse"
@@ -102,6 +132,11 @@
 				"The upgrades go up to 64x."
 			]
 			id: "10B65A6374B78580"
+			rewards: [{
+				id: "65EA98A3284916D5"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5BD26F4D915E4DD1"
 				item: "botanicalextramachinery:upgrade_flower_4x"
@@ -114,6 +149,11 @@
 			dependencies: ["47B0DD05FC8BDCB1"]
 			description: ["Flat % upgrades, very useful."]
 			id: "39363B4C62D5B9A7"
+			rewards: [{
+				id: "6CC27DD25D25B89B"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "45B237DA13EEFB37"
@@ -133,6 +173,11 @@
 			dependencies: ["47B0DD05FC8BDCB1"]
 			description: ["Speed and energy upgrades."]
 			id: "336B6A6E092D22FE"
+			rewards: [{
+				id: "21662129B27633D2"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "3BC0625A7ADD36CE"
@@ -153,6 +198,11 @@
 			dependencies: ["47B0DD05FC8BDCB1"]
 			description: ["Utility upgrades."]
 			id: "0D23E8C371650B89"
+			rewards: [{
+				id: "0DB421BBE560715D"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "082EA6FBEC9B4DE2"
@@ -172,6 +222,11 @@
 			dependencies: ["3137CE868D2329EA"]
 			description: ["Accelerates the crafting."]
 			id: "244322CFF238A7F5"
+			rewards: [{
+				id: "7D8791648374E6E4"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "178DEF852BCFADFB"
 				item: "botanicalextramachinery:catalyst_speed"
@@ -184,6 +239,11 @@
 			dependencies: ["6EADC5DC032BB334"]
 			description: ["These coils are starting to be pretty good..."]
 			id: "4802E7D395E31147"
+			rewards: [{
+				id: "35ABF247A5D9705C"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3F4661D541216EE2"
 				item: "gregecore:malachite_coil"

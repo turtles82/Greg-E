@@ -15,6 +15,11 @@
 			description: [""]
 			icon: "gtceu:uv_fusion_reactor"
 			id: "6E18951E41103391"
+			rewards: [{
+				id: "7030958F1D0BA986"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
@@ -33,6 +38,11 @@
 			]
 			description: [""]
 			id: "5561EB1E3DD77EC5"
+			rewards: [{
+				id: "157DFD98F8CEF268"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
@@ -48,6 +58,11 @@
 			description: [""]
 			id: "0D59094D0C23C44F"
 			optional: true
+			rewards: [{
+				id: "4FFB091BEDA7E3A4"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "685632AB2A3AFA5C"
 				item: "gtceu:uv_parallel_hatch"
@@ -60,6 +75,11 @@
 			dependencies: ["695E846B663EC185"]
 			description: [""]
 			id: "337B492F974628A4"
+			rewards: [{
+				id: "642D50E0A711C2B3"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "10FC27F148761FA1"
 				item: "gtceu:uhv_machine_hull"
@@ -75,6 +95,11 @@
 			]
 			description: [""]
 			id: "702CE73E39E4D4BD"
+			rewards: [{
+				id: "6F9787D4518E0AAE"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2EDA6683F4114183"
 				item: "gtceu:ruthenium_trinium_americium_neutronate_ingot"
@@ -88,6 +113,11 @@
 			description: [""]
 			icon: "gtceu:mega_blast_furnace"
 			id: "625B5E3CDDAECFFD"
+			rewards: [{
+				id: "51FB4D1DD0ACF4D8"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
@@ -102,6 +132,11 @@
 			dependencies: ["283C1D5CEC444F02"]
 			description: [""]
 			id: "054D2D3C20C2D32F"
+			rewards: [{
+				id: "6B0855A32111C230"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -116,6 +151,11 @@
 			dependencies: ["6E18951E41103391"]
 			description: [""]
 			id: "695E846B663EC185"
+			rewards: [{
+				id: "6E57278BB36DA53F"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
@@ -130,6 +170,11 @@
 			dependencies: ["695E846B663EC185"]
 			description: [""]
 			id: "142D12B41C36D68A"
+			rewards: [{
+				id: "172251541925BA0A"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0EB38073B9196667"
 				item: "gtceu:neutronium_boule"
@@ -141,6 +186,11 @@
 		{
 			dependencies: ["625B5E3CDDAECFFD"]
 			id: "10E27C69CF6CD96B"
+			rewards: [{
+				id: "18A8F8BA23B78CAD"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "75660498A0D08530"
 				item: "gregecore:learning_acc_ebf"
@@ -152,6 +202,11 @@
 		{
 			dependencies: ["054D2D3C20C2D32F"]
 			id: "31A6C34011E3F8C7"
+			rewards: [{
+				id: "0B07D5571214AD75"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "05BCB99D7C6EF7EC"
 				item: "kubejs:animated/uhvalloy"
@@ -163,6 +218,11 @@
 		{
 			dependencies: ["6E18951E41103391"]
 			id: "366003B67232BB6F"
+			rewards: [{
+				id: "008ACD813326AA2C"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5980F8C223937653"
 				item: "gregecore:enhancedfr"
@@ -177,6 +237,11 @@
 				"6031F8A122A84855"
 			]
 			id: "4D89A1A3BC682102"
+			rewards: [{
+				id: "7B29FEE28FE6E92A"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 2.0d
 			tasks: [{
@@ -190,6 +255,11 @@
 		{
 			dependencies: ["054D2D3C20C2D32F"]
 			id: "7021E6B5D8D23163"
+			rewards: [{
+				id: "1167B50920F4F10D"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "11F4C9E9A7303E4F"
@@ -209,6 +279,11 @@
 			dependencies: ["054D2D3C20C2D32F"]
 			description: ["Nebulon line, the end products are used in UHV motors, pumps... etc!"]
 			id: "7768C3462C0EBFD3"
+			rewards: [{
+				id: "2E990B5C691F238C"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3589EC3FB280451F"
 				item: "gtceu:raw_nebulon_omega"
@@ -220,6 +295,11 @@
 		{
 			dependencies: ["7768C3462C0EBFD3"]
 			id: "41B8C1C658348626"
+			rewards: [{
+				id: "264457DEC3C6A35E"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6D705451D156556F"
 				item: "gtceu:nebulon_omega_dissolved_bucket"
@@ -231,6 +311,11 @@
 		{
 			dependencies: ["41B8C1C658348626"]
 			id: "088CD5FCEE33C8FD"
+			rewards: [{
+				id: "59E56F1510E140EB"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "25D2211960B998F8"
 				item: "gtceu:naquadron_delta_plasma_bucket"
@@ -242,6 +327,11 @@
 		{
 			dependencies: ["088CD5FCEE33C8FD"]
 			id: "7810902D047AD4C2"
+			rewards: [{
+				id: "2E7BA4C493FBFB72"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "29408E869283EF8F"
 				item: "gtceu:naquadron_delta_bucket"
@@ -253,6 +343,11 @@
 		{
 			dependencies: ["7810902D047AD4C2"]
 			id: "052B0A045C9F29AC"
+			rewards: [{
+				id: "64617A3FCFD9EF43"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "43963E3F7168E854"
 				item: "gtceu:naquadron_zeta_bucket"
@@ -263,6 +358,11 @@
 		}
 		{
 			id: "379CE9CD40CF4C89"
+			rewards: [{
+				id: "6EA0A9BFCF6E6F24"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "550448E4BD3625BC"
@@ -275,6 +375,11 @@
 		{
 			dependencies: ["379CE9CD40CF4C89"]
 			id: "4FECD7FCCC27AAF2"
+			rewards: [{
+				id: "3C92D53CAC219765"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "77D7581295A78BA5"
 				item: "gtceu:excited_naquadic_solution_bucket"
@@ -289,6 +394,11 @@
 				"4FECD7FCCC27AAF2"
 			]
 			id: "747F9ABE7B28261B"
+			rewards: [{
+				id: "610D8EC1345109C8"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "43D32AB3170B6AA9"
 				item: "gtceu:dinebulon_zeta_omni_fluid_bucket"
@@ -300,6 +410,11 @@
 		{
 			dependencies: ["747F9ABE7B28261B"]
 			id: "2D0074B332468A24"
+			rewards: [{
+				id: "47263511EE8D1F7C"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "55CE3A1EF4684353"
 				item: "gtceu:dinebulon_zeta_bucket"
@@ -311,6 +426,11 @@
 		{
 			dependencies: ["2D0074B332468A24"]
 			id: "48A72821B8A7A73D"
+			rewards: [{
+				id: "21CED8AEC2733220"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4C0B9121C22DE940"
 				item: "gtceu:nebulon_zeta_bucket"
@@ -322,6 +442,11 @@
 		{
 			dependencies: ["41B8C1C658348626"]
 			id: "626C9B5778D43A22"
+			rewards: [{
+				id: "683F2B7535637E17"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "58715B324F7067B0"
 				item: "gtceu:nebulon_gamma_slurry_bucket"
@@ -336,6 +461,11 @@
 				"4B7E2AC8E2E97EDD"
 			]
 			id: "43510CE90FAE69FD"
+			rewards: [{
+				id: "26710DC795103C4E"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "48605493364EDD30"
 				item: "gtceu:nebulon_alpha_bucket"
@@ -347,6 +477,11 @@
 		{
 			dependencies: ["626C9B5778D43A22"]
 			id: "4B7E2AC8E2E97EDD"
+			rewards: [{
+				id: "1E785AFEF25EA2B0"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1128B90A5076DDA6"
 				item: "gtceu:nebulon_gamma_bucket"
@@ -358,6 +493,11 @@
 		{
 			dependencies: ["43510CE90FAE69FD"]
 			id: "27AF6C28D64017A6"
+			rewards: [{
+				id: "7C8A842B4B06C915"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "72EA019102969DC3"
 				item: "gtceu:nebulon_alpha_ingot"
@@ -369,6 +509,11 @@
 		{
 			dependencies: ["7021E6B5D8D23163"]
 			id: "7F82F8C9A77AD478"
+			rewards: [{
+				id: "41596D1B6FCB7FF2"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2A0B99DF592F4513"
 				item: "gregecore:awakened_draconium_coil"
@@ -380,6 +525,11 @@
 		{
 			dependencies: ["27AF6C28D64017A6"]
 			id: "6C7F90A21AC0CE0C"
+			rewards: [{
+				id: "28942BFC6810662F"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "564D0913620FE0FF"
 				item: "gregecore:spaceelevator"
@@ -396,6 +546,11 @@
 				"Somehow the rocket in multiblock preview is bugged, but when the multi is assembled, its fine."
 			]
 			id: "3CD4AF46B8A50D6A"
+			rewards: [{
+				id: "5228AD0DD7559AEE"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0D0AA19E26BA43C3"
 				item: "gregecore:deep_space_explorer"
@@ -412,6 +567,11 @@
 			]
 			id: "6031F8A122A84855"
 			optional: true
+			rewards: [{
+				id: "548F34CEE2BE0B70"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{

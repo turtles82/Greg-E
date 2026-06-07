@@ -11,6 +11,18 @@
 		{
 			dependencies: ["70C952B8FF3418F6"]
 			id: "767B0154C41FE771"
+			rewards: [
+				{
+					id: "4903CD35CA1172E5"
+					item: "kubejs:cc"
+					type: "item"
+				}
+				{
+					id: "36A5D20DDF5E2E5B"
+					item: "kubejs:cc"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "317A6F258C02957B"
 				title: "HV unlock!"
@@ -22,6 +34,18 @@
 		{
 			dependencies: ["5241693278027FFD"]
 			id: "01E51F98F9D04AEC"
+			rewards: [
+				{
+					id: "3258128F1D0A55E8"
+					item: "kubejs:cc"
+					type: "item"
+				}
+				{
+					id: "40D5D490482D139B"
+					item: "kubejs:cc"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0ADB74656B6594D6"
 				title: "EV unlock!"
@@ -33,6 +57,18 @@
 		{
 			dependencies: ["767B0154C41FE771"]
 			id: "43F53FF551641773"
+			rewards: [
+				{
+					id: "17C00D5EB2F722CC"
+					item: "kubejs:cc"
+					type: "item"
+				}
+				{
+					id: "257303670F580E3C"
+					item: "kubejs:cc"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "20346CD014933AA6"
 				item: "expatternprovider:assembler_matrix_frame"
@@ -44,6 +80,18 @@
 		{
 			dependencies: ["01E51F98F9D04AEC"]
 			id: "5E9B4EC518EE1232"
+			rewards: [
+				{
+					id: "787FE8DAD0E8F9CC"
+					item: "kubejs:cc"
+					type: "item"
+				}
+				{
+					id: "60404D09B1E871DD"
+					item: "kubejs:cc"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "42923BC4FEC9DFE9"
 				item: "advanced_ae:quantum_core"
@@ -55,6 +103,18 @@
 		{
 			dependencies: ["64F77D41B2D057B8"]
 			id: "1D086D1AB9E23D06"
+			rewards: [
+				{
+					id: "5EB93040FF010A14"
+					item: "kubejs:cc"
+					type: "item"
+				}
+				{
+					id: "240ECCA4937E0F37"
+					item: "kubejs:cc"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "58B929B7A62B706B"
 				title: "IV Unlock!"
@@ -66,6 +126,18 @@
 		{
 			dependencies: ["1D086D1AB9E23D06"]
 			id: "4D46195F00CCE930"
+			rewards: [
+				{
+					id: "45AFFAD39BCBB86F"
+					item: "kubejs:cc"
+					type: "item"
+				}
+				{
+					id: "299599189D7B51D7"
+					item: "kubejs:cc"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "24859BC4E51B1ACD"
 				item: "expatternprovider:wireless_connect"

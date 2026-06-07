@@ -13,6 +13,11 @@
 			dependencies: ["1064F83D0222138C"]
 			description: ["Drink this. Now you can do rune rituals."]
 			id: "2344D045A014F6FF"
+			rewards: [{
+				id: "7C678DAB50FC17B6"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3B8615C57F81DF88"
 				item: "mythicbotany:gjallar_horn_full"
@@ -24,6 +29,11 @@
 		{
 			description: ["Supply branch of Yggdrasil with mana and place Gjallarhorn on it. Wait until its filled."]
 			id: "1064F83D0222138C"
+			rewards: [{
+				id: "7201036BB7386682"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6D3A8A29240677F8"
@@ -43,6 +53,11 @@
 			dependencies: ["2344D045A014F6FF"]
 			description: ["This is a drop from Guardian of Gaia - harder version. That one is activated by inserting Gaia Spirit Ingot instead of Terrasteel."]
 			id: "60514AD9EE7304FA"
+			rewards: [{
+				id: "1A44AEB89C1661FA"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "359E99E7AE28F42D"
 				item: "mythicbotany:fimbultyr_tablet"
@@ -59,6 +74,11 @@
 				"Also in the recipe page the items that are below the rune placements mean that you have to throw them on the middle pedestal."
 			]
 			id: "2044419B21EEFABE"
+			rewards: [{
+				id: "10BE5BD08244C046"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4DF5F4A41F8BC55F"
 				item: "mythicbotany:kvasir_mead"
@@ -71,6 +91,11 @@
 			dependencies: ["2044419B21EEFABE"]
 			description: ["Now enter the Elven Portal. You have to drink the mead to actually teleport through."]
 			id: "635ED4231C547DAD"
+			rewards: [{
+				id: "63A9B93253985E97"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "mythicbotany:alfheim"
 				id: "4EEFC72205CC0623"
@@ -83,6 +108,11 @@
 			dependencies: ["635ED4231C547DAD"]
 			description: ["Find this in mysterious cabin. Use explorers compass."]
 			id: "00C6B1C582D3C0E7"
+			rewards: [{
+				id: "3F5604A75323889A"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4169BD19F4A456A5"
 				item: "kubejs:vanaheimingotblock"

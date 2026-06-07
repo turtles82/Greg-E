@@ -22,6 +22,11 @@
 			dependencies: ["2C28217E1131A63A"]
 			description: [""]
 			id: "70C952B8FF3418F6"
+			rewards: [{
+				id: "286BB8A9FB134863"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -39,6 +44,11 @@
 			]
 			description: ["Because the EV circuits are from new age, we don't have so start with LV circuits. Be careful though, you will still need them for EMC alloys."]
 			id: "19DB4970B3D11C1B"
+			rewards: [{
+				id: "1992BAE740F2F562"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "48BE641C2530BA61"
 				item: "gtceu:micro_processor"
@@ -54,6 +64,11 @@
 			]
 			description: [""]
 			id: "732D201794C228DD"
+			rewards: [{
+				id: "614FF813835FCC7E"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3C92729C9842C491"
 				item: "gtceu:micro_processor_assembly"
@@ -71,6 +86,11 @@
 			]
 			description: [""]
 			id: "0DB4226BA23A5C09"
+			rewards: [{
+				id: "4306D925428E3A7F"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 2.0d
 			tasks: [{
@@ -90,6 +110,11 @@
 			icon: "gtceu:cleanroom"
 			id: "62BBF61C9849CA26"
 			min_width: 300
+			rewards: [{
+				id: "1343031BFCB8056F"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "564B0D84C5688FF2"
 				item: "gtceu:cleanroom"
@@ -102,6 +127,11 @@
 			dependencies: ["681110DE6B4E6ED8"]
 			description: [""]
 			id: "1DF42E30A24A9DEC"
+			rewards: [{
+				id: "649E14E515D4BD03"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1945295F5A5C547D"
 				item: "gtceu:plascrete"
@@ -117,6 +147,11 @@
 			]
 			description: [""]
 			id: "61262BC1C525E6F1"
+			rewards: [{
+				id: "628CBA40CD78D457"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
@@ -136,6 +171,11 @@
 			dependency_requirement: "one_completed"
 			description: [""]
 			id: "5FAA73C52082DC48"
+			rewards: [{
+				id: "69742635A96218FC"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "418A5680FB2534F3"
 				item: "gtceu:plastic_printed_circuit_board"
@@ -148,6 +188,11 @@
 			dependencies: ["54BEC01D84237DBC"]
 			description: [""]
 			id: "0BAD21557994331D"
+			rewards: [{
+				id: "1936581298D40789"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0CBFE2B699BFEC8F"
 				item: "gtceu:iron_iii_chloride_bucket"
@@ -160,6 +205,11 @@
 			dependencies: ["503E5B82A6C89278"]
 			description: [""]
 			id: "124C2A904BF84254"
+			rewards: [{
+				id: "4CA8B5B60E4DC396"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1EB80E78DF5EF7E8"
 				item: "gtceu:plastic_circuit_board"
@@ -172,6 +222,11 @@
 			dependencies: ["1957A39483E15508"]
 			description: [""]
 			id: "503E5B82A6C89278"
+			rewards: [{
+				id: "3DFAFDEDA2556A59"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1E1447D81D30B2DC"
 				item: "gtceu:polyvinyl_chloride_bucket"
@@ -184,6 +239,11 @@
 			dependencies: ["6A2D7380E340B77D"]
 			description: [""]
 			id: "1957A39483E15508"
+			rewards: [{
+				id: "745DFDFE186CCBCB"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "17068C6DBE553D0C"
 				item: "gtceu:vinyl_chloride_bucket"
@@ -195,6 +255,11 @@
 		{
 			description: [""]
 			id: "6A2D7380E340B77D"
+			rewards: [{
+				id: "53CBB2F81A46A406"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "66B862CA537DB886"
@@ -211,6 +276,11 @@
 			]
 			description: [""]
 			id: "54BEC01D84237DBC"
+			rewards: [{
+				id: "343B7A312E6B652D"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "16F0BF8BAA58100B"
 				item: "gtceu:hydrochloric_acid_bucket"
@@ -222,6 +292,11 @@
 		{
 			description: [""]
 			id: "4AAF27F0C27FBDB3"
+			rewards: [{
+				id: "45CBAC9CA3449928"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "526401AFE4B0A3E0"
@@ -234,6 +309,11 @@
 		{
 			description: [""]
 			id: "681110DE6B4E6ED8"
+			rewards: [{
+				id: "7592827C16BFB025"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "472EA07FB476A589"
@@ -247,6 +327,11 @@
 			description: [""]
 			id: "4FD6092D9C2A485C"
 			min_width: 300
+			rewards: [{
+				id: "005AE7223F7DB8CC"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "75E95ED497B33048"
@@ -258,6 +343,11 @@
 		}
 		{
 			id: "17B8180A71E5350F"
+			rewards: [{
+				id: "46B4E8B3CBF97101"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0CD0B2325A0CED79"
 				item: "gtceu:linearaccel"
@@ -268,6 +358,11 @@
 		}
 		{
 			id: "6D09909CE9C52409"
+			rewards: [{
+				id: "78A16B1ADA5C143E"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "238E6ED734389329"
 				item: "gtceu:voidminer"
@@ -278,6 +373,11 @@
 		}
 		{
 			id: "7D4DABB9E8E9C36C"
+			rewards: [{
+				id: "11AEFFCF3B40AF13"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2F1B6B4C521426A5"
 				item: "gtceu:transformator"
@@ -288,6 +388,11 @@
 		}
 		{
 			id: "7E6C27602D1E2EDE"
+			rewards: [{
+				id: "2B722D5B1807AC97"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4D94ECC2F489FE79"
 				item: "gtceu:metalfurnace"
@@ -298,6 +403,11 @@
 		}
 		{
 			id: "5973A9F3176B457D"
+			rewards: [{
+				id: "29E4011AF6BAF474"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "639BF1969D61245B"
 				item: "gtceu:irradiator"
@@ -308,6 +418,11 @@
 		}
 		{
 			id: "2A14B47A4382873E"
+			rewards: [{
+				id: "581BF4E40FFBA0D9"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0847046DBA45B140"
 				item: "gtceu:voidcrystal"
@@ -324,6 +439,11 @@
 				"It simulates how Nobelium is created in real life."
 			]
 			id: "2F09F581D2D91CAB"
+			rewards: [{
+				id: "7AA6EA40DC205B3B"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "69CA92CF5398D951"
@@ -350,6 +470,11 @@
 				"6) Get Ender Air and distill it"
 			]
 			id: "1D668061E99D565B"
+			rewards: [{
+				id: "12B51A53C3C1BFDE"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "2305B8BEC5DD0060"
@@ -362,6 +487,11 @@
 		{
 			dependencies: ["70C952B8FF3418F6"]
 			id: "5B6769301B164292"
+			rewards: [{
+				id: "00C9E27BEEBC90F7"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1169F4A1CD9D65EE"
 				item: "kubejs:hvalloy"
@@ -373,6 +503,11 @@
 		{
 			dependencies: ["70C952B8FF3418F6"]
 			id: "6E8DA602E5F94ADB"
+			rewards: [{
+				id: "59AACB3F32CFBEAF"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3C59A65E0EA4B4EA"
 				item: "gregecore:desh_cable_single_wire"
@@ -384,6 +519,11 @@
 		{
 			dependencies: ["6E8DA602E5F94ADB"]
 			id: "487F9415CA8F687A"
+			rewards: [{
+				id: "4F9F1246766575EF"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4AF26852591ACF81"
 				item: "gregecore:desh_coil"
@@ -404,6 +544,11 @@
 				"2) Wireless AE2: either Wireless Connectors from ExtendedAE or just the ol' reliable quantum ring."
 			]
 			id: "1ED08BAC597A0650"
+			rewards: [{
+				id: "2AA5577DAB8CB1FD"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6F89610B6E1634E6"
 				title: "AE2 in cleanroom"
@@ -422,6 +567,11 @@
 				"Though, they don't have perfect overclock, its still good QOL."
 			]
 			id: "4ED4C73899D40C22"
+			rewards: [{
+				id: "53CD18ECA4C8BFE2"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "207488F856B9B7DC"
@@ -466,6 +616,11 @@
 		{
 			id: "1DFFC6CCB85F7867"
 			optional: true
+			rewards: [{
+				id: "506BD487080DB6F2"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "2513B876021AA137"
@@ -479,6 +634,11 @@
 			dependencies: ["70C952B8FF3418F6"]
 			description: ["This will help with component creation."]
 			id: "35368EFD2BC63DAC"
+			rewards: [{
+				id: "1E76E8979E8E2B10"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "712AB1307EFEFB3A"
 				item: "gtceu:mv_component_mass_assembler"

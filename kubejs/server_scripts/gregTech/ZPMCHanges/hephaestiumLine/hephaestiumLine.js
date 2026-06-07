@@ -14,7 +14,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             'gtceu:proxima_centauri_b_stone_dust'
         )
-        .EUt(GTValues.VA[GTValues.UV])
+        .EUt(GTValues.VA[GTValues.ZPM])
         .duration(50)
 
     event.recipes.gtceu.electrolyzer()
@@ -27,7 +27,7 @@ ServerEvents.recipes((event) => {
         .outputFluids(
             'gtceu:proxima_centauri_b_stone 300'
         )
-        .EUt(GTValues.VA[GTValues.UV])
+        .EUt(GTValues.VA[GTValues.ZPM])
         .duration(150)
 
     event.recipes.gtceu.distillation_tower()
@@ -41,7 +41,7 @@ ServerEvents.recipes((event) => {
             'gtceu:oxygen 150'
         )
         .chancedOutput('gtceu:small_stone_dust', 5000, 0)
-        .EUt(GTValues.VA[GTValues.UV])
+        .EUt(GTValues.VA[GTValues.ZPM])
         .duration(350)
         .disableDistilleryRecipes(true)
 
@@ -52,7 +52,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             '2x gtceu:prometheum_dust'
         )
-        .EUt(GTValues.VA[GTValues.UV])
+        .EUt(GTValues.VA[GTValues.ZPM])
         .duration(100)
 
     event.recipes.gtceu.electric_blast_furnace()
@@ -65,7 +65,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             'gtceu:hot_prometheum_ingot'
         )
-        .EUt(GTValues.VA[GTValues.UHV])
+        .EUt(GTValues.VA[GTValues.ZPM])
         .duration(700)
         .blastFurnaceTemp(6000)
 
@@ -76,7 +76,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             'gtceu:prometheum_ingot'
         )
-        .EUt(GTValues.VA[GTValues.UV])
+        .EUt(GTValues.VA[GTValues.ZPM])
         .duration(100)
 
     event.recipes.gtceu.large_chemical_reactor()
@@ -90,7 +90,7 @@ ServerEvents.recipes((event) => {
         .outputFluids(
             'gtceu:cadmium_acid 750'
         )
-        .EUt(GTValues.VA[GTValues.UV])
+        .EUt(GTValues.VA[GTValues.ZPM])
         .duration(200)
         .circuit(6)
 
@@ -107,7 +107,7 @@ ServerEvents.recipes((event) => {
         .outputFluids(
             'gtceu:diluted_cadmium_acid 1200'
         )
-        .EUt(GTValues.VA[GTValues.UV])
+        .EUt(GTValues.VA[GTValues.ZPM])
         .duration(400)
         .circuit(6)
 
@@ -121,7 +121,7 @@ ServerEvents.recipes((event) => {
         .outputFluids(
             'gtceu:cadmium_acid 200'
         )
-        .EUt(GTValues.VA[GTValues.UV])
+        .EUt(GTValues.VA[GTValues.ZPM])
         .duration(300)
 
     event.recipes.gtceu.electric_blast_furnace()
@@ -134,7 +134,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             'gtceu:hot_hephaestium_ingot'
         )
-        .EUt(GTValues.VA[GTValues.UHV])
+        .EUt(GTValues.VA[GTValues.ZPM])
         .duration(700)
         .blastFurnaceTemp(6000)
 
@@ -145,7 +145,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             'gtceu:hephaestium_ingot'
         )
-        .EUt(GTValues.VA[GTValues.UV])
+        .EUt(GTValues.VA[GTValues.ZPM])
         .duration(100)
 
     event.remove('gtceu:assembler/neutron_reflector')
@@ -162,7 +162,7 @@ ServerEvents.recipes((event) => {
             'gtceu:neutron_reflector'
         )
         .circuit(1)
-        .EUt(GTValues.VA[GTValues.MV])
+        .EUt(GTValues.VA[GTValues.ZPM])
         .duration(4000)
 
     event.recipes.gtceu.assembler('reflector2')
@@ -179,7 +179,7 @@ ServerEvents.recipes((event) => {
             '3x gtceu:neutron_reflector'
         )
         .circuit(2)
-        .EUt(GTValues.VA[GTValues.MV])
+        .EUt(GTValues.VA[GTValues.ZPM])
         .duration(3000)
 
     event.remove({output: 'gtceu:superconducting_coil'})
@@ -195,7 +195,7 @@ ServerEvents.recipes((event) => {
             'gtceu:superconducting_coil'
         )
         .circuit(1)
-        .EUt(GTValues.VA[GTValues.LuV])
+        .EUt(GTValues.VA[GTValues.ZPM])
         .duration(100)
 
     event.recipes.gtceu.assembler('coil2')
@@ -211,7 +211,7 @@ ServerEvents.recipes((event) => {
             '2x gtceu:superconducting_coil'
         )
         .circuit(2)
-        .EUt(GTValues.VA[GTValues.LuV])
+        .EUt(GTValues.VA[GTValues.ZPM])
         .duration(100)
 
     event.recipes.gtceu.assembler('coil3')
@@ -257,7 +257,7 @@ ServerEvents.recipes((event) => {
             'gtceu:superconducting_coil'
         )
         .circuit(1)
-        .EUt(GTValues.VA[GTValues.UV])
+        .EUt(GTValues.VA[GTValues.ZPM])
         .duration(100)
 
     event.recipes.gtceu.assembler('coil6')
@@ -273,7 +273,7 @@ ServerEvents.recipes((event) => {
             '8x gtceu:superconducting_coil'
         )
         .circuit(2)
-        .EUt(GTValues.VA[GTValues.UV])
+        .EUt(GTValues.VA[GTValues.ZPM])
         .duration(100)
 
 })

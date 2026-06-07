@@ -12,6 +12,11 @@
 		{
 			description: ["This chapter shows you which QOL mods are in the pack. "]
 			id: "4544150184F72389"
+			rewards: [{
+				id: "787D20FEF6A63D47"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "596E93761B346CD8"
 				title: "QOL mods"
@@ -23,6 +28,11 @@
 		{
 			description: ["Not really that useful overall, but the mod has a mob spawning option and XP farm can be used for Rosa Arcanas."]
 			id: "6A520F4F316998E7"
+			rewards: [{
+				id: "46FB29F62B753DB3"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E4DE0ABB2DFAD1D"
 				item: "mob_grinding_utils:saw"
@@ -34,6 +44,11 @@
 		{
 			description: ["Don't want mobs spawning near you? Get this!"]
 			id: "129C3EB5A39F5C68"
+			rewards: [{
+				id: "7ACA332BE72A56A2"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "11152F2DD2516CB8"
 				item: "torchmaster:megatorch"
@@ -45,6 +60,11 @@
 		{
 			description: ["Build same blocks really fast!"]
 			id: "643885F32F87F528"
+			rewards: [{
+				id: "66DA339800410CE4"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5A909C1DF0C1D386"
 				item: {
@@ -62,6 +82,11 @@
 		{
 			description: ["If you want to copy some structures, get this!"]
 			id: "355BB4790891430E"
+			rewards: [{
+				id: "217A015456EF09EC"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E4D01F3D9269450"
 				item: "buildinggadgets2:gadget_building"
@@ -73,6 +98,11 @@
 		{
 			description: ["+40 hearts!"]
 			id: "65B1C0EC2A26BD74"
+			rewards: [{
+				id: "752A4EE2F63A6C03"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5666998A632F76F1"
 				item: "bhc:heart_amulet"
@@ -84,6 +114,11 @@
 		{
 			description: ["I'm sure you can find some uses for this."]
 			id: "0D49B60DEC940DFC"
+			rewards: [{
+				id: "281111298D0CB635"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "73182969240FEC85"
 				item: "modularrouters:modular_router"
@@ -95,6 +130,11 @@
 		{
 			description: ["For the ultimate factory managment."]
 			id: "21005F2851811554"
+			rewards: [{
+				id: "1713F9D5D20E710B"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "16A5D47AE8D408A6"
 				item: "sfm:manager"
@@ -112,6 +152,11 @@
 				"3rd tier unlocks in LuV."
 			]
 			id: "2E1E5E8A96F7A1C9"
+			rewards: [{
+				id: "6661010D77C47009"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2632CE7DDB10C488"
 				item: {
@@ -136,6 +181,11 @@
 		{
 			description: ["Wireless FE, what more do I need to say?"]
 			id: "36C270F3D8F292D2"
+			rewards: [{
+				id: "540218D3559C6CA4"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "021B025429231B2E"
 				item: "fluxnetworks:flux_plug"
@@ -147,6 +197,11 @@
 		{
 			description: ["Free cobblestone!"]
 			id: "4F20AD0E87D43D50"
+			rewards: [{
+				id: "6B742D2F2051D5C7"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "26E52D0ADA3DB88B"
 				item: "cobblefordays:tier_5"
@@ -158,6 +213,11 @@
 		{
 			description: ["My second favourite botania item, portable ender chest!"]
 			id: "70A711337532FF2A"
+			rewards: [{
+				id: "2F8BCA3B45F61DE3"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "63B3B6096F7283F4"
 				item: "botania:ender_hand"
@@ -169,6 +229,11 @@
 		{
 			description: ["Teleporter, you can get this in HV, waaaay earlier than the whole Draconic Evolution unlock!"]
 			id: "2333D4BAC0ADBA62"
+			rewards: [{
+				id: "7114A65F5E8EB469"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3D8D64E210494766"
 				item: {
@@ -188,6 +253,11 @@
 				"Also look at the other upgrades, a lot of them are really useful. Especially the regeneration one, its really good for healing up after sacrificing blood to altar in Blood Magic!"
 			]
 			id: "3BEDFF33E8189F13"
+			rewards: [{
+				id: "5E925B64B878330E"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "01960041E54E91BB"
@@ -246,6 +316,11 @@
 		{
 			description: ["Wireless AE2! Really useful, also you can combine different wireless terminals, my favourite combination is crafting, pattern encoding and extended pattern access terminal."]
 			id: "5783E1DD2A4537D1"
+			rewards: [{
+				id: "1C2712445859AC56"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "48052F294B018B01"
 				item: "ae2:wireless_crafting_terminal"
@@ -261,6 +336,11 @@
 				"Get the ME packaging provider, it counts as a packager and unpackager, meaning you only need 1 pattern. Also its waaaay faster."
 			]
 			id: "519A2DC4DBC99FA6"
+			rewards: [{
+				id: "36F49086C06B2D9E"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4E3155B1D298F3D3"
 				item: "packagedauto:packaging_provider"
@@ -276,6 +356,11 @@
 				"This is really useful for the Ad Astra ores!"
 			]
 			id: "2C3ACCA597518508"
+			rewards: [{
+				id: "4D3ADD7659D2CE44"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "19E5106674E9DF7C"
 				item: {
@@ -293,6 +378,11 @@
 		{
 			description: ["Use this to automate buying items from Transmutation Tablet. Right click it with item that you learned, and it will start producing the item by the rate written in the tooltip on the block."]
 			id: "1C6F65123CF1E43D"
+			rewards: [{
+				id: "5F0E758320141C09"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3708D8F637328303"
 				item: "projectexpansion:basic_emc_link"
@@ -304,6 +394,11 @@
 		{
 			description: ["Use the entangler on a block and rightclick with it this block. The entangled block starts to act as the selected block. Use this to access more sides of a block in tight areas."]
 			id: "0497A423274FF5B8"
+			rewards: [{
+				id: "171E92BC7D905A4D"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2B427B6C99F3B479"
 				item: {
@@ -319,6 +414,11 @@
 		{
 			description: ["Great early game storage!"]
 			id: "24D5BA6EC2B100DC"
+			rewards: [{
+				id: "2970C7D0BCED38BD"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "29082318261A71C7"
 				item: "avaritia:compressed_chest"
@@ -334,6 +434,11 @@
 				"There is universal circuit for every tier."
 			]
 			id: "0741647F701C2CE0"
+			rewards: [{
+				id: "243D9EEED50D1213"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "076F9795F6F2F2E9"
 				item: "kubejs:universal/lv"
@@ -345,6 +450,11 @@
 		{
 			description: ["Put this in pattern provider next to a GT machine. Then you can start using circuits (meaning circuit 1, cirucit 2) in recipes, meaning that machine is not locked into doing only 1 circuit recipes."]
 			id: "41A944297559F5B1"
+			rewards: [{
+				id: "5E0443BCD807E5A4"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "74CCC9AA4BE87E2B"
 				item: "pccard:card_programmed_circuit"
@@ -360,6 +470,11 @@
 				"It needs paper to work."
 			]
 			id: "21AE16CFCA36EBE7"
+			rewards: [{
+				id: "01AFE76CCA38D34E"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2F2F4C9BF6BB5260"
 				item: {
@@ -377,6 +492,11 @@
 		{
 			description: ["With this you can choose your enchantments on your gear!"]
 			id: "736A4A5C84E1C6A9"
+			rewards: [{
+				id: "70835BFA3238FFCF"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "134EB6274BE08BF4"
@@ -400,6 +520,11 @@
 		{
 			description: ["I recommend using the resource pack 'Smooth Font', that is preinstalled with the pack. It makes reading the recipes from GT way easier."]
 			id: "71A03FF1AC26DC78"
+			rewards: [{
+				id: "2FC553320057EB57"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2BB2AB2A293A6C40"
 				title: "Smooth Font"
@@ -415,6 +540,11 @@
 				"Just do not use the netherite upgrade frequently!"
 			]
 			id: "3168E61EC40F1C05"
+			rewards: [{
+				id: "00DC904EB5EBF14C"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "038FD3918532DEC3"
 				item: "pipez:item_pipe"
@@ -426,6 +556,11 @@
 		{
 			description: ["Change your tools fast!"]
 			id: "35186DEFD11319BC"
+			rewards: [{
+				id: "5811F78B7F583DA8"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "45E8ADAA3F53806E"
 				item: "toolbelt:belt"
@@ -437,6 +572,11 @@
 		{
 			description: ["Unlocks in EV."]
 			id: "6EA459EE6F54C75E"
+			rewards: [{
+				id: "03D8F36EC129BE23"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "45AAEB46AC6F7AD0"
 				item: "better_angel_ring:angel_ring"
@@ -448,6 +588,11 @@
 		{
 			description: ["This item automatically builds your GregTech multiblocks."]
 			id: "3F20835C90736769"
+			rewards: [{
+				id: "6178B99021CC7F93"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "66FF8FA8C8BD0B18"
 				item: "gtceu:terminal"
@@ -463,6 +608,11 @@
 				"Allows better filtering, and you can fit both fluid and item conduits on the same block."
 			]
 			id: "271B0AE3F87A3D8F"
+			rewards: [{
+				id: "2EA1AB30145207B9"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "38733877ABCC93F8"
@@ -481,6 +631,11 @@
 		{
 			description: ["Move around your world quickly!"]
 			id: "1097A6B02DFE1513"
+			rewards: [{
+				id: "4CCE0B16DAA26843"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0F7415BBA9C37766"
@@ -509,6 +664,11 @@
 		{
 			description: ["Inifity cells! All of them are definetly useful."]
 			id: "71B93092F10EF3C0"
+			rewards: [{
+				id: "4FC3446EED7F34E6"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "38AF345D3F8A9D93"

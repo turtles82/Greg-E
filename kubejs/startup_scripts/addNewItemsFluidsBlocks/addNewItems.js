@@ -100,6 +100,7 @@ StartupEvents.registry('item', event => {
     event.create('niobiumcoating').displayName('Niobium Zenithium Coating')
     event.create('twilight_flame').displayName('Twilight Flame')
     event.create('essentia_filter').displayName('Essentia Filter')
+    event.create('cc').displayName('cu5tm Coin')
 
     event.create('ultimatecapacitor').displayName('Ultimate SMD Capacitor')
     event.create('ultimatediode').displayName('Ultimate SMD Diode')

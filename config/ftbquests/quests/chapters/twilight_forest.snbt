@@ -14,6 +14,11 @@
 			description: ["This portal is kinda picky, it doesn't want diamond to open, it needs Twilight Flame!"]
 			icon: "twilightforest:twilight_portal_miniature_structure"
 			id: "4193303999597249"
+			rewards: [{
+				id: "78295F8043BCD66A"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [
@@ -37,6 +42,11 @@
 			description: [""]
 			hide_until_deps_visible: true
 			id: "3531B28F14CF72A2"
+			rewards: [{
+				id: "5A94B24C57EB2A6B"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5D567A4631D5D3A2"
 				item: "twilightforest:naga_trophy"
@@ -49,6 +59,11 @@
 			dependencies: ["3531B28F14CF72A2"]
 			description: [""]
 			id: "0107D516E038E0DB"
+			rewards: [{
+				id: "623AA95AC2B9105F"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4FB6BB3F61AD8D6B"
 				item: "twilightforest:lich_trophy"
@@ -62,6 +77,11 @@
 			description: [""]
 			icon: "twilightforest:minoshroom_trophy"
 			id: "04440BB2EFFD6DD9"
+			rewards: [{
+				id: "1CE4919FD6C8F463"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2CD3DF9A97F31897"
 				item: "twilightforest:minoshroom_trophy"
@@ -74,6 +94,11 @@
 			dependencies: ["04440BB2EFFD6DD9"]
 			description: [""]
 			id: "7026E46FD8B3A81D"
+			rewards: [{
+				id: "4F7E4318ABA26559"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6D9D134621F8FA36"
 				item: "twilightforest:hydra_trophy"
@@ -86,6 +111,11 @@
 			dependencies: ["7026E46FD8B3A81D"]
 			description: [""]
 			id: "3DCF26B53AE1EBF6"
+			rewards: [{
+				id: "47B768F890BA2E24"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4E03E4FCB1B4DE05"
 				item: "twilightforest:knight_phantom_trophy"
@@ -98,6 +128,11 @@
 			dependencies: ["3DCF26B53AE1EBF6"]
 			description: [""]
 			id: "688C911ECFB2F134"
+			rewards: [{
+				id: "6D1796752E5E823B"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "64B931AE43EA1E92"
 				item: "twilightforest:ur_ghast_trophy"
@@ -110,6 +145,11 @@
 			dependencies: ["45FF5E769CC5D057"]
 			description: [""]
 			id: "6FD41DF7704466A4"
+			rewards: [{
+				id: "5B3F4BCC2CC0E3A5"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1997CE8D805B6EB6"
 				item: "twilightforest:snow_queen_trophy"
@@ -122,6 +162,11 @@
 			dependencies: ["0107D516E038E0DB"]
 			description: ["Get this, I recommend getting it 5 times. Though right now, it will be enough once."]
 			id: "6711EF7350732556"
+			rewards: [{
+				id: "0FFE4A3E1BB61326"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6649F0A3CCA00B28"
 				item: {
@@ -142,6 +187,11 @@
 			dependencies: ["04440BB2EFFD6DD9"]
 			description: ["This one and the next ones 1 is fine, though 4 is optimal for later."]
 			id: "4F5A7CA6D9B47F75"
+			rewards: [{
+				id: "63CD1A4E3C1AAD37"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "75D285411904B10A"
 				item: {
@@ -161,6 +211,11 @@
 		{
 			dependencies: ["7026E46FD8B3A81D"]
 			id: "2205911631B398CA"
+			rewards: [{
+				id: "671FC6BA39A49EB3"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1ABB01F083E1AFD9"
 				item: {
@@ -180,6 +235,11 @@
 		{
 			dependencies: ["3DCF26B53AE1EBF6"]
 			id: "567DEA652956BBA1"
+			rewards: [{
+				id: "7A0056A6455F1691"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "07A2B0D3499C934D"
 				item: {
@@ -200,6 +260,11 @@
 			dependencies: ["3DCF26B53AE1EBF6"]
 			description: ["Second tier of Magical Coils."]
 			id: "039D82EEDE78096A"
+			rewards: [{
+				id: "5E8C723EA37E77F2"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "486FF7BEE2139589"
 				item: "gregecore:twilight_coil"
@@ -211,6 +276,11 @@
 		{
 			dependencies: ["688C911ECFB2F134"]
 			id: "45FF5E769CC5D057"
+			rewards: [{
+				id: "5BD93163E9A86123"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4FD175147141AF72"
 				item: "twilightforest:alpha_yeti_trophy"
@@ -227,11 +297,18 @@
 				"Use this command to disable Twilight Forests progression. It disables the damage walls in every biome. Now you will be able to access the biomes, and craft the data models."
 			]
 			id: "4F40C0482745085B"
-			rewards: [{
-				command: "/gamerule tfEnforcedProgression false"
-				id: "04C72F00F6A73E98"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/gamerule tfEnforcedProgression false"
+					id: "04C72F00F6A73E98"
+					type: "command"
+				}
+				{
+					id: "5864D90C8C79A48B"
+					item: "kubejs:cc"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6DE7C814F923DFAC"
 				type: "checkmark"

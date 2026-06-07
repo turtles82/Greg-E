@@ -14,6 +14,11 @@
 			dependencies: ["2ACB94B77EF072EB"]
 			description: [""]
 			id: "5A658F239928850E"
+			rewards: [{
+				id: "1EA0067354C644AD"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -28,6 +33,11 @@
 			dependencies: ["1090A47B70EBF704"]
 			description: [""]
 			id: "663DA87FDB10E2B8"
+			rewards: [{
+				id: "30768D374048AD4A"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 2.0d
 			tasks: [{
@@ -46,6 +56,11 @@
 			]
 			description: [""]
 			id: "6BE928FE24539D4B"
+			rewards: [{
+				id: "4B5EE9CC214E099D"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "446D5648C1805604"
 				item: "gtceu:quantum_processor"
@@ -62,6 +77,11 @@
 			]
 			description: [""]
 			id: "53B44E24BB111D24"
+			rewards: [{
+				id: "24B0B7EDF86DC212"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "316FD82605C503D6"
 				item: "gtceu:quantum_processor_assembly"
@@ -78,6 +98,11 @@
 			]
 			description: [""]
 			id: "1090A47B70EBF704"
+			rewards: [{
+				id: "0D0C1CA1E26FA88D"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "60981C6865145331"
 				item: "gtceu:quantum_processor_computer"
@@ -90,6 +115,11 @@
 			description: [""]
 			id: "3863B33438AB5BBD"
 			optional: true
+			rewards: [{
+				id: "603FF406C87B3D06"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "064427F3DA197068"
@@ -103,6 +133,11 @@
 			description: [""]
 			id: "7353DB3A9820C92F"
 			optional: true
+			rewards: [{
+				id: "19DD126EB59D4C8B"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "541D07490AA62BEE"
@@ -116,6 +151,11 @@
 			description: [""]
 			id: "64E271AA238B131F"
 			optional: true
+			rewards: [{
+				id: "0D0EB742C5812232"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "50A6905F7674B30C"
@@ -137,6 +177,11 @@
 			icon: "gtceu:alloy_blast_smelter"
 			id: "0E76B7095F12EF62"
 			optional: true
+			rewards: [{
+				id: "0281908A913BA336"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "59F1C28384FA8C70"
 				item: "gtceu:alloy_blast_smelter"
@@ -156,6 +201,11 @@
 				"I recomment getting at least one of each, but definetly get at least 4 mixers."
 			]
 			id: "29417616D8F673D5"
+			rewards: [{
+				id: "7BD96C4F087C5EF6"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "187F7B08BCC7202F"
 				type: "checkmark"
@@ -168,6 +218,11 @@
 			dependencies: ["5A658F239928850E"]
 			description: [""]
 			id: "1DBF5A76DCDF5E49"
+			rewards: [{
+				id: "302D520120CB142D"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7A12DEBB290BC5C7"
 				item: "gtceu:ruridit_dust"
@@ -180,6 +235,11 @@
 			dependencies: ["3639A936B5930517"]
 			description: [""]
 			id: "1DDA5ADA11DF868F"
+			rewards: [{
+				id: "0DFA9EF7D12C77F8"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "58D5F07484D64D7F"
@@ -193,6 +253,11 @@
 			dependencies: ["1DBF5A76DCDF5E49"]
 			description: [""]
 			id: "0E4C711E77497984"
+			rewards: [{
+				id: "34F822FFE51AFF4E"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "356F520588929825"
 				item: "gtceu:ruridit_gear"
@@ -206,6 +271,11 @@
 			description: [""]
 			icon: "gtceu:assembly_line"
 			id: "204EDA5F8B1C7580"
+			rewards: [{
+				id: "6501C4281A401EFB"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6EE1E6A971E6FA62"
 				item: "gtceu:assembly_line"
@@ -222,6 +292,11 @@
 			dependency_requirement: "one_completed"
 			description: [""]
 			id: "2E7E1278D9796141"
+			rewards: [{
+				id: "69D718D30A3A43BB"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2215AC4CCD8825A7"
 				item: "gtceu:fiber_reinforced_printed_circuit_board"
@@ -234,6 +309,11 @@
 			dependency_requirement: "one_completed"
 			description: [""]
 			id: "17671346C7940CA8"
+			rewards: [{
+				id: "0BB0BC00BD0AF34C"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "44896397E09AF0C3"
@@ -247,6 +327,11 @@
 			dependencies: ["17671346C7940CA8"]
 			description: [""]
 			id: "7382C366A1ABAAE3"
+			rewards: [{
+				id: "5AE478FFFD135B10"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6F8CC253B37BD449"
 				item: "gtceu:qbit_cpu_chip"
@@ -259,6 +344,11 @@
 			dependencies: ["28B1787B61BB214B"]
 			description: [""]
 			id: "785CB375F25F0715"
+			rewards: [{
+				id: "312DAA07C3BFC6C8"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7FBA833C07867BB4"
 				item: "gtceu:fiber_reinforced_circuit_board"
@@ -270,6 +360,11 @@
 		{
 			description: [""]
 			id: "28B1787B61BB214B"
+			rewards: [{
+				id: "6DD8BA747D29567A"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "6D01867FAD796433"
@@ -285,6 +380,11 @@
 			icon: "gtceu:large_wiremill"
 			id: "4B985901F63570C3"
 			optional: true
+			rewards: [{
+				id: "0312C0363E554414"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "7A2FD48B56083951"
@@ -300,6 +400,11 @@
 			icon: "gtceu:large_solidifier"
 			id: "485117517649336C"
 			optional: true
+			rewards: [{
+				id: "0B6F72E85E29B607"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "241067D7859C74A8"
@@ -315,6 +420,11 @@
 			icon: "gtceu:large_extruder"
 			id: "7DF972754C48E22B"
 			optional: true
+			rewards: [{
+				id: "08BA1A71294F1171"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "0372B13F787721C5"
@@ -330,6 +440,11 @@
 			icon: "gtceu:large_extractor"
 			id: "492D28D6B81CAEE0"
 			optional: true
+			rewards: [{
+				id: "0AFBE1DF4BA38ECF"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "029A3079D12D31EA"
@@ -345,6 +460,11 @@
 			icon: "gtceu:large_distillery"
 			id: "6EF5C5FFF6BC26B7"
 			optional: true
+			rewards: [{
+				id: "4F2E8806DDBC8C84"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "42CABC89F5F08F6F"
@@ -360,6 +480,11 @@
 			icon: "gtceu:large_cutter"
 			id: "187281092C0BC9CE"
 			optional: true
+			rewards: [{
+				id: "00B2A146CC81EC1C"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "723F3F70B3085C91"
@@ -374,6 +499,11 @@
 			description: [""]
 			id: "0012EC5DDAEB7D5B"
 			optional: true
+			rewards: [{
+				id: "2483D78ED9B02BDC"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "7023A24AD2772ABE"
@@ -389,6 +519,11 @@
 			icon: "gtceu:large_material_press"
 			id: "78CDA5B4A52FF5D8"
 			optional: true
+			rewards: [{
+				id: "52D34222419B450F"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "62E7660C2E3DFA7D"
@@ -404,6 +539,11 @@
 			icon: "gtceu:large_autoclave"
 			id: "04636DE704AD7B0B"
 			optional: true
+			rewards: [{
+				id: "02EF63C4EEA14B81"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "1119B6F3558FD6AA"
@@ -419,6 +559,11 @@
 			icon: "gtceu:large_sifting_funnel"
 			id: "546100C879F45BB1"
 			optional: true
+			rewards: [{
+				id: "1861BA6AC2203295"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "2B7B0941F811CE7C"
@@ -434,6 +579,11 @@
 			icon: "gtceu:large_engraving_laser"
 			id: "34EE220F1C2AC5EF"
 			optional: true
+			rewards: [{
+				id: "31F94E04F4BCBDFA"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "79D63027D6EDABE8"
@@ -448,6 +598,11 @@
 			description: [""]
 			id: "22DB72BE40115A95"
 			optional: true
+			rewards: [{
+				id: "2F42F65EB3A434E3"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "7549BEB353239BC2"
@@ -463,6 +618,11 @@
 			icon: "gtceu:large_circuit_assembler"
 			id: "1569CD190336F5F6"
 			optional: true
+			rewards: [{
+				id: "03C56FECE5E906C9"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "66142EA734C105C0"
@@ -478,6 +638,11 @@
 			icon: "gtceu:large_assembler"
 			id: "6EF6D11ABBA34AE3"
 			optional: true
+			rewards: [{
+				id: "17387203C310DF67"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "182A995A2776FE47"
@@ -493,6 +658,11 @@
 			icon: "gtceu:large_electromagnet"
 			id: "322FD8BB46FB653C"
 			optional: true
+			rewards: [{
+				id: "56860F5F13CAE3AB"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "410E8B1ABF39CC67"
@@ -508,6 +678,11 @@
 			icon: "gtceu:large_electrolyzer"
 			id: "76ECB0EF7A5E410A"
 			optional: true
+			rewards: [{
+				id: "3B0E6858BFAD82AD"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "38750C7764B43A29"
@@ -523,6 +698,11 @@
 			icon: "gtceu:large_mixer"
 			id: "7FA79ED5DABCF998"
 			optional: true
+			rewards: [{
+				id: "4E5ED32A658B5739"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "3DDB66CB95EDE62F"
@@ -538,6 +718,11 @@
 			icon: "gtceu:large_centrifuge"
 			id: "29BDF6CA8FAAC390"
 			optional: true
+			rewards: [{
+				id: "4BC2D2B1036EFD27"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "6D65DA04F1F90458"
@@ -553,6 +738,11 @@
 			icon: "gtceu:large_chemical_bath"
 			id: "63BFEE8B17688712"
 			optional: true
+			rewards: [{
+				id: "55786C97C0F6985A"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "07CB2FB669EFE509"
@@ -568,6 +758,11 @@
 			icon: "gtceu:large_maceration_tower"
 			id: "04291652780AEE72"
 			optional: true
+			rewards: [{
+				id: "2FD2FAFBD6E82CDD"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "57DC7ED33ADEEA34"
@@ -582,6 +777,11 @@
 			description: [""]
 			id: "308D5AC7562E09BA"
 			optional: true
+			rewards: [{
+				id: "33044C677231E8EC"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0E5A6D219CCE742F"
 				item: "gtceu:zeron_100_ingot"
@@ -595,6 +795,11 @@
 			description: [""]
 			id: "139EEACD64B1D85E"
 			optional: true
+			rewards: [{
+				id: "751DB95849E367E9"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "24205B9C9DE63B39"
 				item: "gtceu:watertight_steel_ingot"
@@ -608,6 +813,11 @@
 			description: [""]
 			id: "759446116655756C"
 			optional: true
+			rewards: [{
+				id: "274EFF7CB4FED2B2"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "741F54CBB037D211"
 				item: "gtceu:incoloy_ma_956_ingot"
@@ -621,6 +831,11 @@
 			description: [""]
 			id: "54EB576C8EAF2C28"
 			optional: true
+			rewards: [{
+				id: "0BD81D436F0DA36B"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2433F601D6375EA3"
 				item: "gtceu:hastelloy_x_ingot"
@@ -634,6 +849,11 @@
 			description: [""]
 			id: "7759519157B8C1D8"
 			optional: true
+			rewards: [{
+				id: "395F5E264117CC7D"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "29602A66206D9EFF"
 				item: "gtceu:hsla_steel_ingot"
@@ -647,6 +867,11 @@
 			description: [""]
 			id: "34C931DFFBF608DB"
 			optional: true
+			rewards: [{
+				id: "0317ACAFD0B0FB14"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "63A80C7EE9F59B2B"
 				item: "gtceu:stellite_100_ingot"
@@ -660,6 +885,11 @@
 			description: [""]
 			id: "1FFAF26888F6EF00"
 			optional: true
+			rewards: [{
+				id: "47AD718A962E7D6A"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7AC6AD6D60E7AFA4"
 				item: "gtceu:high_temperature_smelting_casing"
@@ -673,6 +903,11 @@
 			description: [""]
 			id: "743B72CC181776EC"
 			optional: true
+			rewards: [{
+				id: "62BCFA08455653C7"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3A321EC2A283C517"
 				item: "gtceu:titanium_tungsten_carbide_ingot"
@@ -686,6 +921,11 @@
 			description: [""]
 			id: "319D3A14D62225BC"
 			optional: true
+			rewards: [{
+				id: "3E08B83B264D9DC4"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4712FB4684E4F6D5"
 				item: "gtceu:hastelloy_c_276_ingot"
@@ -699,6 +939,11 @@
 			description: [""]
 			id: "08F7825DA7DC2185"
 			optional: true
+			rewards: [{
+				id: "20F61F1477ABD26D"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3824062A512AEC3B"
 				item: "gtceu:maraging_steel_300_ingot"
@@ -712,6 +957,11 @@
 			description: [""]
 			id: "770ED8E5FEC6D59A"
 			optional: true
+			rewards: [{
+				id: "7DA18E6FA84E216D"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "02BA45719C5BC676"
 				item: "gtceu:corrosion_proof_casing"
@@ -724,6 +974,11 @@
 			description: [""]
 			id: "277464BE6F96C082"
 			optional: true
+			rewards: [{
+				id: "405EC590C290BB40"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "77B98AEED48C79ED"
@@ -736,6 +991,11 @@
 		{
 			description: [""]
 			id: "17773F43631748A9"
+			rewards: [{
+				id: "3B962605C0B616B5"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "2265F0C34D77C253"
@@ -749,6 +1009,11 @@
 			dependencies: ["204EDA5F8B1C7580"]
 			description: ["Place data storage in the assembly line, on the upper part. Then put data stick with researched item in."]
 			id: "3639A936B5930517"
+			rewards: [{
+				id: "1E447ACFF6AB8EA8"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "3C4F59CF30699DB0"
@@ -767,6 +1032,11 @@
 		{
 			dependencies: ["759446116655756C"]
 			id: "3FF94BD291433238"
+			rewards: [{
+				id: "3DE5E00C59058207"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "537DF2E297939203"
@@ -779,6 +1049,11 @@
 		{
 			dependencies: ["3FF94BD291433238"]
 			id: "6724F32CEDCA5E40"
+			rewards: [{
+				id: "27AA2D9F88B26428"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0D36B244BD0932B6"
 				item: "gtceu:zerogravmixer"
@@ -790,6 +1065,11 @@
 		{
 			dependencies: ["5A658F239928850E"]
 			id: "28955E13EE9F82EE"
+			rewards: [{
+				id: "1A0C3F6B9E80A1E6"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "440F3E9CFA0B0576"
 				item: "kubejs:luvalloy"
@@ -801,6 +1081,11 @@
 		{
 			dependencies: ["5A658F239928850E"]
 			id: "68B8595DDA68D9B0"
+			rewards: [{
+				id: "79029C5094389A40"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3D9DCCE784E1747A"
 				item: "gregecore:superelement27_single_wire"
@@ -812,6 +1097,11 @@
 		{
 			dependencies: ["68B8595DDA68D9B0"]
 			id: "4CF32DA806829A71"
+			rewards: [{
+				id: "58EE5FEE98E007B6"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0B1403689AD8BEBE"
 				item: "gregecore:superelement_coil"
@@ -823,6 +1113,11 @@
 		{
 			dependencies: ["68B8595DDA68D9B0"]
 			id: "07F5CABF3174257D"
+			rewards: [{
+				id: "5735AA392628F701"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "25395F9053FCB78D"
 				item: "gregecore:bigfreezer"
@@ -834,6 +1129,11 @@
 		{
 			id: "669C9C5E03938E24"
 			optional: true
+			rewards: [{
+				id: "0A1E21BA1677C41F"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "2FD2D2324AA30F6D"
@@ -847,6 +1147,11 @@
 			dependencies: ["68B8595DDA68D9B0"]
 			description: ["Pretty hard to setup, but once running, this will speed up your production of machine parts really hard!"]
 			id: "019E70C74E3ADCA6"
+			rewards: [{
+				id: "3C0E5DDE59F84731"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "08D7795BE5C7C0E3"
 				item: "gtceu:adrobstat"

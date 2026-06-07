@@ -90,4 +90,14 @@ StartupEvents.registry('block', event => {
         .hardness(2.0) 
         .resistance(1.0)
         .textureAll('kubejs:block/crystacidlava')
+
+    event.create('vending_machine')
+        .box(0, 0, 0, 16, 32, 16, true)
+        .model('kubejs:block/vending')
+        .displayName('Vending Machine')
+        .stoneSoundType()
+        .hardness(2.0) 
+        .resistance(1.0)
+        .fullBlock(false)
+        
 })

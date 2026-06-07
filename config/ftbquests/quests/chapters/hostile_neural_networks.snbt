@@ -12,6 +12,11 @@
 		{
 			description: ["Everyone knows this mod."]
 			id: "46BFB99A88967002"
+			rewards: [{
+				id: "34912DBC6EDA89ED"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "58FD46693F88B405"
@@ -37,6 +42,11 @@
 				"Ultimate Simulation Chamber can only accept Extra Data Model (combined 4 models)"
 			]
 			id: "710D20D8A2D840B1"
+			rewards: [{
+				id: "022927C1BF6FC36D"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2B3B6F5744C5DC25"
@@ -60,6 +70,11 @@
 				"Now if you look at Chaos Guardian, it needs 32000 data. How to get there within normal time? Tier upgrade. That one uses so much energy but directly upgrades the model to next tier."
 			]
 			id: "5A1519B823651468"
+			rewards: [{
+				id: "73E447EA69418B57"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "49D5B99EB5897EBB"
 				item: "extrahnn:simulator_modeling"
@@ -72,6 +87,11 @@
 			dependencies: ["710D20D8A2D840B1"]
 			description: ["With this machine you can combine 4 self-aware models to 1 model. It can be different mobs, but they all need to be self-aware. Then that model will be able to create 64 matrixes in 1 operation. Use Simulation Modeling to get it to best tier fast."]
 			id: "38C392348087494A"
+			rewards: [{
+				id: "402F8567C1C03C0A"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "351543188D2BB862"
 				item: "extrahnn:merger_camera"
@@ -84,6 +104,11 @@
 			dependencies: ["710D20D8A2D840B1"]
 			description: ["Speed + Data upgrades first, then Tier."]
 			id: "696B78C31F41F6E9"
+			rewards: [{
+				id: "6A5EBFD5A3990887"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7A67C8BA305877D4"
@@ -107,6 +132,11 @@
 				"You still have to scan peaceful mobs manually."
 			]
 			id: "26798311A0F03F73"
+			rewards: [{
+				id: "52A47C53BDB7992E"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "71ABD97C75AEFA90"
 				title: "Craftable models?"
@@ -123,6 +153,11 @@
 				"If yes, check out recipes for this dust, if you complete the production line, you can end up with a lot of netherite!"
 			]
 			id: "72F73D072168A441"
+			rewards: [{
+				id: "323F7391D9729F12"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1506B24DA5E936DE"
 				item: "gtceu:netherite_dust"

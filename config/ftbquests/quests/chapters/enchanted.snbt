@@ -15,6 +15,11 @@
 				"Put the cauldron over campfire, and bubbles should come up from it."
 			]
 			id: "6E7D9D3DC0E9F8E6"
+			rewards: [{
+				id: "5C0D7F1FC8F484E9"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "259A19CB2EB55480"
 				item: "enchanted:witch_cauldron"
@@ -30,6 +35,11 @@
 			]
 			description: ["This is the most important structure of this mod. The altar is 6 blocks next to each other, when it forms, a red carpet covers it. The altar is your power generation method for this mod. You get more altar power by placing more flowers and trees next to the altar."]
 			id: "771E45EEB84B4678"
+			rewards: [{
+				id: "5FCCC81621AD49C0"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				count: 6L
 				id: "5FCA1FE196F4AED6"
@@ -43,6 +53,11 @@
 			dependencies: ["2252AA1F0F27C2F7"]
 			description: ["Filled chalice is better."]
 			id: "0F99695AAE93D543"
+			rewards: [{
+				id: "189D7C09D4125B31"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7ACA8C99294039E9"
@@ -62,6 +77,11 @@
 			dependencies: ["771E45EEB84B4678"]
 			description: ["The items, when placed on the altar, will provide some sort of boost for it."]
 			id: "2252AA1F0F27C2F7"
+			rewards: [{
+				id: "013441012E7B36E0"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "58EC60381DBCD3AB"
 				title: "Altar boosters"
@@ -74,6 +94,11 @@
 			dependencies: ["2252AA1F0F27C2F7"]
 			description: ["There might be candles in the Twilight Forest."]
 			id: "114D5B3EF800A667"
+			rewards: [{
+				id: "2E8AC70A8DA1F023"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0FE503363E2847A1"
 				item: "enchanted:candelabra"
@@ -86,6 +111,11 @@
 			dependencies: ["2252AA1F0F27C2F7"]
 			description: ["Player head is stronger."]
 			id: "27091D3ED618729B"
+			rewards: [{
+				id: "2150ACCDAF927603"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0B968169E427D7AA"
@@ -105,6 +135,11 @@
 			dependencies: ["2252AA1F0F27C2F7"]
 			description: ["Provides 250 altar power. Place is next to the altar, not on it, as it acts as a flower."]
 			id: "41F64C89676D6167"
+			rewards: [{
+				id: "127EDB6AA79F1F81"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5E360FE42CE78B4E"
 				item: "minecraft:dragon_egg"
@@ -116,6 +151,11 @@
 		{
 			dependencies: ["3C341B31A43D6DE5"]
 			id: "46AAC2B7211A1149"
+			rewards: [{
+				id: "25EBE2F5057A5EB2"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2AC67580DCD872D0"
 				item: "enchanted:mystic_unguent"
@@ -128,6 +168,11 @@
 			dependencies: ["771E45EEB84B4678"]
 			description: ["Some recipes are made in the kettle, not cauldron, so be careful!"]
 			id: "3C341B31A43D6DE5"
+			rewards: [{
+				id: "7FFFD47643580A78"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "460CD1DCE4995E70"
 				item: "enchanted:kettle"
@@ -139,6 +184,11 @@
 		{
 			description: ["Use Mutandis on sapling, and roll it to get all of the Enchanted flowers/saplings. All of them are described the mods guidebook."]
 			id: "3C53F59910EA246A"
+			rewards: [{
+				id: "2EE8BA38D3634F68"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "598E180142B66CD9"
 				item: "enchanted:rowan_sapling"

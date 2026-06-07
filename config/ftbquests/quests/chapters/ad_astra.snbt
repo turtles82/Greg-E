@@ -20,6 +20,11 @@
 			dependencies: ["438E233A9014DA73"]
 			description: [""]
 			id: "4EA0E385FF7E5FEB"
+			rewards: [{
+				id: "29F0C8A01378A9DB"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
@@ -40,6 +45,11 @@
 			dependencies: ["6ACF89A89C077413"]
 			description: [""]
 			id: "438E233A9014DA73"
+			rewards: [{
+				id: "2A7B1ACF2C86C6F9"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1376E9EEBB16D83E"
 				item: "ad_astra:desh_ingot"
@@ -52,6 +62,11 @@
 			dependencies: ["56A7D6F094316F38"]
 			description: [""]
 			id: "2A279B011D09A9EE"
+			rewards: [{
+				id: "33C48CCDA7FFEA6A"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "65AE7D0A17C3DB4E"
 				item: "ad_astra:ostrum_ingot"
@@ -73,6 +88,11 @@
 				tag: { }
 			}
 			id: "313BDDDAF1E08965"
+			rewards: [{
+				id: "47647FD73FAE0C93"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [
@@ -105,6 +125,11 @@
 			description: ["Put Ad Astra's oil in this machine, you will get fuel for rockets, even if EMI doesn't show it."]
 			icon: "ad_astra:fuel_refinery"
 			id: "4785659E5022FEE7"
+			rewards: [{
+				id: "661487A41AC15320"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "54E00D1DC618B0FB"
@@ -123,6 +148,11 @@
 				tag: { }
 			}
 			id: "7CA42B3CA84A21B5"
+			rewards: [{
+				id: "243B15C0EB80C39A"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6D967595A1292808"
@@ -186,6 +216,11 @@
 			dependencies: ["6294183FB96FF06F"]
 			description: [""]
 			id: "7B2A7B2298DAE8EC"
+			rewards: [{
+				id: "566709D4CA0A1953"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5455B3737ED5982F"
@@ -249,6 +284,11 @@
 			dependencies: ["7C9AE01973242410"]
 			description: ["Place oxygen in the oxygen loader, then put in the spacesuit or oxygen tank you want to fill and it fills up automatically!"]
 			id: "12AC846277F88F3D"
+			rewards: [{
+				id: "62B17BAEAD4C08C5"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			tasks: [
 				{
@@ -268,6 +308,11 @@
 		{
 			dependencies: ["7C9AE01973242410"]
 			id: "64D8FB039D6E7339"
+			rewards: [{
+				id: "1AAC1840A3CE4112"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			tasks: [
 				{
@@ -321,6 +366,11 @@
 		{
 			description: ["Hope you like rockets :)"]
 			id: "7C9AE01973242410"
+			rewards: [{
+				id: "416BB0F0FDBCAC4F"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "409264C34033E749"
 				title: "Space!"
@@ -334,6 +384,11 @@
 			dependencies: ["438E233A9014DA73"]
 			description: ["3rd tier of Magical Coils."]
 			id: "370B0622AED33FC4"
+			rewards: [{
+				id: "4C558DD1BEE80E00"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3EF8AD880FE1F825"
 				item: "gregecore:desh_coil"
@@ -346,6 +401,11 @@
 			dependencies: ["313BDDDAF1E08965"]
 			icon: "ad_astra:moon_globe"
 			id: "6ACF89A89C077413"
+			rewards: [{
+				id: "02C789FB20CDF617"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "ad_astra:moon"
 				id: "064D9EB018EECCDF"
@@ -358,6 +418,11 @@
 			dependencies: ["4EA0E385FF7E5FEB"]
 			icon: "ad_astra:mars_globe"
 			id: "56A7D6F094316F38"
+			rewards: [{
+				id: "0E0D648E2D6ACC2A"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "ad_astra:mars"
 				id: "19708AE730C4A100"
@@ -371,6 +436,11 @@
 			description: ["Mercury is optional for now, in LuV you need to visit though."]
 			icon: "ad_astra:mercury_globe"
 			id: "3AD8032D75DDB50D"
+			rewards: [{
+				id: "2F760E9F8C576D0A"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "ad_astra:mercury"
 				id: "787E58A51CE116D1"
@@ -383,6 +453,11 @@
 			dependencies: ["7CA42B3CA84A21B5"]
 			icon: "ad_astra:venus_globe"
 			id: "6294183FB96FF06F"
+			rewards: [{
+				id: "5CEB2F9F149D5585"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "ad_astra:venus"
 				id: "3DDC4EC0C69DDC4B"
@@ -395,6 +470,11 @@
 			dependencies: ["7B2A7B2298DAE8EC"]
 			icon: "ad_astra:glacio_globe"
 			id: "02C7716B1B67C893"
+			rewards: [{
+				id: "6D1EAF7CE063F91A"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "ad_astra:glacio"
 				id: "7E41AA42EB1D524D"
@@ -406,6 +486,11 @@
 		{
 			description: ["This Ad Astra addon unlocks in LuV."]
 			id: "3492204F73657F99"
+			rewards: [{
+				id: "6652137E502897F7"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5C43C7B001706628"
 				title: "Ad Extendra - LuV"
@@ -419,6 +504,11 @@
 			description: ["Use Tier 4 rocket to get here."]
 			icon: "ad_extendra:jupiter_globe"
 			id: "26901950F02E83F3"
+			rewards: [{
+				id: "41B710B6456D86D2"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "ad_extendra:jupiter"
 				id: "7623B28B446DD869"
@@ -430,6 +520,11 @@
 		{
 			dependencies: ["26901950F02E83F3"]
 			id: "57AE51DD05D8305F"
+			rewards: [{
+				id: "341BE3F119B7FA7D"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6B6208AC843A6D4B"
 				item: {
@@ -446,6 +541,11 @@
 			dependencies: ["26901950F02E83F3"]
 			icon: "ad_extendra:saturn_globe"
 			id: "7FBC4C2FAE832E2E"
+			rewards: [{
+				id: "59441786A1C761D8"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "ad_extendra:saturn"
 				id: "6F1A9DAABDBDF0B9"
@@ -457,6 +557,11 @@
 		{
 			dependencies: ["7FBC4C2FAE832E2E"]
 			id: "7C7C8FF92C9CDF33"
+			rewards: [{
+				id: "254B9A58DFE759C2"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3FAC268C91529E3E"
 				item: {
@@ -473,6 +578,11 @@
 			dependencies: ["7FBC4C2FAE832E2E"]
 			icon: "ad_extendra:uranus_globe"
 			id: "1490D21DC080B320"
+			rewards: [{
+				id: "27D81E630F52306A"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "ad_extendra:uranus"
 				id: "6DAD27B1A233C11F"
@@ -484,6 +594,11 @@
 		{
 			dependencies: ["1490D21DC080B320"]
 			id: "23B5A97746607231"
+			rewards: [{
+				id: "64D49458D934AF0F"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "009196B75685B16F"
 				item: {
@@ -500,6 +615,11 @@
 			dependencies: ["1490D21DC080B320"]
 			icon: "ad_extendra:neptune_globe"
 			id: "29CA86742E9369C2"
+			rewards: [{
+				id: "0EF1BA320FA4744E"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "ad_extendra:neptune"
 				id: "1868D0F45A5F59A3"
@@ -511,6 +631,11 @@
 		{
 			dependencies: ["29CA86742E9369C2"]
 			id: "75A2CAA38530E8D0"
+			rewards: [{
+				id: "5D9D2986720E7345"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "309FA33A3FEB3E09"
 				item: {
@@ -527,6 +652,11 @@
 			dependencies: ["438E233A9014DA73"]
 			description: ["The Ad Astra's raw ores are actually duplicable via Botania, even though its pretty expensive."]
 			id: "028A83967A3AD437"
+			rewards: [{
+				id: "70EA87DF3FD84432"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "46F9877FA4623003"
 				title: "Tired of looking for the ores?"
@@ -539,6 +669,11 @@
 			dependencies: ["29CA86742E9369C2"]
 			icon: "ad_extendra:orcus_globe"
 			id: "57E5706D527A185A"
+			rewards: [{
+				id: "4FEDD39E75D68C0F"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "ad_extendra:orcus"
 				id: "72ACD5FE19D7E89A"
@@ -550,6 +685,11 @@
 		{
 			dependencies: ["57E5706D527A185A"]
 			id: "38F8B7900041030E"
+			rewards: [{
+				id: "3488E71D0AF29529"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "66E5FD21CC9F59AB"
 				item: {
@@ -565,6 +705,11 @@
 		{
 			dependencies: ["4AAB5CB2015F572E"]
 			id: "5785BAE5647795FB"
+			rewards: [{
+				id: "79D6CFCF5B2A7EE4"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1D8FD8AB7189C7DC"
 				item: {
@@ -580,6 +725,11 @@
 		{
 			dependencies: ["2FCED2BDD4F10C46"]
 			id: "7DD729D7BE5E18B9"
+			rewards: [{
+				id: "5388935271E3A601"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "65627F08EEF71849"
 				item: {
@@ -596,6 +746,11 @@
 			dependencies: ["57E5706D527A185A"]
 			icon: "ad_extendra:pluto_globe"
 			id: "4AAB5CB2015F572E"
+			rewards: [{
+				id: "046D3F7D1F448966"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "ad_extendra:pluto"
 				id: "074D2DC23D37C8F3"
@@ -608,6 +763,11 @@
 			dependencies: ["4AAB5CB2015F572E"]
 			icon: "ad_extendra:sedna_globe"
 			id: "2FCED2BDD4F10C46"
+			rewards: [{
+				id: "79C95F86C358675E"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "ad_extendra:sedna"
 				id: "52A012843E0E8E02"

@@ -46,6 +46,11 @@
 		{
 			description: ["This is used as a 'flint and steel' for the portal, which needs to be made out of stone bricks as shown on the picture."]
 			id: "2ABA3AB7CE13B96B"
+			rewards: [{
+				id: "6E5561498FF3422F"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2E61E3488E4E7A4C"
 				item: "undergarden:catalyst"
@@ -62,6 +67,11 @@
 				"Alternatively, craft its data model from resources around Undergarden."
 			]
 			id: "21CBF55884B3643E"
+			rewards: [{
+				id: "38A42DA27658B538"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0EE3F5B45B634CF8"
 				item: "undergarden:cloggrum_ingot"
@@ -74,6 +84,11 @@
 			dependencies: ["2ABA3AB7CE13B96B"]
 			description: ["You need to find Gloomper and use data model on him."]
 			id: "3D99D74D3A80F824"
+			rewards: [{
+				id: "37A492FE10F77E7A"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7601E6BFB4567794"
 				item: "undergarden:froststeel_ingot"
@@ -93,6 +108,11 @@
 				"Alternatively, craft its data model from resources around Undergarden."
 			]
 			id: "349224B63A262856"
+			rewards: [{
+				id: "2EAE7CFE79F0367C"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "426E9D3D9B818424"
 				item: "undergarden:forgotten_ingot"
@@ -105,6 +125,11 @@
 			dependencies: ["349224B63A262856"]
 			description: ["Coils for Giant Accelerated EBF. Pretty strong."]
 			id: "460702CC2EF7FBA5"
+			rewards: [{
+				id: "2E1F14624F9C0F9D"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0E8F663E66BF7595"
 				item: "gregecore:forgotten_coil"

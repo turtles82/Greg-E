@@ -21,6 +21,11 @@
 		{
 			dependencies: ["29E007A7BC7E6B4E"]
 			id: "433308CADCABF703"
+			rewards: [{
+				id: "14FED7E659E7D89B"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5C82BD02CDE66CDB"
 				item: "gregecore:starmaykr"
@@ -32,6 +37,11 @@
 		{
 			dependencies: ["4D89A1A3BC682102"]
 			id: "514C9FE7A4995F36"
+			rewards: [{
+				id: "25608FB68EF6C883"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -45,6 +55,11 @@
 		{
 			dependencies: ["29E007A7BC7E6B4E"]
 			id: "338C409F0D35F333"
+			rewards: [{
+				id: "38F4C9526402126D"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "08EA67DA2C737BFB"
 				item: "gregecore:fornaxuniversi"
@@ -56,6 +71,11 @@
 		{
 			dependencies: ["514C9FE7A4995F36"]
 			id: "29E007A7BC7E6B4E"
+			rewards: [{
+				id: "555EB37944A90314"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2FBEA0D83D7170B7"
 				item: "avaritia:extreme_crafting_table"
@@ -70,6 +90,11 @@
 				"433308CADCABF703"
 			]
 			id: "12160780AA88096F"
+			rewards: [{
+				id: "1A0C9C51B28A7DF3"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "06F40237987C7CFD"
 				item: "avaritia:infinity_catalyst"
@@ -82,6 +107,11 @@
 			dependencies: ["1E327381D3FB9CAA"]
 			description: ["If you want to complete this pack in a normal amount of time, get this multiblock. If you dont want to, get ready to spam assembly lines."]
 			id: "04BAB1AF2E370022"
+			rewards: [{
+				id: "0E6A5DFD182D3637"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6AEE34AAFE1D81D6"
 				item: "gtceu:specializedassemblyline"
@@ -93,6 +123,11 @@
 		{
 			dependencies: ["12160780AA88096F"]
 			id: "1E327381D3FB9CAA"
+			rewards: [{
+				id: "01FDAA65AF959F5C"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1CD432A7FC6942D2"
 				item: "avaritia:infinity_ingot"
@@ -105,6 +140,11 @@
 			dependencies: ["1E327381D3FB9CAA"]
 			description: ["Get the creative chest first."]
 			id: "1D4417AF061FFAC6"
+			rewards: [{
+				id: "7ACB9D359CB38B2A"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4FD4662F69989109"
@@ -129,6 +169,11 @@
 			dependencies: ["29E007A7BC7E6B4E"]
 			description: ["Automating Extreme table is very easy with this. Place it next to a ME packaging provider, and put the pattern into that."]
 			id: "309B7134B2CDC66D"
+			rewards: [{
+				id: "0E71D6843B09B764"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1F928873494207E0"
 				item: "packagedavaritia:extreme_crafter"
@@ -141,6 +186,11 @@
 			dependencies: ["1D4417AF061FFAC6"]
 			description: ["Your last hurdle before you complete the pack. Be prepared - this requires that you do everything."]
 			id: "3B6843F5FDB109B8"
+			rewards: [{
+				id: "639C46BA0FEE3CE3"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "372D5B25D515746A"
@@ -188,6 +238,12 @@
 				"cu5tmtp"
 			]
 			id: "73EE77DC13D01ED7"
+			rewards: [{
+				count: 999
+				id: "0212FED27B9E9869"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "heart"
 			size: 2.5d
 			tasks: [
@@ -230,6 +286,11 @@
 		{
 			dependencies: ["1E327381D3FB9CAA"]
 			id: "06D5E0910DD3E537"
+			rewards: [{
+				id: "14AE0629C3D5D815"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "417F2C7469F0C404"
 				item: "gtceu:uhv_uhv_parallel_hatch"
@@ -242,6 +303,11 @@
 			dependencies: ["433308CADCABF703"]
 			description: ["Last tier of energy hatches!"]
 			id: "7B182B011D77AFE9"
+			rewards: [{
+				id: "19F815553CDE68FD"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "209BBB41919BC59C"
 				item: "gtceu:uev_energy_input_hatch"

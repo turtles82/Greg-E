@@ -14,6 +14,11 @@
 			dependencies: ["56F43C4B1B255624"]
 			description: [""]
 			id: "12BDE512C734D19A"
+			rewards: [{
+				id: "5AADD5C8D48B9757"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1177AB4D5588F257"
 				item: "draconicevolution:draconium_core"
@@ -26,6 +31,11 @@
 			dependencies: ["12BDE512C734D19A"]
 			description: [""]
 			id: "4B7840F1A8CF1378"
+			rewards: [{
+				id: "7BB86B6E79779EDE"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
@@ -40,6 +50,11 @@
 			dependencies: ["4B7840F1A8CF1378"]
 			description: [""]
 			id: "1D3E2363CFD4C5E0"
+			rewards: [{
+				id: "5106B9D6B26B69BF"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
@@ -52,6 +67,11 @@
 		}
 		{
 			id: "56F43C4B1B255624"
+			rewards: [{
+				id: "66A027424727904A"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0C1AA2E7944C4403"
 				item: "draconicevolution:draconium_dust"
@@ -63,6 +83,11 @@
 		{
 			dependencies: ["1D3E2363CFD4C5E0"]
 			id: "4756A02C93D53C2A"
+			rewards: [{
+				id: "57DC9106BCA81DF6"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "73C6B4AD167B20A7"
 				item: "draconicevolution:wyvern_crafting_injector"
@@ -74,6 +99,11 @@
 		{
 			dependencies: ["4756A02C93D53C2A"]
 			id: "0657A8B103DEE3FB"
+			rewards: [{
+				id: "35C7B07335CAA5C6"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0B30DEC2714AA993"
 				item: "draconicevolution:awakened_crafting_injector"
@@ -86,6 +116,11 @@
 			dependencies: ["0657A8B103DEE3FB"]
 			description: ["Try to get this maxed out, otherwise chaos guardian might be a bit hard."]
 			id: "6E071E5E36C675E5"
+			rewards: [{
+				id: "7407BB1BD52A2C23"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5607782DB43E9197"
@@ -146,6 +181,11 @@
 			dependencies: ["6E071E5E36C675E5"]
 			description: ["Chaos Island is located in the End, every 10000 blocks in any direction."]
 			id: "7F1F92A8E4BB052E"
+			rewards: [{
+				id: "1FA9B019F8F470BB"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "76F33FD7DE461080"
 				item: {
@@ -165,6 +205,11 @@
 		{
 			dependencies: ["7F1F92A8E4BB052E"]
 			id: "383459D1AB0D871C"
+			rewards: [{
+				id: "1A87BC263867AD6D"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "77CB84B85EF9D828"
 				item: "draconicevolution:dragon_heart"
@@ -177,6 +222,11 @@
 			dependencies: ["0657A8B103DEE3FB"]
 			description: ["Just connect the fusion crafter to ME packaging provider. Dont forget to change the injectors to marked ones."]
 			id: "5452BE7EBE36794A"
+			rewards: [{
+				id: "0999340CEBC7BD7E"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5E03E1A23B35E33C"

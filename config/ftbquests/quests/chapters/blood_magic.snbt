@@ -11,6 +11,11 @@
 		{
 			description: ["Get the altar, its your 'crafting' bench for this mod. Look in the book for the correct multiblock placement."]
 			id: "61FFFBD9D57C59E9"
+			rewards: [{
+				id: "22CB05A427C5D792"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "135E4370897E07CA"
@@ -40,6 +45,11 @@
 				"You can check the maximum amounts of runes in the Blood Magic book."
 			]
 			id: "5200F7792C378575"
+			rewards: [{
+				id: "6715C0FB645A6B28"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "651F12EC8F79F042"
 				title: "Best altar setup"
@@ -56,6 +66,11 @@
 				"Also check out the catalyst, those give you multipliers on the blood recieved (-1 uses means its infinite). You can have multiple Sacrificers per altar."
 			]
 			id: "5F9E4A0D889D77F0"
+			rewards: [{
+				id: "753A97639F9E00B8"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "61EFC138A4EFF0A4"
 				item: "sanguine_networks:virtual_sacrificer"
@@ -68,6 +83,11 @@
 			dependencies: ["61FFFBD9D57C59E9"]
 			description: ["Right click this to get blood in your altar. It drains HP, but there are multiple ways to regenerate that fast."]
 			id: "3D14ABE6B08AB394"
+			rewards: [{
+				id: "2F6E25A2424FF4A1"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4E6535A3855FEE57"
 				item: {
@@ -83,6 +103,11 @@
 		{
 			dependencies: ["5200F7792C378575"]
 			id: "6373B87A543362B8"
+			rewards: [{
+				id: "568E5127F1FAA95C"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4EF05BFD94DA276B"
 				item: "gregecore:solar_activator"

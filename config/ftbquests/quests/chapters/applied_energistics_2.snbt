@@ -15,6 +15,11 @@
 			description: [""]
 			icon: "ae2:certus_quartz_crystal"
 			id: "2893F483C10293E6"
+			rewards: [{
+				id: "4852B02FCC3C2784"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
@@ -29,6 +34,11 @@
 			dependencies: ["2893F483C10293E6"]
 			description: [""]
 			id: "51236544BFEF487B"
+			rewards: [{
+				id: "4EA2CB194DF7CF9E"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [
@@ -61,6 +71,11 @@
 			dependencies: ["51236544BFEF487B"]
 			description: [""]
 			id: "15564C11744D6AA0"
+			rewards: [{
+				id: "4741AE694AF29B65"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [
@@ -87,6 +102,11 @@
 			dependencies: ["15564C11744D6AA0"]
 			description: [""]
 			id: "22C4318523A43B49"
+			rewards: [{
+				id: "11AE2990699DF8A5"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [
@@ -108,6 +128,11 @@
 			dependencies: ["2F16B6A173525277"]
 			description: [""]
 			id: "4E8A05C3BFA80540"
+			rewards: [{
+				id: "0DD620A693334D1F"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
@@ -123,6 +148,11 @@
 			description: [""]
 			icon: "ae2:pattern_provider"
 			id: "51DE3157DE3E57B8"
+			rewards: [{
+				id: "7F3B10F8006CD62E"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
@@ -137,6 +167,11 @@
 			dependencies: ["22C4318523A43B49"]
 			description: [""]
 			id: "2F16B6A173525277"
+			rewards: [{
+				id: "1A8FEABDEA719DCF"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
@@ -151,6 +186,11 @@
 			dependencies: ["4E8A05C3BFA80540"]
 			description: [""]
 			id: "2FB231069D2E4E77"
+			rewards: [{
+				id: "059F4A3B3EFDDEC8"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
@@ -168,6 +208,11 @@
 			]
 			description: [""]
 			id: "3B42CCC19D23EC6D"
+			rewards: [{
+				id: "1D1B59D9113278E3"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
@@ -185,6 +230,11 @@
 			]
 			description: [""]
 			id: "219932CB19258C16"
+			rewards: [{
+				id: "17757599BC6E87A8"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
@@ -202,6 +252,11 @@
 			]
 			description: [""]
 			id: "523853C1C4E688BA"
+			rewards: [{
+				id: "4BC8BF78EF41FED7"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
@@ -219,6 +274,11 @@
 			]
 			description: [""]
 			id: "5F56892CD904C40F"
+			rewards: [{
+				id: "376B133FB377AA62"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
@@ -236,6 +296,11 @@
 			]
 			description: [""]
 			id: "460A8F17F3ED6CAF"
+			rewards: [{
+				id: "29CD70CB2DE88C0E"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
@@ -253,6 +318,11 @@
 			]
 			description: [""]
 			id: "25DBA00422301EDC"
+			rewards: [{
+				id: "0EB0117031B9A9D0"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
@@ -270,6 +340,11 @@
 			]
 			description: [""]
 			id: "0E809747193ED3A9"
+			rewards: [{
+				id: "1A782D8BEA8B3737"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
@@ -287,6 +362,11 @@
 			]
 			description: [""]
 			id: "3CE3D9245F8EC005"
+			rewards: [{
+				id: "45A79FE227BDA4BE"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
@@ -304,6 +384,11 @@
 			]
 			description: [""]
 			id: "51A57E142C686C8F"
+			rewards: [{
+				id: "14AD216C5E81F5EB"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
@@ -319,6 +404,11 @@
 			description: [""]
 			icon: "ae2:blank_pattern"
 			id: "2C04B3BA507D5673"
+			rewards: [{
+				id: "24D038D5AF4BF260"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
@@ -333,6 +423,11 @@
 			dependencies: ["2C04B3BA507D5673"]
 			description: [""]
 			id: "4597D3B3BDC2BED5"
+			rewards: [{
+				id: "278130943EF4C4A2"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
@@ -347,6 +442,11 @@
 			dependencies: ["4597D3B3BDC2BED5"]
 			description: [""]
 			id: "1F7DFA5AA65F2812"
+			rewards: [{
+				id: "7F54844CC24C02F5"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
@@ -361,6 +461,11 @@
 			dependencies: ["2F16B6A173525277"]
 			description: [""]
 			id: "2B31E6C1707D8195"
+			rewards: [{
+				id: "3CC2FF143F5C61BE"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [
@@ -385,6 +490,11 @@
 				"I recommend combining crafting terminal, pattern encoding terminal and extended pattern access terminal."
 			]
 			id: "16299B9AE87257DC"
+			rewards: [{
+				id: "550E569C2D902F9E"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
@@ -399,6 +509,11 @@
 			dependencies: ["16299B9AE87257DC"]
 			description: [""]
 			id: "234DC1702333EB18"
+			rewards: [{
+				id: "50A3CB7B67E1423E"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [
@@ -419,6 +534,11 @@
 		{
 			dependencies: ["5C1BB559DD83E88F"]
 			id: "777B90FCD2A91628"
+			rewards: [{
+				id: "3D72C240C8AE527F"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
@@ -432,6 +552,11 @@
 		{
 			dependencies: ["262AE37765B139BE"]
 			id: "4E30BDF20D6052A5"
+			rewards: [{
+				id: "5BCFFB49E8F478AA"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tasks: [{
@@ -446,6 +571,11 @@
 			dependencies: ["2F16B6A173525277"]
 			description: ["If you want challenge, use channels. I won't blame you if you won't!"]
 			id: "799B2C10605FF2C1"
+			rewards: [{
+				id: "0B635A60413C989A"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "7105AEAB22E257F9"
@@ -459,6 +589,11 @@
 			dependencies: ["2F16B6A173525277"]
 			description: ["This mod features direct link between ProjectE and AE2. Place this item anywhere on your network, and you will be able to see your EMC in AE2. Also this is way better on your world stability over using storage bus on transmutation interface."]
 			id: "44022D055063DE74"
+			rewards: [{
+				id: "391661C958416CEF"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "1355637FFF193F47"
@@ -472,6 +607,11 @@
 			dependencies: ["4597D3B3BDC2BED5"]
 			description: ["Put this in pattern provider next to a GT machine. Then you can start using circuits (meaning circuit 1, cirucit 2) in recipes, meaning that machine is not locked into doing only 1 circuit recipes."]
 			id: "36DA4A4EA8ED8DC0"
+			rewards: [{
+				id: "319179BDA04AA7B7"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "3BF665848E03F22A"
@@ -485,6 +625,11 @@
 			dependencies: ["2F16B6A173525277"]
 			description: ["This block is used to automatically request crafts from your AE2 system."]
 			id: "0EBB75DE2B6142B5"
+			rewards: [{
+				id: "183A3B2BAC73CA7A"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "56B73C22AE2ADC37"
 				item: "merequester:requester"
@@ -497,6 +642,11 @@
 			dependencies: ["51DE3157DE3E57B8"]
 			description: ["This block is more useful than you think - it can instantly put items in your network, output them and also if you put storage bus on this block, you have a recursive storage system! Very useful for Assembly Line automation."]
 			id: "7F2E2CA9BEC549E1"
+			rewards: [{
+				id: "779B5B6E3343BF92"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7B55FCE79933FF84"
 				item: "ae2:interface"

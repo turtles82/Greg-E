@@ -25,7 +25,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             '2x gtceu:raw_naquadah'
         )
-        .duration(100)
+        .duration(50)
         .EUt(GTValues.VA[GTValues.ZPM])
         .circuit(3)
 
