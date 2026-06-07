@@ -37,6 +37,8 @@ ServerEvents.recipes((event) => {
     event.remove({ id: 'gtceu:assembler/converter_64_a_uxv'})
     event.remove({ id: 'gtceu:assembler/converter_64_a_op_v'})
     event.remove({ id: 'gtceu:assembler/converter_64_a_max'})
+
+    event.remove('tiab:time_in_a_bottle')
     
 });
 

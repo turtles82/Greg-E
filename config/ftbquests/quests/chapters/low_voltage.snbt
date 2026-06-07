@@ -811,6 +811,23 @@
 			x: 1.5d
 			y: -7.5d
 		}
+		{
+			dependencies: ["5C1BB559DD83E88F"]
+			description: ["Use this block to spend your cu5tm Coins!"]
+			id: "4E841BC22EFDA4BC"
+			rewards: [{
+				id: "2DA74D7B768DA9A5"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15103007397E7493"
+				item: "kubejs:vending_machine"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
 	]
 	title: "LV"
 }

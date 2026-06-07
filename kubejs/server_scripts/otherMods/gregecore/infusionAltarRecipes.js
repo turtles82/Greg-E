@@ -316,6 +316,25 @@ ServerEvents.recipes((event) => {
         .duration(600)
         .addData('essentia', "0,0,1,1,1,0")
 
+    event.recipes.gtceu.infusion_altar_infusing()
+        .itemInputs(
+            '#gtceu:circuits/lv',
+            '4x gtceu:iron_plate',
+            'minecraft:iron_block',
+            '2x gtceu:steel_plate',
+            'minecraft:redstone_torch',
+            '2x minecraft:glass_pane',
+            'minecraft:repeater'
+        )
+        .inputFluids(
+            'gregecore:perditio_essentia 10'
+        )
+        .itemOutputs(
+            'kubejs:vending_machine'
+        )
+        .duration(600)
+        .addData('essentia', "0,0,0,0,1,0")
+
     //aqua, terra, aer, ignis, perditio, ordo
 
 })

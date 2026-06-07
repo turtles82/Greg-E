@@ -34,6 +34,43 @@ ItemEvents.tooltip((event) => {
 
     event.addAdvanced(
         [
+            'kubejs:cc'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gold('Spend me in the Vending Machine!'));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'kubejs:vending_machine'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.lightPurple('Right click on the bottom block to open GUI.'));
+            text.add(2, Text.lightPurple('Items are unlocked by completing the pentagon chapter quests.'));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'kubejs:legwepcore'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.lightPurple('Either craft this or purchase this from Vending Machine.'));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'tiab:time_in_a_bottle'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.lightPurple('Purchasable from Vending Machine.'));
+        }
+    );
+
+    event.addAdvanced(
+        [
             'kubejs:alkhalaclaw'
         ],
         (item, advanced, text) => {

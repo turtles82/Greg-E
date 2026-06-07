@@ -1,0 +1,30 @@
+
+#Configuration for Toggling Infusion Materials
+[material_infusion]
+
+	[material_infusion."Enable these items as infusion materials to be infused to Riftbound Curios"]
+		enableDiamond = true
+		enableNetherStar = true
+		enableIronIngot = true
+		enableGoldIngot = true
+		enableLapisLazuli = true
+		enableNetheriteIngot = true
+
+	[material_infusion."Riftbound Mod Compat"]
+		enableRiftboundVoidTouchedCoal = true
+		enableRiftboundVoidTouchedIronIngot = true
+		enableRiftboundVoidTouchedGoldIngot = true
+		enableRiftboundVoidTouchedLapisLazuli = true
+		enableRiftboundVoidTouchedDiamond = true
+		enableRiftboundVoidEssence = true
+
+	[material_infusion."Iron's Spellbook Compat"]
+		enableIronsSpellArcaneIngot = true
+		enableIronsSpellDragonSkin = true
+		enableIronsSpellAncientKnowledgeFragment = true
+		enableIronsSpellMithrilIngot = true
+		enableIronsSpellDivineSoulShard = true
+		enableIronsSpellPyriumIngot = true
+		enableIronsSpellIcyFang = true
+		enableIronsSpellPermafrostShard = true
+

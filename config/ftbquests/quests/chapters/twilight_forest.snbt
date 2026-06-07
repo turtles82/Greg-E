@@ -317,6 +317,28 @@
 			x: -10.0d
 			y: -1.0d
 		}
+		{
+			dependencies: ["4193303999597249"]
+			description: [
+				"Simply Swords is in the pack, you can choose between a lot of unique weapons."
+				""
+				"There are also legendary weapons with unique abilities."
+			]
+			id: "0D1AB1C324C15259"
+			rewards: [{
+				id: "57074AC0C5727F87"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F4643D46CA2A25E"
+				title: "Checkmark"
+				type: "checkmark"
+			}]
+			title: "Simply Swords"
+			x: -10.0d
+			y: 3.0d
+		}
 	]
 	title: "Twilight Forest"
 }

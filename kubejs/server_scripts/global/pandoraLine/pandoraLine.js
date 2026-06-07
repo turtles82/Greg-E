@@ -160,7 +160,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             'gtceu:eden_6_dust'
         )
-        .EUt(GTValues.VA[GTValues.UV])
+        .EUt(GTValues.VA[GTValues.ZPM])
         .duration(100)
         .circuit(1)
 

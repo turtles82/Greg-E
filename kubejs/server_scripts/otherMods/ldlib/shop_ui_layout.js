@@ -1,11 +1,19 @@
 const SHOP_ITEMS = [
     { item: '4x gtceu:steel_ingot', price: 2, label: 'LV_Universalsteel', unlock: '0CEC51F03B40A107', questName: 'ULV Chapter pentagon quest' },
     { item: 'kubejs:universal/lv', price: 4, label: 'LV_Universal', unlock: '0CEC51F03B40A107', questName: 'ULV Chapter pentagon quest' },
+    { item: '4x gtceu:aluminium_ingot', price: 2, label: 'MV_Universalalumi', unlock: '4D6885EFA4EE272F', questName: 'LV Chapter pentagon quest' },
     { item: 'kubejs:universal/mv', price: 5, label: 'MV_Universal', unlock: '4D6885EFA4EE272F', questName: 'LV Chapter pentagon quest' },
+    { item: '4x gtceu:stainless_steel_ingot', price: 3, label: 'HV_Universalstainless', unlock: '2C28217E1131A63A', questName: 'MV Chapter pentagon quest' },
     { item: 'kubejs:universal/hv', price: 6, label: 'HV_Universal', unlock: '2C28217E1131A63A', questName: 'MV Chapter pentagon quest' },
+    { item: '4x gtceu:titanium_ingot', price: 4, label: 'EV_Universaltitanium', unlock: '0DB4226BA23A5C09', questName: 'HV Chapter pentagon quest' },
     { item: 'kubejs:universal/ev', price: 8, label: 'EV_Universal', unlock: '0DB4226BA23A5C09', questName: 'HV Chapter pentagon quest' },
+    { item: '4x gtceu:tungsten_steel_ingot', price: 10, label: 'IV_Universaltungtungtung', unlock: '2E47C92E3E8D826A', questName: 'EV Chapter pentagon quest' },
     { item: 'kubejs:universal/iv', price: 10, label: 'IV_Universal', unlock: '2E47C92E3E8D826A', questName: 'EV Chapter pentagon quest' },
+    { item: '4x gtceu:rhodium_plated_palladium_ingot', price: 6, label: 'LUV_Universalrhodium', unlock: '2ACB94B77EF072EB', questName: 'IV Chapter pentagon quest' },
     { item: 'kubejs:universal/luv', price: 12, label: 'LUV_Universal', unlock: '2ACB94B77EF072EB', questName: 'IV Chapter pentagon quest' },
+    { item: 'tiab:time_in_a_bottle', price: 100, label: 'LUV_Universaltimeinabootl', unlock: '2ACB94B77EF072EB', questName: 'IV Chapter pentagon quest' },
+    { item: '16x gtceu:duct_tape', price: 2, label: 'MV_Universalductape', unlock: '4D6885EFA4EE272F', questName: 'LV Chapter pentagon quest' },
+    { item: 'kubejs:legwepcore', price: 30, label: 'LegWepCore', unlock: '4D6885EFA4EE272F', questName: 'LV Chapter pentagon quest' },
 ];
 
 const CURRENCY_ITEM = 'kubejs:cc';
@@ -54,19 +62,26 @@ function createShopUI(e) {
     moneyLabel.setText("cu5tm Coins in inventory: " + getEmeraldCount());
     root.addWidgets(moneyLabel);
 
+    let rootUpper = new WidgetGroup();
+    rootUpper.setSelfPosition(10, 30);
+    rootUpper.setSize(180, 110);
+    rootUpper.setBackground(GuiTextures.BACKGROUND)
     let scrollableRoot = new DraggableScrollableWidgetGroup();
-    scrollableRoot.setSelfPosition(10, 30);
-    scrollableRoot.setSize(180, 110);
+    scrollableRoot.setSelfPosition(3, 3); 
+    scrollableRoot.setSize(177, 104);
+    scrollableRoot.setYScrollBarWidth(6);
+    scrollableRoot.setYBarStyle(GuiTextures.BACKGROUND, ResourceBorderTexture.BUTTON_COMMON);
     scrollableRoot.setScrollable(true);
     scrollableRoot.setUseScissor(true);
-    root.addWidgets(scrollableRoot);
+    rootUpper.addWidgets(scrollableRoot);
+    root.addWidgets(rootUpper);
 
     availableItems.forEach((shopItem, index) => {
         let col = index % 2; 
         let row = Math.floor(index / 2);
 
         let itemButton = new ButtonWidget();
-        itemButton.setSelfPosition(10 + (col * 90), 10 + (row * 35));
+        itemButton.setSelfPosition(10 + (col * 90), 4 + (row * 35));
         itemButton.setSize(24, 24);
 
         let itemTexture = new ItemStackTexture();
@@ -102,7 +117,7 @@ function createShopUI(e) {
         )
 
         let priceLabel = new LabelWidget();
-        priceLabel.setSelfPosition(10 + (col * 90) + 28, 10 + (row * 35) + 8);
+        priceLabel.setSelfPosition(10 + (col * 90) + 28, 4 + (row * 35) + 8);
         priceLabel.setText(shopItem.price + " cC");
 
         scrollableRoot.addWidgets(itemButton, priceLabel);
