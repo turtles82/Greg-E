@@ -94,6 +94,12 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(GTMaterialIconSet.METALLIC)
         .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
 
+    event.create('enderium_wire')
+        .color(0x387e67)
+        .cableProperties(GTValues.VA[GTValues.LuV], 24, 2, false)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
     event.create('enderium')
         .ingot()
         .color(0x387e67)
@@ -115,6 +121,48 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     event.create('dirty_enderium')
         .dust()
         .color(0x5ab698)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('cursium_imitation')
+        .ingot()
+        .color(0x2cd3b0)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('cursium_wire')
+        .color(0x2cd3b0)
+        .cableProperties(GTValues.VA[GTValues.ZPM], 28, 2, false)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('cursed_air')
+        .fluid()
+        .color(0x7f8080)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('cursed_iron')
+        .dust()
+        .color(0x5c5c5e)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('storm_imitation')
+        .ingot()
+        .color(0x4095bf)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('captured_lightning')
+        .gas()
+        .color(0xe1ea87)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('storm_wire')
+        .color(0x4095bf)
+        .cableProperties(GTValues.VA[GTValues.UV], 32, 2, false)
         .iconSet(GTMaterialIconSet.METALLIC)
         .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
 

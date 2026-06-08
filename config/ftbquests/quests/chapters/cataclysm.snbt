@@ -210,6 +210,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["4D6D06C1C789CA7D"]
 			id: "2875B8CBE29450D1"
 			tasks: [{
 				id: "71E0BD2D233B8981"
@@ -220,6 +221,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["0C16BB7E81A7FC1F"]
 			id: "02542474632569E3"
 			tasks: [{
 				id: "42803D196EF8C3B2"
@@ -291,6 +293,71 @@
 			}]
 			x: 11.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["2DEECCC953F702A2"]
+			id: "52554241FBE71F48"
+			tasks: [{
+				id: "631165A2D1872AB4"
+				item: "gtceu:enderium_wire_single_wire"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2DEECCC953F702A2"]
+			description: [
+				"Main boss: Maledictus"
+				""
+				"Defeat the big enemies infront of the door, they will drop a key, use it on the door, then on the tombstone to spawn the boss."
+			]
+			id: "4D6D06C1C789CA7D"
+			tasks: [{
+				id: "7D255EC713535558"
+				item: "cataclysm:cursed_eye"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D6D06C1C789CA7D"]
+			id: "35B4B0517AE5618B"
+			tasks: [{
+				id: "0F0E5E99337BDF2C"
+				item: "gtceu:cursium_wire_single_wire"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4D6D06C1C789CA7D"]
+			description: [
+				"Main boss: Scylla"
+				""
+				"Fly up to the highest floor, you're gonna find an anchor on the ground. Step towards it to spawn the boss."
+			]
+			id: "0C16BB7E81A7FC1F"
+			tasks: [{
+				id: "20C333C30EB3C6F4"
+				item: "cataclysm:storm_eye"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C16BB7E81A7FC1F"]
+			id: "46E7205CFBA2923A"
+			tasks: [{
+				id: "09CC5F156C17A138"
+				item: "gtceu:storm_wire_single_wire"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.5d
 		}
 	]
 	title: "Cataclysm"

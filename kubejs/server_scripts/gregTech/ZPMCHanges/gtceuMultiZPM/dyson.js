@@ -61,10 +61,32 @@ ServerEvents.recipes((event) => {
     event.recipes.gtceu
         .launch_sails('launchingsailsyaaay')
         .itemInputs(
-            'gregecore:solar_sail'
+            '10x gregecore:solar_sail'
         )
         .EUt(GTValues.VA[GTValues.ZPM])
-        .duration(5)
+        .duration(50)
+        .addData("sailMultiplier", 0)
+        .circuit(1)
+
+    event.recipes.gtceu
+        .launch_sails('launchingsailsyaaay1')
+        .itemInputs(
+            '40x gregecore:solar_sail'
+        )
+        .EUt(GTValues.VA[GTValues.ZPM])
+        .duration(150)
+        .addData("sailMultiplier", 1)
+        .circuit(2)
+
+    event.recipes.gtceu
+        .launch_sails('launchingsailsyaaay2')
+        .itemInputs(
+            '125x gregecore:solar_sail'
+        )
+        .EUt(GTValues.VA[GTValues.ZPM])
+        .duration(400)
+        .addData("sailMultiplier", 2)
+        .circuit(3)
 
     event.recipes.gtceu
         .get_solar_sail_energy('getthatexpensiveenergyyay')

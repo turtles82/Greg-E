@@ -104,6 +104,16 @@ GTCEuStartupEvents.registry("gtceu:dimension_marker", event => {
         .tier(0)
         .overrideName("Ruined Citadel")
 
+    event.create('cataclysm_dimension:cataclysm_eternal_frosthold')
+        .iconSupplier(() => Item.of('cataclysm:cursed_eye').getItem())
+        .tier(0)
+        .overrideName("Frosted Prison")
+
+    event.create('cataclysm_dimension:cataclysm_sanctum_fallen')
+        .iconSupplier(() => Item.of('cataclysm:storm_eye').getItem())
+        .tier(0)
+        .overrideName("Fallen Sanctum")
+
 
 
 })

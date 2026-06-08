@@ -399,5 +399,260 @@ ServerEvents.recipes((event) => {
         .duration(300)
         .cleanroom(CleanroomType.CLEANROOM)
 
+    event.recipes.gtceu.gas_collector()
+        .outputFluids(
+            'gtceu:enderium_air 10000'
+        )
+        .circuit(10)
+        .EUt(GTValues.VA[GTValues.LuV])
+        .duration(500)
+        .dimension('cataclysm_dimension:cataclysm_bastion_lost')
+
+    event.recipes.gtceu.autoclave()
+        .inputFluids(
+            'gtceu:enderium_air 2500'
+        )
+        .itemOutputs(
+            'gtceu:dirty_enderium_dust'
+        )
+        .outputFluids(
+            'gtceu:ender_air 500'
+        )
+        .EUt(GTValues.VA[GTValues.LuV])
+        .duration(300)
+
+    event.recipes.gtceu.centrifuge()
+        .itemInputs(
+            'gtceu:dirty_enderium_dust'
+        )
+        .itemOutputs(
+            'gtceu:enderium_imitation_dust',
+            'gtceu:small_beryllium_dust'
+        )
+        .EUt(GTValues.VA[GTValues.LuV])
+        .duration(200)
+
+    event.recipes.gtceu.electric_blast_furnace()
+        .notConsumable(
+            'cataclysm:gauntlet_of_guard'
+        )
+        .itemOutputs(
+            'gtceu:enderium_ingot'
+        )
+        .EUt(GTValues.VA[GTValues.LuV])
+        .duration(200)
+        .blastFurnaceTemp(5000)
+
+    event.recipes.gtceu.electric_blast_furnace()
+        .itemInputs(
+            '2x gtceu:enderium_imitation_dust'
+        )
+        .itemOutputs(
+            'gtceu:enderium_imitation_ingot'
+        )
+        .EUt(GTValues.VA[GTValues.LuV])
+        .duration(700)
+        .blastFurnaceTemp(5000)
+
+    event.recipes.gtceu.wiremill()
+        .itemInputs(
+            '#grege:enderium'
+        )
+        .itemOutputs(
+            'gtceu:enderium_wire_single_wire'
+        )
+        .EUt(GTValues.VA[GTValues.LuV])
+        .duration(100)
+        .circuit(1)
+
+    event.recipes.gtceu.circuit_assembler('dsfvdfsv1vc521g5f1yxa1b51nj')
+        .itemInputs(
+            '2x gtceu:hssg_frame',
+            'gtceu:quantum_processor_computer',
+            '3x gtceu:advanced_smd_inductor',
+            '6x gtceu:advanced_smd_capacitor',
+            '12x gtceu:ram_chip',
+            '24x gtceu:enderium_wire_single_wire'
+        )
+        .itemOutputs(
+            'gtceu:quantum_processor_mainframe'
+        )
+        .EUt(GTValues.VA[GTValues.IV])
+        .duration(700)
+        .cleanroom(CleanroomType.CLEANROOM)
+
+    event.recipes.gtceu.circuit_assembler('dsfvdfsv1xfxfdxfvc521g5f1yxa1b51nj')
+        .itemInputs(
+            '2x gtceu:hssg_frame',
+            'gtceu:quantum_processor_computer',
+            '12x gtceu:smd_inductor',
+            '24x gtceu:smd_capacitor',
+            '12x gtceu:ram_chip',
+            '24x gtceu:enderium_wire_single_wire'
+        )
+        .itemOutputs(
+            'gtceu:quantum_processor_mainframe'
+        )
+        .EUt(GTValues.VA[GTValues.IV])
+        .duration(300)
+        .cleanroom(CleanroomType.CLEANROOM)
+
+    event.recipes.gtceu.gas_collector()
+        .outputFluids(
+            'gtceu:cursed_air 10000'
+        )
+        .circuit(11)
+        .EUt(GTValues.VA[GTValues.ZPM])
+        .duration(300)
+        .dimension('cataclysm_dimension:cataclysm_eternal_frosthold')
+
+    event.recipes.gtceu.distillation_tower()
+        .inputFluids(
+            'gtceu:cursed_air 10000'
+        )
+        .outputFluids(
+            'gtceu:argon 50',
+            'gtceu:nitrogen 45',
+            'gtceu:oxygen 100'
+        )
+        .itemOutputs(
+            'gtceu:cursed_iron_dust'
+        )
+        .EUt(GTValues.VA[GTValues.ZPM])
+        .duration(150)
+        .disableDistilleryRecipes(true)
+
+    event.recipes.gtceu.electrolyzer()
+        .itemInputs(
+            'gtceu:cursed_iron_dust'
+        )
+        .inputFluids(
+            'gtceu:oxygen 100'
+        )
+        .itemOutputs(
+            'gtceu:cursium_imitation_dust'
+        )
+        .EUt(GTValues.VA[GTValues.ZPM])
+        .duration(200)
+        .circuit(1)
+
+    event.recipes.gtceu.electric_blast_furnace()
+        .itemInputs(
+            'gtceu:cursium_imitation_dust'
+        )
+        .itemOutputs(
+            'gtceu:cursium_imitation_ingot'
+        )
+        .EUt(GTValues.VA[GTValues.ZPM])
+        .duration(600)
+        .blastFurnaceTemp(6500)
+
+    event.recipes.gtceu.wiremill()
+        .itemInputs(
+            '#grege:cursium'
+        )
+        .itemOutputs(
+            '2x gtceu:cursium_wire_single_wire'
+        )
+        .EUt(GTValues.VA[GTValues.ZPM])
+        .duration(100)
+        .circuit(1)
+
+    event.recipes.gtceu.assembly_line('crystalbetter2222222')
+        .itemInputs(
+            '2x gtceu:hsse_frame',
+            'gtceu:crystal_processor_computer',
+            '16x gtceu:ram_chip',
+            'gtceu:hpic_chip',
+            '8x gtceu:cursium_wire_single_wire',
+            '4x gtceu:advanced_smd_inductor',
+            '8x gtceu:advanced_smd_capacitor',
+            '4x gtceu:advanced_smd_diode'
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 1000'
+        )
+        .itemOutputs('2x gtceu:crystal_processor_mainframe')
+        .duration(700)
+        .EUt(GTValues.VA[GTValues.LuV])
+        .stationResearch(b => b.researchStack(Item.of('gtceu:cursium_wire_single_wire')).EUt(GTValues.VA[GTValues.LuV]).CWUt(32))
+
+    event.recipes.gtceu.gas_collector()
+        .outputFluids(
+            'gtceu:captured_lightning 10000'
+        )
+        .circuit(12)
+        .EUt(GTValues.VA[GTValues.UV])
+        .duration(500)
+        .dimension('cataclysm_dimension:cataclysm_sanctum_fallen')
+
+    event.recipes.gtceu.canner()
+        .itemInputs(
+            'minecraft:glass_bottle'
+        )
+        .inputFluids(
+            'gtceu:captured_lightning 5000'
+        )
+        .itemOutputs(
+            'kubejs:lightninginabottle'
+        )
+        .EUt(GTValues.VA[GTValues.UV])
+        .duration(200)
+
+    event.recipes.gtceu.centrifuge()
+        .itemInputs(
+            'kubejs:lightninginabottle'
+        )
+        .itemOutputs(
+            'gtceu:storm_imitation_dust',
+            'gtceu:glass_dust'
+        )
+        .EUt(GTValues.VA[GTValues.UV])
+        .duration(150)
+        .circuit(5)
+
+    event.recipes.gtceu.electric_blast_furnace()
+        .itemInputs(
+            'gtceu:storm_imitation_dust'
+        )
+        .itemOutputs(
+            'gtceu:storm_imitation_ingot'
+        )
+        .EUt(GTValues.VA[GTValues.UV])
+        .duration(650)
+        .blastFurnaceTemp(6500)
+
+    event.recipes.gtceu.wiremill()
+        .itemInputs(
+            '#grege:lightning'
+        )
+        .itemOutputs(
+            '2x gtceu:storm_wire_single_wire'
+        )
+        .circuit(1)
+        .EUt(GTValues.VA[GTValues.UV])
+        .duration(100)
+
+    event.recipes.gtceu.assembly_line('getbettericircuit222265333322')
+        .itemInputs(
+            '2x gtceu:tritanium_frame',
+            'gtceu:wetware_processor_computer',
+            '4x kubejs:ultimatediode',
+            '4x kubejs:ultimatetransistor',
+            '64x gtceu:polybenzimidazole_foil',
+            'gtceu:highly_advanced_soc',
+            '64x gtceu:ram_chip',
+            '32x gtceu:storm_wire_single_wire',
+            '8x gtceu:europium_plate'
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 3000',
+            'gtceu:polybenzimidazole 1000'
+        )
+        .itemOutputs('2x gtceu:wetware_processor_mainframe')
+        .duration(700)
+        .EUt(GTValues.VA[GTValues.UHV])
+        .stationResearch(b => b.researchStack(Item.of('gtceu:storm_wire_single_wire')).EUt(GTValues.VA[GTValues.UHV]).CWUt(64))
+        
 
 })

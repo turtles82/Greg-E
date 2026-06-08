@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('gtceu:uhv_electric_motor')
         .duration(600)
         .EUt(GTValues.VA[GTValues.UHV])
-        .stationResearch(b => b.researchStack(Item.of('gtceu:uv_electric_motor')).EUt(GTValues.VA[GTValues.UHV]).CWUt(512))
+        .stationResearch(b => b.researchStack(Item.of('gtceu:uv_electric_motor')).EUt(GTValues.VA[GTValues.UHV]).CWUt(128))
 
     event.recipes.gtceu.assembly_line('getuhvpump')
         .itemInputs(
@@ -39,7 +39,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('gtceu:uhv_electric_pump')
         .duration(600)
         .EUt(GTValues.VA[GTValues.UHV])
-        .stationResearch(b => b.researchStack(Item.of('gtceu:uv_electric_pump')).EUt(GTValues.VA[GTValues.UHV]).CWUt(512))
+        .stationResearch(b => b.researchStack(Item.of('gtceu:uv_electric_pump')).EUt(GTValues.VA[GTValues.UHV]).CWUt(128))
 
     event.recipes.gtceu.assembler('getfluidregulator')
         .itemInputs(
@@ -71,7 +71,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('gtceu:uhv_conveyor_module')
         .duration(600)
         .EUt(GTValues.VA[GTValues.UHV])
-        .stationResearch(b => b.researchStack(Item.of('gtceu:uv_conveyor_module')).EUt(GTValues.VA[GTValues.UHV]).CWUt(512))
+        .stationResearch(b => b.researchStack(Item.of('gtceu:uv_conveyor_module')).EUt(GTValues.VA[GTValues.UHV]).CWUt(128))
 
     event.recipes.gtceu.assembly_line('getuhvpiston')
         .itemInputs(
@@ -92,7 +92,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('gtceu:uhv_electric_piston')
         .duration(600)
         .EUt(GTValues.VA[GTValues.UHV])
-        .stationResearch(b => b.researchStack(Item.of('gtceu:uv_electric_piston')).EUt(GTValues.VA[GTValues.UHV]).CWUt(512))
+        .stationResearch(b => b.researchStack(Item.of('gtceu:uv_electric_piston')).EUt(GTValues.VA[GTValues.UHV]).CWUt(128))
 
     event.recipes.gtceu.assembly_line('getuhvrobotarm')
         .itemInputs(
@@ -114,7 +114,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('gtceu:uhv_robot_arm')
         .duration(600)
         .EUt(GTValues.VA[GTValues.UHV])
-        .stationResearch(b => b.researchStack(Item.of('gtceu:uv_robot_arm')).EUt(GTValues.VA[GTValues.UHV]).CWUt(512))
+        .stationResearch(b => b.researchStack(Item.of('gtceu:uv_robot_arm')).EUt(GTValues.VA[GTValues.UHV]).CWUt(128))
 
     event.recipes.gtceu.assembly_line('getuhvemitter')
         .itemInputs(
@@ -134,7 +134,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('gtceu:uhv_emitter')
         .duration(600)
         .EUt(GTValues.VA[GTValues.UHV])
-        .stationResearch(b => b.researchStack(Item.of('gtceu:uv_emitter')).EUt(GTValues.VA[GTValues.UHV]).CWUt(512))
+        .stationResearch(b => b.researchStack(Item.of('gtceu:uv_emitter')).EUt(GTValues.VA[GTValues.UHV]).CWUt(128))
 
     event.recipes.gtceu.assembly_line('getuhvsensor')
         .itemInputs(
@@ -154,7 +154,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('gtceu:uhv_sensor')
         .duration(600)
         .EUt(GTValues.VA[GTValues.UHV])
-        .stationResearch(b => b.researchStack(Item.of('gtceu:uv_sensor')).EUt(GTValues.VA[GTValues.UHV]).CWUt(512))
+        .stationResearch(b => b.researchStack(Item.of('gtceu:uv_sensor')).EUt(GTValues.VA[GTValues.UHV]).CWUt(128))
 
     event.recipes.gtceu.assembly_line('getuhvfieldgenerator')
         .itemInputs(
@@ -174,7 +174,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('gtceu:uhv_field_generator')
         .duration(600)
         .EUt(GTValues.VA[GTValues.UHV])
-        .stationResearch(b => b.researchStack(Item.of('gtceu:uv_field_generator')).EUt(GTValues.VA[GTValues.UHV]).CWUt(512))
+        .stationResearch(b => b.researchStack(Item.of('gtceu:uv_field_generator')).EUt(GTValues.VA[GTValues.UHV]).CWUt(128))
 
 
 })

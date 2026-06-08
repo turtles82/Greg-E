@@ -106,6 +106,7 @@ StartupEvents.registry('item', event => {
     event.create('imitationegg').displayName('Abyssal Egg Imitation')
     event.create('emptybattery').displayName('Empty Lava Power Cell Imitation')
     event.create('imitationbattery').displayName('Lava Power Cell Imitation')
+    event.create('lightninginabottle').displayName('Lightning in a Bottle')
 
     event.create('ultimatecapacitor').displayName('Ultimate SMD Capacitor')
     event.create('ultimatediode').displayName('Ultimate SMD Diode')

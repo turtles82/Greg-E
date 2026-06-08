@@ -137,4 +137,56 @@ ServerEvents.recipes((event) => {
         }
     )
 
+    event.shaped(
+        Item.of('kubejs:earring2', 1),
+        [
+            ' A ',
+            ' B ',
+            ' B '
+        ],
+        {
+            A: 'minecraft:gold_nugget',
+            B: 'gtceu:enderium_ingot'
+        }
+    )
+
+    event.recipes.botania.mana_infusion(
+        '2x cataclysm:cursium_ingot',
+        'cataclysm:cursium_ingot',
+        100,
+        'botania:conjuration_catalyst'
+    )
+
+    event.shaped(
+        Item.of('kubejs:trinket1', 1),
+        [
+            ' A ',
+            'BBB',
+            ' B '
+        ],
+        {
+            A: '#forge:leather',
+            B: 'cataclysm:cursium_ingot'
+        }
+    )
+
+    event.recipes.botania.mana_infusion(
+        '2x cataclysm:essence_of_the_storm',
+        'cataclysm:essence_of_the_storm',
+        100,
+        'botania:conjuration_catalyst'
+    )
+
+    event.shaped(
+        Item.of('kubejs:trinket2', 1),
+        [
+            'AAA',
+            'A A',
+            'AAA'
+        ],
+        {
+            A: 'cataclysm:essence_of_the_storm'
+        }
+    )
+
 })

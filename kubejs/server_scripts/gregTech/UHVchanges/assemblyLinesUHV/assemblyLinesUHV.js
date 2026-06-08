@@ -107,7 +107,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs('gregecore:learning_acc_ebf')
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UHV])
-        .stationResearch(b => b.researchStack(Item.of('gtceu:mega_blast_furnace')).EUt(GTValues.VA[GTValues.UHV]).CWUt(256))
+        .stationResearch(b => b.researchStack(Item.of('gtceu:mega_blast_furnace')).EUt(GTValues.VA[GTValues.UHV]).CWUt(128))
 
     event.recipes.gtceu.assembly_line('bv1g2b1f21vbawwawa2v12dv121')
         .itemInputs(
@@ -126,7 +126,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs('gregecore:spaceelevator')
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UHV])
-        .stationResearch(b => b.researchStack(Item.of('gtceu:long_neutronium_rod')).EUt(GTValues.VA[GTValues.UHV]).CWUt(256))
+        .stationResearch(b => b.researchStack(Item.of('gtceu:long_neutronium_rod')).EUt(GTValues.VA[GTValues.UHV]).CWUt(128))
 
     event.recipes.gtceu.assembly_line('gvfdbvfgd544545454554')
         .itemInputs(
@@ -147,7 +147,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs('gregecore:deep_space_explorer')
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UHV])
-        .stationResearch(b => b.researchStack(Item.of('gtceu:vibranium_plate')).EUt(GTValues.VA[GTValues.UHV]).CWUt(256))
+        .stationResearch(b => b.researchStack(Item.of('gtceu:vibranium_plate')).EUt(GTValues.VA[GTValues.UHV]).CWUt(128))
 
     event.recipes.gtceu.assembly_line('dsvdfs54v5445545hvhvj')
         .itemInputs(
@@ -162,7 +162,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs('gregecore:drone_access_machine')
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UHV])
-        .stationResearch(b => b.researchStack(Item.of('gtceu:small_vibranium_gear')).EUt(GTValues.VA[GTValues.UHV]).CWUt(256))
+        .stationResearch(b => b.researchStack(Item.of('gtceu:small_vibranium_gear')).EUt(GTValues.VA[GTValues.UHV]).CWUt(128))
 
     event.recipes.gtceu.assembly_line('vf21vd2fv12dfv12df112')
         .itemInputs(
@@ -179,7 +179,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs('gregecore:spaceship1')
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UHV])
-        .stationResearch(b => b.researchStack(Item.of('ad_astra:rocket_nose_cone')).EUt(GTValues.VA[GTValues.UHV]).CWUt(256))
+        .stationResearch(b => b.researchStack(Item.of('ad_astra:rocket_nose_cone')).EUt(GTValues.VA[GTValues.UHV]).CWUt(128))
 
     event.recipes.gtceu.assembly_line('dsv1d2fv12d1b2f1gb12')
         .itemInputs(
@@ -196,7 +196,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs('gregecore:spaceship2')
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UHV])
-        .stationResearch(b => b.researchStack(Item.of('gregecore:spaceship1')).EUt(GTValues.VA[GTValues.UHV]).CWUt(256))
+        .stationResearch(b => b.researchStack(Item.of('gregecore:spaceship1')).EUt(GTValues.VA[GTValues.UHV]).CWUt(128))
 
     event.recipes.gtceu.assembly_line('dfg12d2gb12121b2f1')
         .itemInputs(
@@ -213,7 +213,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs('gregecore:spaceship3')
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UHV])
-        .stationResearch(b => b.researchStack(Item.of('gregecore:spaceship2')).EUt(GTValues.VA[GTValues.UHV]).CWUt(512))
+        .stationResearch(b => b.researchStack(Item.of('gregecore:spaceship2')).EUt(GTValues.VA[GTValues.UHV]).CWUt(256))
 
 
 })

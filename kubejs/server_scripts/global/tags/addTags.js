@@ -42,5 +42,14 @@ ServerEvents.tags('item', event => {
     event.add('grege:powcell', 'cataclysm:lava_power_cell')
     event.add('grege:powcell', 'kubejs:imitationbattery')
 
+    event.add('grege:enderium', 'gtceu:enderium_ingot')
+    event.add('grege:enderium', 'gtceu:enderium_imitation_ingot')
+
+    event.add('grege:cursium', 'gtceu:cursium_imitation_ingot')
+    event.add('grege:cursium', 'cataclysm:cursium_ingot')
+
+    event.add('grege:lightning', 'cataclysm:essence_of_the_storm')
+    event.add('grege:lightning', 'gtceu:storm_imitation_ingot')
+
 
 })
