@@ -30,7 +30,7 @@ ServerEvents.recipes((event) => {
         ],
         {
             A: 'cataclysm:witherite_ingot',
-            B: 'minecraft:redstone_block'
+            B: 'gtceu:ruby_gem'
         }
     )
 
@@ -58,7 +58,7 @@ ServerEvents.recipes((event) => {
         ],
         {
             A: 'gtceu:abyssal_wire_ingot',
-            B: 'minecraft:lapis_block'
+            B: 'gtceu:sapphire_gem'
         }
     )
 
@@ -186,6 +186,19 @@ ServerEvents.recipes((event) => {
         ],
         {
             A: 'cataclysm:essence_of_the_storm'
+        }
+    )
+
+    event.shaped(
+        Item.of('kubejs:recall_pendant', 1),
+        [
+            'A A',
+            'A A',
+            ' B '
+        ],
+        {
+            A: 'gtceu:gold_ring',
+            B: 'gtceu:sapphire_gem'
         }
     )
 
