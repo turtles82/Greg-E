@@ -104,12 +104,12 @@ ServerEvents.recipes((event) => {
         .duration(200)
         .EUt(GTValues.VA[GTValues.ZPM])
 
-    event.recipes.gtceu.assembly_line()
+    event.recipes.gtceu.assembly_line('sdbdekfjbefgg52655656')
         .itemInputs(
             'gtceu:purified_rare_earth_dust'
         )
         .inputFluids(
-            'gtceu:europium 5'
+            'gtceu:naquadah 10'
         )
         .itemOutputs(
             'gtceu:filtered_rare_earth_dust'

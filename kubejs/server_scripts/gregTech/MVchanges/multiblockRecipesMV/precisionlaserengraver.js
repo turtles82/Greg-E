@@ -125,6 +125,5 @@ ServerEvents.recipes((event) => {
         )
         .duration(2000)
         .EUt(GTValues.VA[GTValues.IV])
-        .cleanroom(CleanroomType.CLEANROOM)
 
 })
