@@ -585,6 +585,199 @@
 			x: -15.0d
 			y: 5.0d
 		}
+		{
+			dependencies: ["695E846B663EC185"]
+			description: [""]
+			id: "285D4D116CCBD5BA"
+			rewards: [{
+				id: "633A86B59CDA7129"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E8615D9FB1D3557"
+				item: "gregecore:cartridgecase"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["285D4D116CCBD5BA"]
+			id: "4F1182BBC639A744"
+			rewards: [{
+				id: "4C7B89DD49B8ACE1"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1203CD62D7BB85F1"
+				item: "gregecore:machine_one"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["285D4D116CCBD5BA"]
+			id: "2DE7CCCFE59C6199"
+			rewards: [{
+				id: "427CE763F87E4EE5"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			tasks: [{
+				id: "716F989EBA42533B"
+				item: "gregecore:machine_two"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["285D4D116CCBD5BA"]
+			id: "6502C2746A710A40"
+			rewards: [{
+				id: "3F512ED94706F0B7"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6450766F8D3E83A0"
+				item: "gregecore:machine_three"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["285D4D116CCBD5BA"]
+			id: "1D68ECA8103D4EE1"
+			rewards: [{
+				id: "58C0CCDB68771BA7"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C7F57CF478F94B7"
+				item: "gregecore:machine_four"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["285D4D116CCBD5BA"]
+			id: "6E4B1258C1B66644"
+			rewards: [{
+				id: "69239958087260A4"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			tasks: [{
+				id: "532430C5C1FC58E6"
+				item: "gregecore:machine_five"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["285D4D116CCBD5BA"]
+			id: "188612F28EE4927C"
+			rewards: [{
+				id: "63B944FFBFC952EA"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5308F27D3B1DFCA5"
+				item: "gregecore:machine_six"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["285D4D116CCBD5BA"]
+			id: "0C40A50F231D82AC"
+			rewards: [{
+				id: "29C9F2EEA27EC0EC"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C246E4A699723FC"
+				item: "gregecore:machine_seven"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["285D4D116CCBD5BA"]
+			id: "14D2B67343EC0FC3"
+			rewards: [{
+				id: "1E9AC107DBECE8FC"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			tasks: [{
+				id: "416096EAAFF154BA"
+				item: "gregecore:machine_eight"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["285D4D116CCBD5BA"]
+			id: "1B82BFDB9CC637CB"
+			rewards: [{
+				id: "57CA5F31ECAFA2D2"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07322B55A3423AD6"
+				item: "gregecore:machine_nine"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["285D4D116CCBD5BA"]
+			id: "2AAF05880FF6F2A1"
+			rewards: [{
+				id: "55EEDD46E0D1402E"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63C191AFBF7B8679"
+				item: "gregecore:machine_ten"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["285D4D116CCBD5BA"]
+			id: "116DA84B8E73401D"
+			rewards: [{
+				id: "1260C779CB24EF64"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43D902AAF4247FF1"
+				item: "gregecore:machine_eleven"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
 	]
 	title: "UHV"
 }

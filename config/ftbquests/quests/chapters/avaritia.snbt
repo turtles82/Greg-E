@@ -113,8 +113,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "6AEE34AAFE1D81D6"
-				item: "gtceu:specializedassemblyline"
+				id: "7DF2FF09399D799A"
+				item: "gregecore:specializedassemblyline"
 				type: "item"
 			}]
 			x: -3.5d

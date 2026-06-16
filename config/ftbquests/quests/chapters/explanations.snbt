@@ -206,6 +206,24 @@
 			x: 3.0d
 			y: 3.5d
 		}
+		{
+			dependencies: ["214AF983D9546F5B"]
+			description: [
+				"Cu5tom Greg-E modifier, it allows machines to run 2 or more recipes in parallel. For example, you can have Steel Dust -> Steel Ingots on Thread 1, and at the same time Aluminium Dust -> Aluminium Ingots are running on Thread 2."
+				""
+				"Basically multiple machines in 1."
+				""
+				"It will still apply all the other boosts for the recipe."
+			]
+			id: "53E9326397CBEF52"
+			tasks: [{
+				id: "4EB5A7E53C029C49"
+				item: "gregecore:threading_one_machine"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
 	]
 	title: "Explanations"
 }

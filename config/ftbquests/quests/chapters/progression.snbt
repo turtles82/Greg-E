@@ -850,7 +850,7 @@
 				item: "gtceu:bismuth_dust"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 9.5d
 			y: 1.0d
 		}
 		{
@@ -880,7 +880,7 @@
 				item: "gtceu:raw_pyrochlore"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 8.5d
 			y: 1.0d
 		}
 		{
@@ -1278,6 +1278,26 @@
 			}]
 			x: 26.5d
 			y: -2.5d
+		}
+		{
+			id: "077DEC98A0D5A71C"
+			tasks: [{
+				id: "5C76BD34EF1945DE"
+				item: "gtceu:purified_galena_ore"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			id: "38D791A5FCD32743"
+			tasks: [{
+				id: "12CE6AD60746C1F9"
+				item: "gtceu:purified_sphalerite_ore"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
 		}
 	]
 	title: "Progression"

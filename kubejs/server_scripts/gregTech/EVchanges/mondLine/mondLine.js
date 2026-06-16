@@ -29,7 +29,7 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.EV])
         .duration(150)
 
-    event.recipes.gtceu.chemical_reactor()
+    event.recipes.gtceu.large_chemical_reactor()
         .itemInputs(
             'gtceu:dirty_nickelish_dust'
         )

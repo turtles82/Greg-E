@@ -1,5 +1,6 @@
 GTCEuStartupEvents.registry("gtceu:recipe_type", (event) => {
 
+  /*
   event
     .create("specializedassemblyline")
     .category("multiblock")
@@ -17,6 +18,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .recipeType('specializedassemblyline')
     .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
     .recipeModifiers([GTRecipeModifiers.OC_PERFECT, GTRecipeModifiers.PARALLEL_HATCH])
+    
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle("aabbaIabbaa", "abcccdcccba", "bccccdccccb", "bccccdccccb", "bccccdccccb", "abcccdcccba", "aabbaIabbaa")
         .aisle("abaaaIaaaba", "beeeeeeeeeb", "ceeeeeeeeec", "ceeeedeeeec", "ceeeeeeeeec", "beeeeeeeeeb", "abaaaIaaaba")
@@ -46,4 +48,5 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
       'gtceu:block/casings/gcym/high_temperature_smelting_casing',
       'gtceu:block/multiblock/distillation_tower'
     );
+    */
 });

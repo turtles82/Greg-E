@@ -22,7 +22,7 @@ ServerEvents.recipes((event) => {
             '8x gtceu:zpm_robot_arm',
             '8x gtceu:zpm_electric_piston'
         )
-        .itemOutputs('gtceu:giantabs')
+        .itemOutputs('gregecore:giantabs')
         .duration(1000)
         .EUt(GTValues.VA[GTValues.ZPM])
         .circuit(2)

@@ -1,4 +1,5 @@
 GTCEuStartupEvents.registry("gtceu:machine", (event) => {
+    /*
   event
     .create("giantabs", "multiblock")
     .rotationState(RotationState.NON_Y_AXIS)
@@ -39,4 +40,5 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
       "gtceu:block/casings/gcym/high_temperature_smelting_casing",
       "gtceu:block/multiblock/distillation_tower"
     );
+    */
 });

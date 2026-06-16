@@ -97,7 +97,7 @@ ServerEvents.recipes((event) => {
             '16x gtceu:uhv_field_generator',
             '16x gtceu:uhv_emitter',
         )
-        .itemOutputs('gtceu:specializedassemblyline')
+        .itemOutputs('gregecore:specializedassemblyline')
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UEV])
         .stationResearch(b => b.researchStack(Item.of('avaritia:infinity_ingot')).EUt(GTValues.VA[GTValues.UEV]).CWUt(512))
