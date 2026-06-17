@@ -1714,7 +1714,30 @@ let emiBannedItems = [
     "item:gtceu:cursium_imitation_nugget",
     "item:gtceu:decursium_foil",
     "item:gtceu:small_cursed_iron_dust",
-    "item:gtceu:tiny_cursed_iron_dust"
+    "item:gtceu:tiny_cursed_iron_dust",
+    "item:gtceu:small_signalum_dust",
+    "item:gtceu:tiny_signalum_dust",
+    "item:gtceu:signalum_block",
+    "item:gtceu:signalum_nugget",
+    "item:gtceu:lumium_nugget",
+    "item:gtceu:tiny_lumium_dust",
+    "item:gtceu:small_lumium_dust",
+    "item:gtceu:lumium_block",
+    "item:gtceu:retium_nugget",
+    "item:gtceu:retium_dust",
+    "item:gtceu:tiny_retium_dust",
+    "item:gtceu:small_retium_dust",
+    "item:gtceu:retium_block",
+    "item:gtceu:tiny_corelium_dust",
+    "item:gtceu:small_corelium_dust",
+    "item:gtceu:syncrium_nugget",
+    "item:gtceu:tiny_syncrium_dust",
+    "item:gtceu:small_syncrium_dust",
+    "item:gtceu:syncrium_block",
+    "item:gtceu:nectium_nugget",
+    "item:gtceu:tiny_nectium_dust",
+    "item:gtceu:small_nectium_dust",
+    "item:gtceu:nectium_block"
 ];
 
 let getCorrectItem = (emiBannedItems) => {
