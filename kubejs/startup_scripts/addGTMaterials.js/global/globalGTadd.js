@@ -101,6 +101,18 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(GTMaterialIconSet.METALLIC)
         .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
 
+    event.create('nlgibsonium')
+        .fluid()
+        .color(0x7c837d)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('waidaoium')
+        .fluid()
+        .color(0xedd36f)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
     addFluid(GTMaterials.SodiumHydroxide, $FluidStorageKeys.LIQUID)
 
 });

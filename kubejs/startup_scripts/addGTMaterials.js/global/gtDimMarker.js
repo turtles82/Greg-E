@@ -30,6 +30,11 @@ GTCEuStartupEvents.registry("gtceu:dimension_marker", event => {
         .tier(0)
         .overrideName("Hidden Realm")
 
+    event.create("gregecore:fracture_dimension")
+        .iconSupplier(() => Item.of("gtceu:nan_certificate").getItem())
+        .tier(0)
+        .overrideName("Fractured Lands")
+
 
     //Orbits
     event.create("ad_astra:mercury_orbit")

@@ -137,7 +137,7 @@ ServerEvents.recipes((event) => {
             'gtceu:decontaminated_rare_earth_dust'
         )
         .inputFluids(
-            'gtceu:neutronium 5'
+            'gtceu:nebulon_alpha 5'
         )
         .itemOutputs(
             'gtceu:strained_rare_earth_dust'

@@ -112,7 +112,7 @@ ServerEvents.recipes((event) => {
             '32x gtceu:neutronium_frame',
             '16x gtceu:uhv_robot_arm',
             '16x gtceu:uhv_field_generator',
-            '16x gtceu:uhv_emitter',
+            '16x gtceu:uhv_emitter'
         )
         .itemOutputs('gregecore:specializedassemblyline')
         .duration(1000)
@@ -127,23 +127,22 @@ ServerEvents.recipes((event) => {
             '4x gtceu:uv_parallel_hatch',
             '16x avaritia:endest_pearl',
             '8x gtceu:uhv_sensor',
-            '4x gtceu:uhv_field_generator',
-
+            '4x gtceu:uhv_field_generator'
         )
         .itemOutputs('gtceu:uhv_uhv_parallel_hatch')
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UEV])
         .stationResearch(b => b.researchStack(Item.of('avaritia:infinity_catalyst')).EUt(GTValues.VA[GTValues.UEV]).CWUt(512))
 
-    event.recipes.gtceu.assembly_line('getdonationaltarrrrrr')
+    event.recipes.gtceu.assembly_line('getdonationalt2634144arrrrrr')
         .itemInputs(
             '64x avaritia:infinity_ingot',
-            '64x kubejs:animated/draconicprocessor',
             '64x gtceu:neutronium_frame',
+            '64x kubejs:animated/draconicprocessor',
         )
         .itemOutputs('gregecore:ascencion_holder')
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UEV])
-        .stationResearch(b => b.researchStack(Item.of('avaritia:infinity')).EUt(GTValues.VA[GTValues.UEV]).CWUt(512))
+        .stationResearch(b => b.researchStack(Item.of('bloodmagic:blankrune')).EUt(GTValues.VA[GTValues.UEV]).CWUt(512))
 
 })
