@@ -571,11 +571,18 @@
 			dependencies: ["2F16B6A173525277"]
 			description: ["If you want challenge, use channels. I won't blame you if you won't!"]
 			id: "799B2C10605FF2C1"
-			rewards: [{
-				id: "0B635A60413C989A"
-				item: "kubejs:cc"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0B635A60413C989A"
+					item: "kubejs:cc"
+					type: "item"
+				}
+				{
+					command: "/ae2 channelmode infinite"
+					id: "5D5DF0200B7895FB"
+					type: "command"
+				}
+			]
 			shape: "circle"
 			tasks: [{
 				id: "7105AEAB22E257F9"
