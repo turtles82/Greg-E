@@ -198,6 +198,7 @@
 		{
 			dependencies: ["2F4258088CBFC399"]
 			description: [""]
+			icon: "gtceu:europium_bucket"
 			id: "74510B6C9C16A628"
 			rewards: [{
 				id: "1E6C26C35BE9175E"
@@ -205,11 +206,19 @@
 				type: "item"
 			}]
 			size: 1.0d
-			tasks: [{
-				id: "565E8ACA3EBFC082"
-				item: "gtceu:europium_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "565E8ACA3EBFC082"
+					item: "gtceu:europium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "67A653316C059D06"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: -2.0d
 			y: 0.0d
 		}
@@ -284,17 +293,26 @@
 		{
 			dependencies: ["2462AE2029F3C8E8"]
 			description: [""]
+			icon: "gtceu:fluoroantimonic_acid_bucket"
 			id: "3C9E93426D6412E0"
 			rewards: [{
 				id: "3A3A4311BE20FCC4"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "78E198546E2EFDCC"
-				item: "gtceu:fluoroantimonic_acid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "78E198546E2EFDCC"
+					item: "gtceu:fluoroantimonic_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6364EB562F88F1C7"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: -9.5d
 			y: -1.5d
 		}
@@ -304,17 +322,26 @@
 				"7D972F334DCE5626"
 			]
 			description: [""]
+			icon: "gtceu:impure_enriched_naquadah_solution_bucket"
 			id: "0E73B4A4A1CC6B0F"
 			rewards: [{
 				id: "54B736FE39E5F5F3"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "0FBFFB359759ECBC"
-				item: "gtceu:impure_enriched_naquadah_solution_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0FBFFB359759ECBC"
+					item: "gtceu:impure_enriched_naquadah_solution_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "23D7A9622979FB7C"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: -8.0d
 			y: -1.5d
 		}
@@ -618,34 +645,52 @@
 		{
 			dependencies: ["402FE874C854840C"]
 			description: [""]
+			icon: "gtceu:pcb_coolant_bucket"
 			id: "615C8496F7CCD9A4"
 			rewards: [{
 				id: "643F78553900D837"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "6642A8D5A1868059"
-				item: "gtceu:pcb_coolant_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6642A8D5A1868059"
+					item: "gtceu:pcb_coolant_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "39AEAD81924A2088"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: 12.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["42F7E5E834C63270"]
 			description: [""]
+			icon: "gtceu:polychlorinated_biphenyl_bucket"
 			id: "402FE874C854840C"
 			rewards: [{
 				id: "0CBDAE7FC11A1E57"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "70A00D9EFF328AE1"
-				item: "gtceu:polychlorinated_biphenyl_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "70A00D9EFF328AE1"
+					item: "gtceu:polychlorinated_biphenyl_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3AA25AE6CF4ED654"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: 12.0d
 			y: -3.0d
 		}

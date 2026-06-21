@@ -148,17 +148,26 @@
 		{
 			dependencies: ["5E90EF7FF530C477"]
 			description: [""]
+			icon: "gtceu:polyethylene_bucket"
 			id: "6A82827978D3483B"
 			rewards: [{
 				id: "0D7C2465BDD39D79"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "6A3EF1D7987AA6BB"
-				item: "gtceu:polyethylene_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6A3EF1D7987AA6BB"
+					item: "gtceu:polyethylene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "28AFBB7648574677"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: 2.5d
 			y: 5.0d
 		}
@@ -329,17 +338,26 @@
 				"579A41570D610B07"
 			]
 			description: [""]
+			icon: "gtceu:ethylene_bucket"
 			id: "5E90EF7FF530C477"
 			rewards: [{
 				id: "306B2362322777A8"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "1D9C137DC559E76F"
-				item: "gtceu:ethylene_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1D9C137DC559E76F"
+					item: "gtceu:ethylene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "04D59189FEC5C24A"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: 1.0d
 			y: 5.0d
 		}
@@ -349,17 +367,26 @@
 				"22AC248B6BB88486"
 			]
 			description: [""]
+			icon: "gtceu:ethanol_bucket"
 			id: "629DC8DED0F6B578"
 			rewards: [{
 				id: "012DCD956795DF3D"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "70555BDDBADF02A3"
-				item: "gtceu:ethanol_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "70555BDDBADF02A3"
+					item: "gtceu:ethanol_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3005C2FA9AB76F76"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: -1.5d
 			y: 5.0d
 		}
@@ -383,17 +410,26 @@
 		{
 			dependencies: ["53AF056139DAACDB"]
 			description: [""]
+			icon: "gtceu:biomass_bucket"
 			id: "307F92868E0F4EB3"
 			rewards: [{
 				id: "036AF80A414FC7DA"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "17A555336A386EDA"
-				item: "gtceu:biomass_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "17A555336A386EDA"
+					item: "gtceu:biomass_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2FE70A0B11969646"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: -1.5d
 			y: 6.0d
 		}

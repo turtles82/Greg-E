@@ -150,6 +150,7 @@
 		{
 			dependencies: ["6E18951E41103391"]
 			description: [""]
+			icon: "gtceu:neutronium_bucket"
 			id: "695E846B663EC185"
 			rewards: [{
 				id: "6E57278BB36DA53F"
@@ -158,11 +159,19 @@
 			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{
-				id: "273FC653514D8BC2"
-				item: "gtceu:neutronium_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "273FC653514D8BC2"
+					item: "gtceu:neutronium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "06006161306346C5"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: 1.5d
 			y: 0.5d
 		}
@@ -291,69 +300,106 @@
 		}
 		{
 			dependencies: ["7768C3462C0EBFD3"]
+			icon: "gtceu:nebulon_omega_dissolved_bucket"
 			id: "41B8C1C658348626"
 			rewards: [{
 				id: "264457DEC3C6A35E"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "6D705451D156556F"
-				item: "gtceu:nebulon_omega_dissolved_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6D705451D156556F"
+					item: "gtceu:nebulon_omega_dissolved_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2CB0B2FF03E651E8"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: -11.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["41B8C1C658348626"]
+			icon: "gtceu:naquadron_delta_plasma_bucket"
 			id: "088CD5FCEE33C8FD"
 			rewards: [{
 				id: "59E56F1510E140EB"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "25D2211960B998F8"
-				item: "gtceu:naquadron_delta_plasma_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "25D2211960B998F8"
+					item: "gtceu:naquadron_delta_plasma_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "53B0F1B0572DE649"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: -12.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["088CD5FCEE33C8FD"]
+			icon: "gtceu:naquadron_delta_bucket"
 			id: "7810902D047AD4C2"
 			rewards: [{
 				id: "2E7BA4C493FBFB72"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "29408E869283EF8F"
-				item: "gtceu:naquadron_delta_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "29408E869283EF8F"
+					item: "gtceu:naquadron_delta_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "21B01C6D8D0AB161"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: -12.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["7810902D047AD4C2"]
+			icon: "gtceu:naquadron_zeta_bucket"
 			id: "052B0A045C9F29AC"
 			rewards: [{
 				id: "64617A3FCFD9EF43"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "43963E3F7168E854"
-				item: "gtceu:naquadron_zeta_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "43963E3F7168E854"
+					item: "gtceu:naquadron_zeta_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "31AAEE12DEDC864C"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: -12.5d
 			y: -2.5d
 		}
 		{
+			icon: "gtceu:fluoronaquadic_acid_bucket"
 			id: "379CE9CD40CF4C89"
 			rewards: [{
 				id: "6EA0A9BFCF6E6F24"
@@ -361,27 +407,44 @@
 				type: "item"
 			}]
 			shape: "square"
-			tasks: [{
-				id: "550448E4BD3625BC"
-				item: "gtceu:fluoronaquadic_acid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "550448E4BD3625BC"
+					item: "gtceu:fluoronaquadic_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2AB3DB4166EBD7FD"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: -15.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["379CE9CD40CF4C89"]
+			icon: "gtceu:excited_naquadic_solution_bucket"
 			id: "4FECD7FCCC27AAF2"
 			rewards: [{
 				id: "3C92D53CAC219765"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "77D7581295A78BA5"
-				item: "gtceu:excited_naquadic_solution_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "77D7581295A78BA5"
+					item: "gtceu:excited_naquadic_solution_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "77E5D12BCB53CEAD"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: -14.0d
 			y: -4.0d
 		}
@@ -390,65 +453,101 @@
 				"052B0A045C9F29AC"
 				"4FECD7FCCC27AAF2"
 			]
+			icon: "gtceu:dinebulon_zeta_omni_fluid_bucket"
 			id: "747F9ABE7B28261B"
 			rewards: [{
 				id: "610D8EC1345109C8"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "43D32AB3170B6AA9"
-				item: "gtceu:dinebulon_zeta_omni_fluid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "43D32AB3170B6AA9"
+					item: "gtceu:dinebulon_zeta_omni_fluid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "696376A397BA13E7"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: -12.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["747F9ABE7B28261B"]
+			icon: "gtceu:dinebulon_zeta_bucket"
 			id: "2D0074B332468A24"
 			rewards: [{
 				id: "47263511EE8D1F7C"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "55CE3A1EF4684353"
-				item: "gtceu:dinebulon_zeta_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "55CE3A1EF4684353"
+					item: "gtceu:dinebulon_zeta_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6D89736955048CF6"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: -12.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["2D0074B332468A24"]
+			icon: "gtceu:nebulon_zeta_bucket"
 			id: "48A72821B8A7A73D"
 			rewards: [{
 				id: "21CED8AEC2733220"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "4C0B9121C22DE940"
-				item: "gtceu:nebulon_zeta_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4C0B9121C22DE940"
+					item: "gtceu:nebulon_zeta_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7793A1D586DFCF95"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: -12.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["41B8C1C658348626"]
+			icon: "gtceu:nebulon_gamma_slurry_bucket"
 			id: "626C9B5778D43A22"
 			rewards: [{
 				id: "683F2B7535637E17"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "58715B324F7067B0"
-				item: "gtceu:nebulon_gamma_slurry_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "58715B324F7067B0"
+					item: "gtceu:nebulon_gamma_slurry_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1D805B010D40CCF4"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: -9.5d
 			y: 0.5d
 		}
@@ -457,33 +556,51 @@
 				"48A72821B8A7A73D"
 				"4B7E2AC8E2E97EDD"
 			]
+			icon: "gtceu:nebulon_alpha_bucket"
 			id: "43510CE90FAE69FD"
 			rewards: [{
 				id: "26710DC795103C4E"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "48605493364EDD30"
-				item: "gtceu:nebulon_alpha_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "48605493364EDD30"
+					item: "gtceu:nebulon_alpha_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "733458EA320B88DF"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: -11.0d
 			y: -8.5d
 		}
 		{
 			dependencies: ["626C9B5778D43A22"]
+			icon: "gtceu:nebulon_gamma_bucket"
 			id: "4B7E2AC8E2E97EDD"
 			rewards: [{
 				id: "1E785AFEF25EA2B0"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "1128B90A5076DDA6"
-				item: "gtceu:nebulon_gamma_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1128B90A5076DDA6"
+					item: "gtceu:nebulon_gamma_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "04CB30B20A01B566"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: -9.5d
 			y: -7.0d
 		}

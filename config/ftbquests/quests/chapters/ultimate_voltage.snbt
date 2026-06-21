@@ -259,34 +259,52 @@
 		{
 			dependencies: ["06242EEB80032F27"]
 			description: [""]
+			icon: "gtceu:bacteria_bucket"
 			id: "3AA49DDE45705233"
 			rewards: [{
 				id: "7C7A6786A3A5E500"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "758A46679EEA2C0B"
-				item: "gtceu:bacteria_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "758A46679EEA2C0B"
+					item: "gtceu:bacteria_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2FC16EF64AA927FC"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: 8.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["71941882F9E2ADAC"]
 			description: [""]
+			icon: "gtceu:sterilized_growth_medium_bucket"
 			id: "5041EDE3E75E1EDF"
 			rewards: [{
 				id: "2B8AC81559574336"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "0139D419A28AFB0C"
-				item: "gtceu:sterilized_growth_medium_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0139D419A28AFB0C"
+					item: "gtceu:sterilized_growth_medium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "211CAEDF9634325D"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: 17.0d
 			y: -6.0d
 		}
@@ -296,34 +314,52 @@
 				"1F442C8E82FB9EB8"
 			]
 			description: [""]
+			icon: "gtceu:raw_growth_medium_bucket"
 			id: "71941882F9E2ADAC"
 			rewards: [{
 				id: "7B105E2F359E8234"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "2C6EEA1EA636A1B6"
-				item: "gtceu:raw_growth_medium_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2C6EEA1EA636A1B6"
+					item: "gtceu:raw_growth_medium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "710CED1F4B336450"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: 17.0d
 			y: -10.5d
 		}
 		{
 			dependencies: ["57F6323716A0ED24"]
 			description: [""]
+			icon: "gtceu:mutagen_bucket"
 			id: "1F442C8E82FB9EB8"
 			rewards: [{
 				id: "600A078A2DEBEDB6"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "33A9425D8B0E0F7E"
-				item: "gtceu:mutagen_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "33A9425D8B0E0F7E"
+					item: "gtceu:mutagen_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "71629AB2AEDC7B8E"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: 13.5d
 			y: -10.5d
 		}
@@ -347,17 +383,26 @@
 		{
 			dependencies: ["77A12A37D5A9B3A4"]
 			description: [""]
+			icon: "gtceu:gelatin_mixture_bucket"
 			id: "3F810160E8B58BD2"
 			rewards: [{
 				id: "4FED386C37CABD58"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "7DF5163094EE01BE"
-				item: "gtceu:gelatin_mixture_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7DF5163094EE01BE"
+					item: "gtceu:gelatin_mixture_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "74438E77091AB923"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: 12.5d
 			y: -12.0d
 		}
@@ -518,17 +563,26 @@
 		{
 			dependencies: ["5E62E6F314843E1D"]
 			description: [""]
+			icon: "gtceu:darmstadtium_bucket"
 			id: "0C3B3D7F82A6DB3D"
 			rewards: [{
 				id: "6FBF93D6A7E0872D"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "75F57FA0810D5D71"
-				item: "gtceu:darmstadtium_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "75F57FA0810D5D71"
+					item: "gtceu:darmstadtium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "574B9870511B11B7"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: -2.5d
 			y: -12.0d
 		}
@@ -572,17 +626,26 @@
 		{
 			dependencies: ["5E62E6F314843E1D"]
 			description: [""]
+			icon: "gtceu:tritanium_bucket"
 			id: "74726A2DD4BBDA7B"
 			rewards: [{
 				id: "04100B8C23695A66"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "7A649562119111CF"
-				item: "gtceu:tritanium_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7A649562119111CF"
+					item: "gtceu:tritanium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7F731FC0944B224F"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: 3.0d
 			y: -15.0d
 		}
@@ -607,17 +670,26 @@
 		{
 			dependencies: ["10DF2125B647379E"]
 			description: [""]
+			icon: "gtceu:enriched_bacterial_sludge_bucket"
 			id: "57F6323716A0ED24"
 			rewards: [{
 				id: "7240B2F7DEE8886C"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "1A846F6C83B83EA7"
-				item: "gtceu:enriched_bacterial_sludge_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1A846F6C83B83EA7"
+					item: "gtceu:enriched_bacterial_sludge_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0EC92C70F177B3BC"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: 11.5d
 			y: -10.5d
 		}
@@ -627,17 +699,26 @@
 				"06242EEB80032F27"
 			]
 			description: [""]
+			icon: "gtceu:bacterial_sludge_bucket"
 			id: "10DF2125B647379E"
 			rewards: [{
 				id: "16E260D121F4DB77"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "58184E4DD25CA47F"
-				item: "gtceu:bacterial_sludge_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "58184E4DD25CA47F"
+					item: "gtceu:bacterial_sludge_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "436F70E0DF42E198"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: 8.5d
 			y: -10.5d
 		}

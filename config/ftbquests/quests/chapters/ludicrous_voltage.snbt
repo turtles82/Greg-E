@@ -1127,6 +1127,9 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["5A658F239928850E"]
+			hide_dependency_lines: true
+			icon: "gtceu:pixie_fluid_bucket"
 			id: "669C9C5E03938E24"
 			optional: true
 			rewards: [{
@@ -1135,11 +1138,19 @@
 				type: "item"
 			}]
 			shape: "square"
-			tasks: [{
-				id: "2FD2D2324AA30F6D"
-				item: "gtceu:pixie_fluid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2FD2D2324AA30F6D"
+					item: "gtceu:pixie_fluid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3607877B247BA273"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: 4.5d
 			y: 3.0d
 		}

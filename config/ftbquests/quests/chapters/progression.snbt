@@ -340,12 +340,21 @@
 			y: -1.0d
 		}
 		{
+			icon: "gtceu:oil_medium_bucket"
 			id: "1549B6952EF4BDDD"
-			tasks: [{
-				id: "0F0D96D8B0902033"
-				item: "gtceu:oil_medium_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0F0D96D8B0902033"
+					item: "gtceu:oil_medium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "054D33AB8EDB37BF"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: 7.0d
 			y: -1.0d
 		}
@@ -774,12 +783,21 @@
 			y: -1.0d
 		}
 		{
+			icon: "ad_astra:oil_bucket"
 			id: "3AF03E04910C48D2"
-			tasks: [{
-				id: "4B1BEB8DA8164376"
-				item: "ad_astra:oil_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4B1BEB8DA8164376"
+					item: "ad_astra:oil_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5712B6B35F7FF537"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: -1.0d
 			y: 1.0d
 		}
@@ -1001,12 +1019,21 @@
 			y: -1.0d
 		}
 		{
+			icon: "gtceu:voidium_bucket"
 			id: "4A2882656AB1D044"
-			tasks: [{
-				id: "17F2BF3C2B29259C"
-				item: "gtceu:voidium_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "17F2BF3C2B29259C"
+					item: "gtceu:voidium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7CC7A8BCA89F93D3"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: 16.5d
 			y: 0.0d
 		}

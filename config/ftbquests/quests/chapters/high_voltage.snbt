@@ -187,17 +187,26 @@
 		{
 			dependencies: ["54BEC01D84237DBC"]
 			description: [""]
+			icon: "gtceu:iron_iii_chloride_bucket"
 			id: "0BAD21557994331D"
 			rewards: [{
 				id: "1936581298D40789"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "0CBFE2B699BFEC8F"
-				item: "gtceu:iron_iii_chloride_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0CBFE2B699BFEC8F"
+					item: "gtceu:iron_iii_chloride_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "176439551EC494E9"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: 6.5d
 			y: -3.5d
 		}
@@ -221,39 +230,58 @@
 		{
 			dependencies: ["1957A39483E15508"]
 			description: [""]
+			icon: "gtceu:polyvinyl_chloride_bucket"
 			id: "503E5B82A6C89278"
 			rewards: [{
 				id: "3DFAFDEDA2556A59"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "1E1447D81D30B2DC"
-				item: "gtceu:polyvinyl_chloride_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1E1447D81D30B2DC"
+					item: "gtceu:polyvinyl_chloride_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "484DEF2D2BD93318"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: 2.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["6A2D7380E340B77D"]
 			description: [""]
+			icon: "gtceu:vinyl_chloride_bucket"
 			id: "1957A39483E15508"
 			rewards: [{
 				id: "745DFDFE186CCBCB"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "17068C6DBE553D0C"
-				item: "gtceu:vinyl_chloride_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "17068C6DBE553D0C"
+					item: "gtceu:vinyl_chloride_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2DC51CCAE3BD59AC"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: 2.5d
 			y: -5.5d
 		}
 		{
 			description: [""]
+			icon: "gtceu:chlorine_bucket"
 			id: "6A2D7380E340B77D"
 			rewards: [{
 				id: "53CBB2F81A46A406"
@@ -261,11 +289,19 @@
 				type: "item"
 			}]
 			shape: "square"
-			tasks: [{
-				id: "66B862CA537DB886"
-				item: "gtceu:chlorine_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "66B862CA537DB886"
+					item: "gtceu:chlorine_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "15A8CE0BD4814A64"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: 4.5d
 			y: -5.5d
 		}
@@ -275,22 +311,32 @@
 				"6A2D7380E340B77D"
 			]
 			description: [""]
+			icon: "gtceu:hydrochloric_acid_bucket"
 			id: "54BEC01D84237DBC"
 			rewards: [{
 				id: "343B7A312E6B652D"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "16F0BF8BAA58100B"
-				item: "gtceu:hydrochloric_acid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "16F0BF8BAA58100B"
+					item: "gtceu:hydrochloric_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7EB6ACA5D567E494"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: 6.5d
 			y: -5.5d
 		}
 		{
 			description: [""]
+			icon: "gtceu:hydrogen_bucket"
 			id: "4AAF27F0C27FBDB3"
 			rewards: [{
 				id: "45CBAC9CA3449928"
@@ -298,16 +344,27 @@
 				type: "item"
 			}]
 			shape: "square"
-			tasks: [{
-				id: "526401AFE4B0A3E0"
-				item: "gtceu:hydrogen_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "526401AFE4B0A3E0"
+					item: "gtceu:hydrogen_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0CF58599947BC846"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: 10.0d
 			y: -5.5d
 		}
 		{
+			dependencies: ["70C952B8FF3418F6"]
 			description: [""]
+			hide_dependency_lines: true
+			icon: "gtceu:concrete_bucket"
 			id: "681110DE6B4E6ED8"
 			rewards: [{
 				id: "7592827C16BFB025"
@@ -315,11 +372,19 @@
 				type: "item"
 			}]
 			shape: "square"
-			tasks: [{
-				id: "472EA07FB476A589"
-				item: "gtceu:concrete_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "472EA07FB476A589"
+					item: "gtceu:concrete_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "35E68DD26431361B"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: 2.5d
 			y: 8.5d
 		}
@@ -614,6 +679,7 @@
 			y: 2.0d
 		}
 		{
+			icon: "gtceu:mars_bacteria_bucket"
 			id: "1DFFC6CCB85F7867"
 			optional: true
 			rewards: [{
@@ -622,11 +688,19 @@
 				type: "item"
 			}]
 			shape: "square"
-			tasks: [{
-				id: "2513B876021AA137"
-				item: "gtceu:mars_bacteria_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2513B876021AA137"
+					item: "gtceu:mars_bacteria_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "497F2EDD19F18DDB"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: 10.0d
 			y: -1.5d
 		}

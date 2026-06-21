@@ -313,51 +313,78 @@
 		{
 			dependencies: ["620C406CC24F179C"]
 			description: [""]
+			icon: "gtceu:sulfur_dioxide_bucket"
 			id: "64314EEB9916CAB1"
 			rewards: [{
 				id: "16120A8E409AC6E0"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "7198853CC3A9DEAC"
-				item: "gtceu:sulfur_dioxide_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7198853CC3A9DEAC"
+					item: "gtceu:sulfur_dioxide_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3008D1055C8C52F9"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: -2.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["64314EEB9916CAB1"]
 			description: [""]
+			icon: "gtceu:sulfur_trioxide_bucket"
 			id: "5143E0F48520D41B"
 			rewards: [{
 				id: "30648049BE9EA933"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "5D9AA8DF5ECCFCAC"
-				item: "gtceu:sulfur_trioxide_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5D9AA8DF5ECCFCAC"
+					item: "gtceu:sulfur_trioxide_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "499417FD701E11ED"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: 0.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["5143E0F48520D41B"]
 			description: [""]
+			icon: "gtceu:sulfuric_acid_bucket"
 			id: "17A935989A9505E1"
 			rewards: [{
 				id: "6DC226675BE3F020"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "75017109130EE055"
-				item: "gtceu:sulfuric_acid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "75017109130EE055"
+					item: "gtceu:sulfuric_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0CA567709080933A"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: 4.5d
 			y: 4.0d
 		}
@@ -401,17 +428,26 @@
 		{
 			dependencies: ["4835BE1596B65206"]
 			description: [""]
+			icon: "gtceu:sodium_persulfate_bucket"
 			id: "7B8ADB4104E7C440"
 			rewards: [{
 				id: "0BE84F0BC787A351"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "64890DABF420C352"
-				item: "gtceu:sodium_persulfate_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "64890DABF420C352"
+					item: "gtceu:sodium_persulfate_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "70F217795A038CD6"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: 4.5d
 			y: 3.0d
 		}
@@ -522,17 +558,26 @@
 		}
 		{
 			dependencies: ["05BF7598007DFD7C"]
+			icon: "kubejs:lvcas_bucket"
 			id: "2178EC9D13024B33"
 			rewards: [{
 				id: "1270D2F3C508E5ED"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "5D5CD08399A3E7A4"
-				item: "kubejs:lvcas_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5D5CD08399A3E7A4"
+					item: "kubejs:lvcas_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1803BB0F2634FF69"
+					title: "Completed!"
+					type: "checkmark"
+				}
+			]
 			x: -9.0d
 			y: -2.5d
 		}
@@ -583,6 +628,7 @@
 				""
 				"For basic botania it will be Manasteel Coils used in Accelerated EBF."
 			]
+			icon: "kubejs:lvalloy"
 			id: "25CCBF9AF4D7479B"
 			rewards: [{
 				id: "5D6E3A97AF81D3E1"
