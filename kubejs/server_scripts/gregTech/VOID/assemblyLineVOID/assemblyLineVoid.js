@@ -16,7 +16,7 @@ ServerEvents.recipes((event) => {
             '64x gtceu:ram_chip',
             '64x gtceu:qbit_cpu_chip',
             '64x gregecore:awakened_draconium_cable_double_wire',
-            '64x gtceu:double_neutronium_plate'
+            '32x gtceu:double_neutronium_plate'
         )
         .inputFluids(
             'gtceu:soldering_alloy 50000',

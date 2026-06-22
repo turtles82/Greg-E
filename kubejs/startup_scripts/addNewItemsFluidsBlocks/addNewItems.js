@@ -108,6 +108,8 @@ StartupEvents.registry('item', event => {
     event.create('imitationbattery').displayName('Lava Power Cell Imitation')
     event.create('lightninginabottle').displayName('Lightning in a Bottle')
     event.create('heatshield').displayName('Vibranium Heat Shield')
+    event.create('antimatterpellet').displayName('Antimatter Pellet')
+    event.create('burialmask').displayName('Delerian Burial Mask')
 
     event.create('ultimatecapacitor').displayName('Ultimate SMD Capacitor')
     event.create('ultimatediode').displayName('Ultimate SMD Diode')

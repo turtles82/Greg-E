@@ -94,5 +94,5 @@ ServerEvents.recipes((event) => {
             'gregecore:solar_activator'
         )
         .duration(2000)
-        .EUt(-2500000)
+        .EUt(-1000)
 });

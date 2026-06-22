@@ -89,6 +89,20 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(GTMaterialIconSet.ROUGH)
         .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
 
+    event.create('bose_einstein_condensate')
+        .fluid()
+        .color(0x6dd728)
+        .formula('Vd2Li')
+        .iconSet(GTMaterialIconSet.ROUGH)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('superheated_bose_einstein_condensate')
+        .fluid()
+        .color(0x80b04f)
+        .formula('Vd2Li')
+        .iconSet(GTMaterialIconSet.ROUGH)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
     event.create('signalum')
         .ingot()
         .color(0xde7f21)

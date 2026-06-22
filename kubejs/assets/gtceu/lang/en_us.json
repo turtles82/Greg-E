@@ -345,6 +345,9 @@
   "material.gtceu.nlgibsonium": "NLGibsonium",
   "material.gtceu.waidaoium": "Waidaoium",
 
+  "material.gtceu.bose_einstein_condensate": "Bose-Einstein Condensate",
+  "material.gtceu.superheated_bose_einstein_condensate": "Superheated Bose-Einstein Condensate",
+
   "material.gtceu.retium": "Retium",
   "material.gtceu.corelium": "Corelium",
   "material.gtceu.syncrium": "Syncrium",
