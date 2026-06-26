@@ -59,10 +59,10 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.pulverizing('getcoalwhyidk')
         .itemInputs(
-            'gtceu:coal_dust'
+            'minecraft:coal'
         )
         .itemOutputs(
-            'minecraft:coal'
+            'gtceu:coal_dust'
         )
         .EUt(GTValues.V[GTValues.ULV])
         .duration(100)

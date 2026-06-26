@@ -153,17 +153,25 @@ ServerEvents.recipes((event) => {
     ]
 
     inscriberPress.forEach((items) => {
+        let safeRecipeId = items.out.replace(':', '_') + '_' + items.id;
+        let recipe = event.recipes.gtceu.alloy_smelter(safeRecipeId);
 
-        event.recipes.gtceu.alloy_smelter(items.out + items.id)
-            .itemInputs(
-                items.in
-            )
-            .itemOutputs(
-                items.out
-            )
-            .duration(items.duration)
-            .EUt(items.EU)
-
+        if (items.in.includes('minecraft:iron_block')) {
+            let press = items.in.find(item => item !== 'minecraft:iron_block');
+            
+            recipe
+                .notConsumable(press)
+                .itemInputs('minecraft:iron_block')
+                .itemOutputs(items.out)
+                .duration(items.duration)
+                .EUt(items.EU);
+        } else {
+            recipe
+                .itemInputs(items.in)
+                .itemOutputs(items.out)
+                .duration(items.duration)
+                .EUt(items.EU);
+        }
     })
 
 
