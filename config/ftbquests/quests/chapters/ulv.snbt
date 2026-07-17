@@ -1,0 +1,670 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ulv"
+	group: "6915D00C186DB378"
+	icon: "gtceu:vacuum_tube"
+	id: "39F60EC48A6DC6D5"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["This is where it all starts. The intended way to progress is with primitive GregTech machines to quickly get you to LV, but you can go the normal GregTech way (steam age)."]
+			id: "3DF11F5215868F26"
+			rewards: [{
+				id: "66F49159ED3EB92C"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "GregTech + ProjectE"
+			tasks: [{
+				id: "622EFCACFCCC1833"
+				title: "The First Steps"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DF11F5215868F26"]
+			description: ["If you look under your island, you will find some living root. Mine them, and use 4x living root to craft a sapling."]
+			id: "79A1F38B66243370"
+			rewards: [{
+				id: "5598DD4DE1E24BD5"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			subtitle: "sap sap sap"
+			tasks: [{
+				id: "140792CF60D70771"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["79A1F38B66243370"]
+			description: [
+				"Grow some trees and get some logs."
+				""
+				"Learn this item in your tablet."
+			]
+			id: "68C37EC1636352FA"
+			rewards: [{
+				id: "03DEF952885D9D46"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			subtitle: "Tip: Repeatedly crouch to grow trees quicker"
+			tasks: [{
+				id: "64533A6CEE660F75"
+				item: { Count: 16, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["68C37EC1636352FA"]
+			description: [
+				"By Shift+Right Clicking, you can get stone pebbles. 4x pebbles = 1x cobblestone."
+				""
+				"After that, make a hammer and crush some cobblestone."
+			]
+			id: "4A922F1103B983C8"
+			rewards: [{
+				id: "5878980598B2A2B4"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			subtitle: "click a bunch"
+			tasks: [
+				{
+					id: "34B8812D4000AA72"
+					item: {
+						Count: 1
+						id: "kubejs:hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70A692AC4148B763"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+				{
+					id: "792F4280852DC82D"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					id: "4A6A95993342241E"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+			]
+			title: "Cobblestone"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["51DADABE18E42408"]
+			description: ["In this GregTech pack, you have to smelt 1x iron nugget to 1x wrought iron nugget. Better make a few furnaces!"]
+			id: "7AB7609419E41CF9"
+			optional: true
+			rewards: [{
+				id: "7C4CAA32F2DAF576"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			subtitle: "The E doesn't stand for Easy"
+			tasks: [{
+				id: "3D8A4C80E9DE7BCD"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4A922F1103B983C8"]
+			description: ["Use your wrought iron to make these tools. If they break, you can either use iron to make new ones, or use wrought iron, which gives more durability."]
+			id: "51DADABE18E42408"
+			rewards: [{
+				count: 2
+				id: "055174DB0F33380F"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "Basics"
+			tasks: [
+				{
+					id: "2C827B0BDDA87B3E"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(gtceu:tools/crafting_hammers)"
+						}
+					}
+					optional_task: true
+					title: "Any #gtceu:tools/mining_hammers"
+					type: "item"
+				}
+				{
+					id: "380604F38E491681"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(gtceu:tools/crafting_mortars)"
+						}
+					}
+					optional_task: true
+					title: "Any #gtceu:tools/crafting_mortars"
+					type: "item"
+				}
+				{
+					id: "1356F5FA2D12E69F"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(gtceu:tools/crafting_saws)"
+						}
+					}
+					optional_task: true
+					title: "Any #gtceu:tools/crafting_saws"
+					type: "item"
+				}
+				{
+					id: "180BBC431488AC9B"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(gtceu:tools/crafting_knives)"
+						}
+					}
+					optional_task: true
+					title: "Any #gtceu:tools/crafting_knives"
+					type: "item"
+				}
+				{
+					id: "62D39D966EE4A08B"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(gtceu:tools/crafting_screwdrivers)"
+						}
+					}
+					optional_task: true
+					title: "Any #gtceu:tools/crafting_screwdrivers"
+					type: "item"
+				}
+				{
+					id: "7A73D5AFA5A976EE"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(gtceu:tools/crafting_wire_cutters)"
+						}
+					}
+					optional_task: true
+					title: "Any #gtceu:tools/crafting_wire_cutters"
+					type: "item"
+				}
+				{
+					id: "110711D645AC20A0"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(gtceu:tools/crafting_mallets)"
+						}
+					}
+					optional_task: true
+					title: "Any #gtceu:tools/crafting_mallets"
+					type: "item"
+				}
+				{
+					id: "451C823478E14603"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(gtceu:tools/crafting_wrenches)"
+						}
+					}
+					optional_task: true
+					title: "Any #gtceu:tools/crafting_wrenches"
+					type: "item"
+				}
+			]
+			title: "GT Tools"
+			x: 0.0d
+			y: 8.125d
+		}
+		{
+			dependencies: ["51DADABE18E42408"]
+			description: ["If you want to get to LV in a reasonable amount of time, I recommend you make a few of these."]
+			id: "44429CAC9ECB5887"
+			rewards: [{
+				id: "222759C84B074B1C"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			subtitle: "Machines"
+			tasks: [
+				{
+					id: "0F5B894D876531D7"
+					item: "gtceu:ulv_induction_smelter"
+					type: "item"
+				}
+				{
+					id: "6AED178FDD3E2F1A"
+					item: "gtceu:ulv_multiservo_press"
+					type: "item"
+				}
+				{
+					id: "6D3D94F21CF72578"
+					item: "gtceu:ulv_pulverizer"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["44429CAC9ECB5887"]
+			description: ["LV Circuit Component."]
+			id: "05485092D83CA495"
+			rewards: [{
+				id: "47323B853B8F9F2E"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			subtitle: "Can I eat it?"
+			tasks: [{
+				id: "1F1B48FD710A4793"
+				item: "gtceu:resistor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"05485092D83CA495"
+				"6306613B166A256A"
+				"266763194D51C9D7"
+			]
+			description: ["LV Circuit Component. Your last."]
+			id: "5C3A756A1059967E"
+			rewards: [{
+				id: "433D5302AA5DBBDF"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			subtitle: "BzZZzZzZzzz"
+			tasks: [{
+				id: "2FD8615B467532CE"
+				item: "gtceu:red_alloy_single_cable"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5C3A756A1059967E"]
+			description: [
+				"This is the culmination of everything in ULV. Now that you have this, move to the LV chapter. But first, take a lil break."
+				""
+				"Also, you'd probably want to make quite a few of these. It's better to spend more time crafting so that progressing is quicker."
+			]
+			id: "2AF98F98E6C710C7"
+			rewards: [
+				{
+					count: 2
+					id: "27B51AC8F5CE62BF"
+					item: "kubejs:cc"
+					type: "item"
+				}
+				{
+					id: "678C20AD5DC6474F"
+					item: "minecraft:cake"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "Mom, I finished!"
+			tasks: [{
+				id: "56677D55C21F7F15"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["68C37EC1636352FA"]
+			description: ["By making some shears, you can get oak leaves. This is the best way to farm emc pre-lv."]
+			id: "3BE88EE723AF536F"
+			rewards: [{
+				id: "644BEFA178489B72"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Free EMC"
+			tasks: [{
+				id: "4E05E971CC35529D"
+				item: "minecraft:oak_leaves"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["68C37EC1636352FA"]
+			description: ["Be careful with the water and lava! BTW, these material unlocks are the only freebies in the pack, you will have to work for others!"]
+			id: "5D43381BD4A2F8B9"
+			rewards: [
+				{
+					id: "3F0943B75139415B"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "039B8D149A074374"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "722B4A6971F7CEE0"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "65B23C676F6153AF"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+				{
+					id: "2E5A4C78A59C88EF"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+				{
+					id: "16F67330DB21F8A0"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "0684CCAC620425A5"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "793C1D0F7ED44820"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "6AD0088172922C99"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "0244594230B17138"
+					item: "projecte:transmutation_tablet"
+					type: "item"
+				}
+				{
+					id: "50238737173D5D98"
+					item: "kubejs:cc"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "Freebie"
+			tasks: [{
+				id: "410EB94EE1152AF2"
+				title: "Yummy"
+				type: "checkmark"
+			}]
+			title: "You're getting the hang of it!"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3DF11F5215868F26"]
+			description: ["This is arguably one of the most useful mods in this pack. It allows you to view recipes, crafting trees to mitigate microcrafting, and do loads of other cool things. Make sure to use it to make your experience enjoyable."]
+			id: "0487392CF36E0B88"
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "EMIEMIEMI"
+			tasks: [{
+				id: "5FCD3F54B5A42CB8"
+				title: "EMI"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DF11F5215868F26"]
+			description: ["If you love the purity of GregTech, click on this checkmark to enable the steam questline."]
+			id: "28C44A694D969950"
+			rewards: [{
+				id: "71FD3FAB4B714605"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "Greg is life"
+			tasks: [{
+				id: "0336D33C5ED48420"
+				title: "I hate vanilla"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51DADABE18E42408"]
+			description: ["There is quite some things to do to get glass. I encourage you to use EMI to look how to make this. &oHINT: You'll need a campfire!&r"]
+			id: "747D71E15C76C703"
+			subtitle: "EMI"
+			tasks: [{
+				id: "37E7CB4E91F1BC11"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.125d
+		}
+		{
+			dependencies: ["51DADABE18E42408"]
+			description: ["You'll need a ton of this, it's probably wise to get some."]
+			id: "0F153D1267A6574A"
+			rewards: [{
+				id: "50B0BFE329731413"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			subtitle: "Redstone + Copper"
+			tasks: [{
+				id: "040CEDE0D633FCAB"
+				item: "gtceu:red_alloy_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.125d
+		}
+		{
+			dependencies: ["747D71E15C76C703"]
+			description: ["Using some iron, glass, lava bucket, and water (pls tell me you've made an infinite source), make this for unlimited cobblestone. You should probably make a drawer to store all of it."]
+			id: "4F5FAA5E31B219A9"
+			rewards: [{
+				id: "444B3C7AF1AC8EE1"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			subtitle: "FREE"
+			tasks: [
+				{
+					id: "158A9AB4AF67FDE8"
+					item: "cobblefordays:tier_3"
+					type: "item"
+				}
+				{
+					id: "2EAEF43F8CDD4A00"
+					item: "functionalstorage:oak_1"
+					type: "item"
+				}
+			]
+			x: -4.967857142857142d
+			y: 8.139285714285748d
+		}
+		{
+			dependencies: ["44429CAC9ECB5887"]
+			description: ["You should make an energy converter, as GT machines do not natively accept FE. A converter will turn FE into EU at a cost of 4 FE to 1 EU"]
+			icon: "gtceu:ulv_1a_energy_converter"
+			id: "676652907F0EC1E4"
+			rewards: [{
+				id: "5DD5A41A1F9F6FCF"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			subtitle: "FE -> EU"
+			tasks: [{
+				id: "52D7270231E75AA9"
+				title: "I Understand"
+				type: "checkmark"
+			}]
+			title: "ULV Energy Converter"
+			x: -2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["44429CAC9ECB5887"]
+			description: ["By getting this, you improve your ability to make wrought iron. It is now ingot to ingot again."]
+			id: "6AFBB35EB073CAEF"
+			rewards: [{
+				id: "19F370EF638DB887"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			subtitle: "Easier Wrought Iron"
+			tasks: [{
+				id: "0ADB94D98417DA8B"
+				item: "gtceu:sintercoke_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["44429CAC9ECB5887"]
+			description: ["LV Circuit Component."]
+			id: "6306613B166A256A"
+			rewards: [{
+				id: "46D7188952B26615"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			subtitle: "This Thing Sucks!"
+			tasks: [{
+				id: "0E8B7952DF7A4F8B"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["44429CAC9ECB5887"]
+			description: ["LV Circuit Component."]
+			id: "266763194D51C9D7"
+			rewards: [{
+				id: "4ECFFE314247CF79"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			subtitle: "Ew.... Sticky!"
+			tasks: [{
+				id: "3F5C22E6D94C83F8"
+				item: "gtceu:resin_printed_circuit_board"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["676652907F0EC1E4"]
+			description: ["This is one method to making some early game power. It makes one amp of LV power (32EU/t), but only in daylight."]
+			id: "5D8098981CEAF141"
+			optional: true
+			rewards: [{
+				id: "75B0998C136E5E73"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			subtitle: "Not bad, not good"
+			tasks: [{
+				id: "22EA3757B6FAA270"
+				item: "solarflux:sp_1"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["676652907F0EC1E4"]
+			description: [
+				"Reactors are harder to setup, but produce more energy than fully upgraded solar panel."
+				""
+				"Thermo generators are easy to setup, but produce lower amount of energy."
+			]
+			id: "6D0B15951F40F3F1"
+			optional: true
+			rewards: [{
+				id: "3BC0A4B6283B22BD"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7362F27A95D57246"
+					item: "powah:reactor_starter"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "77FDC93011CADDD5"
+					item: "powah:thermo_generator_starter"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Powah power generation"
+			x: -5.0d
+			y: 12.5d
+		}
+	]
+	title: "ULV"
+}

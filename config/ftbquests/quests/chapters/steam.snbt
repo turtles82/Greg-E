@@ -1,0 +1,154 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "steam"
+	group: "6915D00C186DB378"
+	hide_quest_until_deps_complete: true
+	icon: "gtceu:lp_steam_solid_boiler"
+	id: "5AD49BFD74E909D5"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["28C44A694D969950"]
+			description: [
+				"By clicking this button, you agree to acknowledge the following:"
+				""
+				"You are mentally insane"
+				""
+				""
+				""
+				""
+				""
+				""
+				"CHAPTER W.I.P"
+			]
+			hide_until_deps_complete: true
+			id: "0F9910D36E4395FC"
+			rewards: [{
+				id: "5C640A1E6645D2B3"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "GREG IS LIFE"
+			tasks: [{
+				id: "777FAC22BEB686C2"
+				title: "So you've chosen death"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F9910D36E4395FC"]
+			description: ["In order to get bricks for steam machines, you need to get mud to convert to brick."]
+			id: "379DD11485B13D3C"
+			rewards: [{
+				id: "79F776033B88088E"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			subtitle: "Mud???"
+			tasks: [{
+				id: "4650713D5A804049"
+				item: "minecraft:mud"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["379DD11485B13D3C"]
+			description: ["Put your mud on a campfire to get clay, turn the clay into clay balls, and then smelt each one and combine the products."]
+			id: "7C68D4FC81DC1C0D"
+			rewards: [{
+				id: "156AAF325C8F3B1F"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E2CE7564287C381"
+				item: "minecraft:bricks"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0F9910D36E4395FC"]
+			description: [
+				"Take 8x cobblestone and craft it with a mortar to get 1x tin dust."
+				""
+				"Also grab some copper and combine it with a mortar to get copper dust. You'll need this too."
+			]
+			id: "6B0ACCAF9C50CE94"
+			rewards: [{
+				id: "6FD681218FF3FA20"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			subtitle: "How does this work, exactly?"
+			tasks: [
+				{
+					id: "4C03AD9E104B7E8C"
+					item: "gtceu:tin_dust"
+					type: "item"
+				}
+				{
+					id: "033E772F69252304"
+					item: "gtceu:copper_dust"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6B0ACCAF9C50CE94"]
+			description: ["After combining tin and copper dust, you now got bronze! Hooray!"]
+			id: "337597BFFF927DD5"
+			rewards: [{
+				id: "6CF7AF9300EDA9F2"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			subtitle: "Finally"
+			tasks: [{
+				id: "081383AD4E42F3C7"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7C68D4FC81DC1C0D"
+				"337597BFFF927DD5"
+			]
+			description: [
+				"Okay, here are steps to follow to make sure this doesn't blow up. And yes, they can blow up."
+				""
+				"- You MUST give them water when heating up, or else they will blow."
+				"- that's all :D"
+			]
+			id: "744DFD4A90BA6A25"
+			rewards: [{
+				id: "3C16610DD1A2B53C"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			subtitle: "Steam is the dream"
+			tasks: [{
+				id: "1524DD71D32F3025"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+	title: "Steam"
+}
